@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include barcode_aec *.css
+recursive-include barcode_aec *.csv
+recursive-include barcode_aec *.html
+recursive-include barcode_aec *.ico
+recursive-include barcode_aec *.js
+recursive-include barcode_aec *.json
+recursive-include barcode_aec *.md
+recursive-include barcode_aec *.png
+recursive-include barcode_aec *.py
+recursive-include barcode_aec *.svg
+recursive-include barcode_aec *.txt
+recursive-exclude barcode_aec *.pyc
