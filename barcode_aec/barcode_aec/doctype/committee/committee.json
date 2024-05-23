@@ -1,0 +1,523 @@
+{
+ "actions": [],
+ "allow_auto_repeat": 1,
+ "allow_import": 1,
+ "allow_rename": 1,
+ "autoname": "field:name_of_committee",
+ "creation": "2023-12-07 10:59:24.902616",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "dashboard_card",
+  "section_break_rrpwq",
+  "type",
+  "status",
+  "attach_cover_image",
+  "column_break_kd7zg",
+  "cover_image",
+  "section_break_ikh0n",
+  "members_section",
+  "total_members",
+  "total_active_members",
+  "total_inactive_members",
+  "section_break_grffc",
+  "annual_meeting",
+  "annual_meeting_per_year",
+  "section_break_jcqha",
+  "column_break_e74qh",
+  "name_of_committee",
+  "commmittee_official_within_the_council",
+  "column_break_key14",
+  "commmittees_english_name",
+  "section_break",
+  "update_president",
+  "committee_chairman",
+  "column_break_ftzbm",
+  "chairman_english_name",
+  "column_break_zto7i",
+  "chairman_arabic_name",
+  "chairman_from",
+  "chairman_to",
+  "section_break_xrreu",
+  "english_about",
+  "column_break_glek8",
+  "president_about_in_arabic",
+  "arabic_about",
+  "section_break_7mlti",
+  "attach_image",
+  "column_break_movow",
+  "chairman_image",
+  "president_history_section",
+  "president_history",
+  "section_break_gdwbd",
+  "agents_committee",
+  "column_break_uzfwl",
+  "agent_english_name",
+  "column_break_uxsuo",
+  "agent_arabic_name",
+  "deputy_from",
+  "deputy_to",
+  "section_break_0gcaf",
+  "attach",
+  "column_break_s32sz",
+  "agent_image",
+  "section_break_q12dx",
+  "english_agent_about",
+  "column_break_jjtqg",
+  "arabic_agent_about",
+  "deputy_history_section",
+  "deputy_history",
+  "section_break_kd5sw",
+  "objectives_of_committee_within__the_council",
+  "column_break_mkqjf",
+  "objectives_of_committee_within__the_council_2",
+  "settings_section",
+  "companies_participating_in_committee_section",
+  "companies_participating_in_committee",
+  "products_associated_with_this_comission_section",
+  "products_associated_with_this_comission",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "dashboard_card",
+   "fieldtype": "HTML",
+   "label": "Dashboard Card"
+  },
+  {
+   "fieldname": "section_break_rrpwq",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "type",
+   "fieldtype": "Select",
+   "label": "Type",
+   "options": "\n\u062e\u062f\u0645\u064a\n\u0645\u0635\u062f\u0631",
+   "reqd": 1
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Status",
+   "options": "\nActive\nInactive",
+   "reqd": 1
+  },
+  {
+   "fieldname": "attach_cover_image",
+   "fieldtype": "Attach Image",
+   "label": "Attach Cover Image"
+  },
+  {
+   "fieldname": "column_break_kd7zg",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "cover_image",
+   "fieldtype": "Image",
+   "label": "Cover Image",
+   "options": "attach_cover_image"
+  },
+  {
+   "fieldname": "section_break_ikh0n",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "members_section",
+   "fieldtype": "Section Break",
+   "hidden": 1,
+   "label": "Members"
+  },
+  {
+   "fieldname": "total_members",
+   "fieldtype": "Int",
+   "label": "Total Members",
+   "read_only": 1
+  },
+  {
+   "fieldname": "total_active_members",
+   "fieldtype": "Int",
+   "label": "Total Active Members",
+   "read_only": 1
+  },
+  {
+   "fieldname": "total_inactive_members",
+   "fieldtype": "Int",
+   "label": "Total Inactive Members",
+   "read_only": 1
+  },
+  {
+   "fieldname": "section_break_grffc",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "annual_meeting",
+   "fieldtype": "Data",
+   "label": "Annual meeting  ",
+   "read_only": 1
+  },
+  {
+   "fieldname": "annual_meeting_per_year",
+   "fieldtype": "Data",
+   "label": "meeting",
+   "read_only": 1
+  },
+  {
+   "fieldname": "section_break_jcqha",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_e74qh",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "name_of_committee",
+   "fieldtype": "Data",
+   "in_filter": 1,
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Arabic Name",
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "commmittee_official_within_the_council",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Council Representative",
+   "options": "Employee",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_key14",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "commmittees_english_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "English Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "section_break",
+   "fieldtype": "Section Break",
+   "label": "President Info"
+  },
+  {
+   "fieldname": "update_president",
+   "fieldtype": "Button",
+   "label": "Update President"
+  },
+  {
+   "fieldname": "committee_chairman",
+   "fieldtype": "Link",
+   "in_filter": 1,
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "President Code (Member)",
+   "options": "Customer"
+  },
+  {
+   "fieldname": "column_break_ftzbm",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fetch_from": "committee_chairman.custom_name_of_the_cioowner_of_the_company_in_english",
+   "fieldname": "chairman_english_name",
+   "fieldtype": "Read Only",
+   "label": "President English Name"
+  },
+  {
+   "fieldname": "column_break_zto7i",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fetch_from": "committee_chairman.custom_name_of_the_cioowner_of_the_company",
+   "fieldname": "chairman_arabic_name",
+   "fieldtype": "Read Only",
+   "label": "President Arabic Name"
+  },
+  {
+   "fieldname": "chairman_from",
+   "fieldtype": "Date",
+   "label": "Reference Date"
+  },
+  {
+   "fieldname": "chairman_to",
+   "fieldtype": "Date",
+   "hidden": 1,
+   "label": "President  To"
+  },
+  {
+   "fieldname": "section_break_xrreu",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "english_about",
+   "fieldtype": "Small Text",
+   "label": " About In English (President)"
+  },
+  {
+   "fieldname": "column_break_glek8",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "president_about_in_arabic",
+   "fieldtype": "Small Text",
+   "label": "About In Arabic (President )"
+  },
+  {
+   "fieldname": "arabic_about",
+   "fieldtype": "Small Text",
+   "hidden": 1,
+   "label": "Arabic About"
+  },
+  {
+   "fieldname": "section_break_7mlti",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "attach_image",
+   "fieldtype": "Attach Image",
+   "label": "President  Image"
+  },
+  {
+   "fieldname": "column_break_movow",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "chairman_image",
+   "fieldtype": "Image",
+   "label": "President  Image",
+   "options": "attach_image"
+  },
+  {
+   "collapsible": 1,
+   "fieldname": "president_history_section",
+   "fieldtype": "Section Break",
+   "label": "Committee Presidents History"
+  },
+  {
+   "fieldname": "president_history",
+   "fieldtype": "Table",
+   "label": "Committee Presidents History",
+   "options": "President History"
+  },
+  {
+   "fieldname": "section_break_gdwbd",
+   "fieldtype": "Section Break",
+   "label": "Deputy Info"
+  },
+  {
+   "fieldname": "agents_committee",
+   "fieldtype": "Link",
+   "in_filter": 1,
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Deputy Code (Member)",
+   "options": "Customer"
+  },
+  {
+   "fieldname": "column_break_uzfwl",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fetch_from": "agents_committee.custom_name_of_the_cioowner_of_the_company_in_english",
+   "fieldname": "agent_english_name",
+   "fieldtype": "Read Only",
+   "label": "Deputy Name In English"
+  },
+  {
+   "fieldname": "column_break_uxsuo",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fetch_from": "agents_committee.custom_name_of_the_cioowner_of_the_company",
+   "fieldname": "agent_arabic_name",
+   "fieldtype": "Read Only",
+   "label": "Deputy Name In Arabic"
+  },
+  {
+   "fieldname": "deputy_from",
+   "fieldtype": "Date",
+   "label": "Reference Date"
+  },
+  {
+   "fieldname": "deputy_to",
+   "fieldtype": "Date",
+   "hidden": 1,
+   "label": "Deputy To"
+  },
+  {
+   "fieldname": "section_break_0gcaf",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "attach",
+   "fieldtype": "Attach Image",
+   "label": "Deputy  Image"
+  },
+  {
+   "fieldname": "column_break_s32sz",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "agent_image",
+   "fieldtype": "Image",
+   "label": "Agent Image",
+   "options": "attach"
+  },
+  {
+   "fieldname": "section_break_q12dx",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "english_agent_about",
+   "fieldtype": "Small Text",
+   "label": "English Agent About"
+  },
+  {
+   "fieldname": "column_break_jjtqg",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "arabic_agent_about",
+   "fieldtype": "Small Text",
+   "label": "Arabic Agent About"
+  },
+  {
+   "collapsible": 1,
+   "fieldname": "deputy_history_section",
+   "fieldtype": "Section Break",
+   "label": "Committee  Deputies History"
+  },
+  {
+   "fieldname": "deputy_history",
+   "fieldtype": "Table",
+   "label": "Committee  Deputies History",
+   "options": "Deputy History"
+  },
+  {
+   "fieldname": "section_break_kd5sw",
+   "fieldtype": "Section Break",
+   "label": "Committee Objectives"
+  },
+  {
+   "description": "In Arabic",
+   "fieldname": "objectives_of_committee_within__the_council",
+   "fieldtype": "Small Text",
+   "label": "Objectives In Arabic"
+  },
+  {
+   "fieldname": "column_break_mkqjf",
+   "fieldtype": "Column Break"
+  },
+  {
+   "description": "In English",
+   "fieldname": "objectives_of_committee_within__the_council_2",
+   "fieldtype": "Small Text",
+   "label": "Objectives In English"
+  },
+  {
+   "fieldname": "settings_section",
+   "fieldtype": "Section Break",
+   "label": "Settings "
+  },
+  {
+   "fieldname": "companies_participating_in_committee_section",
+   "fieldtype": "Section Break",
+   "label": "Companies Participating in committee"
+  },
+  {
+   "fetch_from": "committee_chairman.customer_name",
+   "fieldname": "companies_participating_in_committee",
+   "fieldtype": "Table",
+   "hidden": 1,
+   "label": "Companies Participating in committee",
+   "options": "Companies Participating in committee"
+  },
+  {
+   "fieldname": "products_associated_with_this_comission_section",
+   "fieldtype": "Section Break",
+   "hidden": 1,
+   "label": "Products associated with this comission"
+  },
+  {
+   "fieldname": "products_associated_with_this_comission",
+   "fieldtype": "Table",
+   "hidden": 1,
+   "label": "Products associated with this comission",
+   "options": "Products associated with this comission"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Committee",
+   "print_hide": 1,
+   "read_only": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [
+  {
+   "link_doctype": "Product",
+   "link_fieldname": "committe_code"
+  },
+  {
+   "link_doctype": "Meeting",
+   "link_fieldname": "committee"
+  },
+  {
+   "link_doctype": "Committee Generalization",
+   "link_fieldname": "circular_no"
+  }
+ ],
+ "make_attachments_public": 1,
+ "modified": "2024-05-24 00:42:44.388571",
+ "modified_by": "Administrator",
+ "module": "Barcode Aec",
+ "name": "Committee",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "select": 1,
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Sales Master Manager",
+   "select": 1,
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1,
+ "track_seen": 1
+}
