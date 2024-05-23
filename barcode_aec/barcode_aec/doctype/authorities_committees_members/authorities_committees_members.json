@@ -1,0 +1,59 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-02-19 16:04:13.986841",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "committee",
+  "member",
+  "member_name",
+  "email"
+ ],
+ "fields": [
+  {
+   "fieldname": "committee",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Committee",
+   "options": "Committee"
+  },
+  {
+   "fieldname": "member",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Member",
+   "options": "Customer"
+  },
+  {
+   "fetch_from": "member.custom_name_of_the_cioowner_of_the_company",
+   "fieldname": "member_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Member Name"
+  },
+  {
+   "fetch_from": "member.custom_email",
+   "fieldname": "email",
+   "fieldtype": "Data",
+   "label": "Email"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-05-15 08:45:25.198834",
+ "modified_by": "Administrator",
+ "module": "Barcode Aec",
+ "name": "Authorities Committees Members",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

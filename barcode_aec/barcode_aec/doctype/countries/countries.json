@@ -1,0 +1,88 @@
+{
+ "actions": [],
+ "allow_import": 1,
+ "allow_rename": 1,
+ "autoname": "field:code",
+ "creation": "2023-12-23 16:26:49.515926",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "code",
+  "english_name",
+  "arabic_name",
+  "countries_export_volume_section",
+  "countries_export_volume",
+  "custom_geographical_clusters",
+  "geographical_clusters_name"
+ ],
+ "fields": [
+  {
+   "fieldname": "code",
+   "fieldtype": "Data",
+   "label": "Code",
+   "unique": 1
+  },
+  {
+   "fieldname": "english_name",
+   "fieldtype": "Data",
+   "label": "English Name",
+   "unique": 1
+  },
+  {
+   "fieldname": "arabic_name",
+   "fieldtype": "Data",
+   "label": "Arabic Name",
+   "unique": 1
+  },
+  {
+   "fieldname": "countries_export_volume_section",
+   "fieldtype": "Section Break",
+   "label": "Countries Export Volume"
+  },
+  {
+   "fieldname": "countries_export_volume",
+   "fieldtype": "Table",
+   "label": "Countries Export Volume",
+   "options": "Countries Export Volume"
+  },
+  {
+   "fieldname": "custom_geographical_clusters",
+   "fieldtype": "Link",
+   "label": "Geographical Clusters",
+   "options": "Geographical Clusters List"
+  },
+  {
+   "fetch_from": "custom_geographical_clusters.arabic_name",
+   "fieldname": "geographical_clusters_name",
+   "fieldtype": "Data",
+   "label": "Geographical Clusters Name"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-05-15 10:35:24.445833",
+ "modified_by": "Administrator",
+ "module": "Barcode Aec",
+ "name": "Countries",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

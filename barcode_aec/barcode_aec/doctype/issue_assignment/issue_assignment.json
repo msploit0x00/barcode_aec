@@ -1,0 +1,134 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "naming_series:",
+ "creation": "2024-02-17 18:42:57.977679",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "naming_series",
+  "issue",
+  "status",
+  "department",
+  "employee",
+  "required_action",
+  "remarks",
+  "resolution",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "issue",
+   "fieldtype": "Link",
+   "label": "Issue",
+   "options": "Issue"
+  },
+  {
+   "fieldname": "department",
+   "fieldtype": "Link",
+   "label": "Department",
+   "options": "Department"
+  },
+  {
+   "fieldname": "employee",
+   "fieldtype": "Link",
+   "label": "Employee",
+   "options": "Employee"
+  },
+  {
+   "fieldname": "required_action",
+   "fieldtype": "Select",
+   "label": "Required action",
+   "options": "\n\u0623\u0639\u062f\u0627\u062f \u062e\u0637\u0627\u0628 \u0631\u062f\n\u062e\u0637\u0627\u0628 \u062a\u0639\u0645\u064a\u0645 \u0644\u0644\u0627\u0639\u0636\u0627\u0621"
+  },
+  {
+   "fieldname": "remarks",
+   "fieldtype": "Small Text",
+   "label": "Remarks"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Issue Assignment",
+   "print_hide": 1,
+   "read_only": 1
+  },
+  {
+   "fieldname": "naming_series",
+   "fieldtype": "Select",
+   "label": "Series",
+   "options": "ISS-ASMNT-.YYYY.-"
+  },
+  {
+   "allow_on_submit": 1,
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "label": "status",
+   "options": "\nOpen\nIn Progress\nHold\ncancelled\nCompleted"
+  },
+  {
+   "allow_on_submit": 1,
+   "fieldname": "resolution",
+   "fieldtype": "Text",
+   "label": "Resolution"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_calendar_and_gantt": 1,
+ "is_submittable": 1,
+ "links": [
+  {
+   "link_doctype": "Issue",
+   "link_fieldname": "name",
+   "table_fieldname": "issue"
+  },
+  {
+   "link_doctype": "Task",
+   "link_fieldname": "name"
+  }
+ ],
+ "modified": "2024-02-17 18:56:28.948082",
+ "modified_by": "Administrator",
+ "module": "Barcode Aec",
+ "name": "Issue Assignment",
+ "name_case": "UPPER CASE",
+ "naming_rule": "By \"Naming Series\" field",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "select": 1,
+   "share": 1,
+   "submit": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Support Team",
+   "select": 1,
+   "share": 1,
+   "submit": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

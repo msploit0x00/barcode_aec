@@ -1,0 +1,168 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-03-20 18:43:58.239010",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "contact_person_section",
+  "name1",
+  "title",
+  "mob",
+  "email",
+  "column_break_4qnvv",
+  "company_name",
+  "adress",
+  "phone",
+  "fax",
+  "company_email",
+  "website",
+  "about_company_section",
+  "company_brief",
+  "country_of_destination",
+  "total_volume",
+  "total_value",
+  "export_products",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "contact_person_section",
+   "fieldtype": "Section Break",
+   "label": "CONTACT "
+  },
+  {
+   "fieldname": "name1",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "name",
+   "options": "Customer",
+   "reqd": 1
+  },
+  {
+   "fieldname": "title",
+   "fieldtype": "Data",
+   "label": "title"
+  },
+  {
+   "fetch_from": "name1.mobile_no",
+   "fieldname": "mob",
+   "fieldtype": "Data",
+   "label": "mobile no."
+  },
+  {
+   "fetch_from": "name1.custom_email",
+   "fieldname": "email",
+   "fieldtype": "Data",
+   "label": "email"
+  },
+  {
+   "fieldname": "column_break_4qnvv",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fetch_from": "name1.customer_name",
+   "fieldname": "company_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "company name",
+   "reqd": 1
+  },
+  {
+   "fetch_from": "name1.primary_address",
+   "fieldname": "adress",
+   "fieldtype": "Data",
+   "label": "company adress"
+  },
+  {
+   "fetch_from": "name1.customer_primary_contact",
+   "fieldname": "phone",
+   "fieldtype": "Data",
+   "label": "company Phone"
+  },
+  {
+   "fieldname": "fax",
+   "fieldtype": "Data",
+   "label": "Fax"
+  },
+  {
+   "fetch_from": "name1.custom_email",
+   "fieldname": "company_email",
+   "fieldtype": "Data",
+   "label": "company email"
+  },
+  {
+   "fetch_from": "name1.website",
+   "fieldname": "website",
+   "fieldtype": "Data",
+   "label": "Website"
+  },
+  {
+   "fieldname": "about_company_section",
+   "fieldtype": "Section Break",
+   "label": "ABOUT COMPANY"
+  },
+  {
+   "fieldname": "company_brief",
+   "fieldtype": "Small Text",
+   "label": "company brief"
+  },
+  {
+   "fieldname": "country_of_destination",
+   "fieldtype": "Data",
+   "label": "country of destination"
+  },
+  {
+   "fieldname": "total_volume",
+   "fieldtype": "Int",
+   "label": "total volume"
+  },
+  {
+   "fieldname": "total_value",
+   "fieldtype": "Int",
+   "label": "total value"
+  },
+  {
+   "fieldname": "export_products",
+   "fieldtype": "Data",
+   "label": "export products"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Company Profile Form",
+   "print_hide": 1,
+   "read_only": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2024-03-25 13:49:44.053333",
+ "modified_by": "Administrator",
+ "module": "Barcode Aec",
+ "name": "Company Profile Form",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "submit": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

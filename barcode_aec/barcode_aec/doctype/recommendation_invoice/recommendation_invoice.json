@@ -1,0 +1,52 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-03-28 11:39:37.265863",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "year",
+  "volume_of_exports",
+  "member_category",
+  "expected_amount"
+ ],
+ "fields": [
+  {
+   "fieldname": "year",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Year"
+  },
+  {
+   "fieldname": "expected_amount",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Expected Amount"
+  },
+  {
+   "fieldname": "volume_of_exports",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Volume Of Exports"
+  },
+  {
+   "fieldname": "member_category",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Member Category"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-04-08 11:10:57.038504",
+ "modified_by": "Administrator",
+ "module": "Barcode Aec",
+ "name": "Recommendation Invoice",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

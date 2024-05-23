@@ -1,0 +1,107 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-10-24 12:02:13.993370",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "committees",
+  "product",
+  "arabic_name",
+  "english_name",
+  "season_name",
+  "total_amount_in_usd",
+  "total_amount_in_egp",
+  "quantity_in_tons",
+  "international_product_hs_code",
+  "hs_code_family",
+  "scientific_arabic_name"
+ ],
+ "fields": [
+  {
+   "fetch_from": "product.committe_code",
+   "fieldname": "committees",
+   "fieldtype": "Link",
+   "label": "Committees",
+   "options": "Committee"
+  },
+  {
+   "fieldname": "product",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "in_preview": 1,
+   "label": "Product",
+   "options": "Product"
+  },
+  {
+   "fetch_from": "product.scientific_arabic_name",
+   "fieldname": "arabic_name",
+   "fieldtype": "Read Only",
+   "label": "Arabic Name"
+  },
+  {
+   "fetch_from": "product.scientific_english_name",
+   "fieldname": "english_name",
+   "fieldtype": "Read Only",
+   "label": "English Name"
+  },
+  {
+   "fieldname": "season_name",
+   "fieldtype": "Data",
+   "label": "Season Name"
+  },
+  {
+   "fieldname": "total_amount_in_usd",
+   "fieldtype": "Float",
+   "label": "Total Amount In USD"
+  },
+  {
+   "fieldname": "total_amount_in_egp",
+   "fieldtype": "Float",
+   "label": "Total Amount In EGP"
+  },
+  {
+   "fieldname": "quantity_in_tons",
+   "fieldtype": "Float",
+   "label": "Quantity In Tons"
+  },
+  {
+   "fetch_from": "product.custom_international_product_hs_code",
+   "fieldname": "international_product_hs_code",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_preview": 1,
+   "label": "International Product HS Code "
+  },
+  {
+   "fetch_from": "product.hs_code_family_name",
+   "fieldname": "hs_code_family",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_preview": 1,
+   "label": "HS Code Family"
+  },
+  {
+   "fetch_from": "product.scientific_arabic_name",
+   "fieldname": "scientific_arabic_name",
+   "fieldtype": "Small Text",
+   "in_list_view": 1,
+   "in_preview": 1,
+   "label": "Scientific Arabic Name"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-05-15 09:56:35.817177",
+ "modified_by": "Administrator",
+ "module": "Barcode Aec",
+ "name": "Crops that are export",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

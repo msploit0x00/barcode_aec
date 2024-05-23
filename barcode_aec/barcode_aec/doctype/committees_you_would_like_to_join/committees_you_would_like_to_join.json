@@ -1,0 +1,99 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-12-27 19:52:17.689706",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "committees",
+  "salutation",
+  "image_sticker",
+  "sticker_image",
+  "priority",
+  "from",
+  "to",
+  "ended",
+  "english_name"
+ ],
+ "fields": [
+  {
+   "fieldname": "committees",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Committees",
+   "options": "Committee"
+  },
+  {
+   "default": "\u0639\u0636\u0648\u064a\u0629 \u0644\u062c\u0646\u0629 \u0633\u0644\u0639\u064a\u0629",
+   "fieldname": "salutation",
+   "fieldtype": "Link",
+   "in_filter": 1,
+   "in_global_search": 1,
+   "in_list_view": 1,
+   "in_preview": 1,
+   "in_standard_filter": 1,
+   "label": "\u0646\u0648\u0639 \u0627\u0644\u0639\u0636\u0648\u064a\u0629",
+   "options": "Salutation"
+  },
+  {
+   "fetch_from": "salutation.sticker",
+   "fetch_if_empty": 1,
+   "fieldname": "image_sticker",
+   "fieldtype": "Attach Image",
+   "label": "Image Sticker"
+  },
+  {
+   "fieldname": "sticker_image",
+   "fieldtype": "Image",
+   "label": "Sticker Image",
+   "max_height": "20px",
+   "options": "image_sticker",
+   "width": "20px"
+  },
+  {
+   "fetch_from": "salutation.priority",
+   "fieldname": "priority",
+   "fieldtype": "Int",
+   "label": "Priority"
+  },
+  {
+   "fieldname": "from",
+   "fieldtype": "Date",
+   "label": "From"
+  },
+  {
+   "fieldname": "to",
+   "fieldtype": "Date",
+   "label": "To"
+  },
+  {
+   "default": "0",
+   "fieldname": "ended",
+   "fieldtype": "Check",
+   "label": "Ended"
+  },
+  {
+   "fetch_from": "committees.commmittees_english_name",
+   "fieldname": "english_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_preview": 1,
+   "label": "English Name"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-05-12 10:27:45.939213",
+ "modified_by": "Administrator",
+ "module": "Barcode Aec",
+ "name": "Committees you would like to join",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

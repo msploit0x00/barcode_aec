@@ -1,0 +1,182 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:customer_name",
+ "creation": "2024-02-08 12:29:29.035132",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "agriculture",
+  "customer",
+  "customer_name",
+  "date",
+  "declared_name",
+  "address_of_consignee",
+  "declared_means_of_conveyance",
+  "declared_point_of_entry",
+  "place_of_origin",
+  "place_of_supply",
+  "distinguishing_marks",
+  "number_of_packages",
+  "description_of_packages",
+  "add_information",
+  "treatment",
+  "chemical",
+  "concentration",
+  "duration_and_temperature",
+  "agriculture_item",
+  "additional_information",
+  "additional_declartion",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "agriculture",
+   "fieldtype": "Data",
+   "label": "Agriculture"
+  },
+  {
+   "fieldname": "customer",
+   "fieldtype": "Link",
+   "label": "Customer",
+   "options": "Customer"
+  },
+  {
+   "fetch_from": "customer.customer_name",
+   "fieldname": "customer_name",
+   "fieldtype": "Data",
+   "label": "Customer Name",
+   "unique": 1
+  },
+  {
+   "fieldname": "declared_means_of_conveyance",
+   "fieldtype": "Data",
+   "label": "Declared Means of conveyance"
+  },
+  {
+   "fieldname": "declared_point_of_entry",
+   "fieldtype": "Data",
+   "label": "Declared Point Of Entry"
+  },
+  {
+   "fieldname": "place_of_supply",
+   "fieldtype": "Data",
+   "label": "Place Of Supply"
+  },
+  {
+   "fieldname": "number_of_packages",
+   "fieldtype": "Data",
+   "label": "Number Of Packages"
+  },
+  {
+   "fieldname": "description_of_packages",
+   "fieldtype": "Data",
+   "label": "Description Of Packages"
+  },
+  {
+   "fieldname": "add_information",
+   "fieldtype": "Data",
+   "label": "Add Information"
+  },
+  {
+   "fieldname": "treatment",
+   "fieldtype": "Data",
+   "label": "Treatment"
+  },
+  {
+   "fieldname": "chemical",
+   "fieldtype": "Data",
+   "label": "Chemical"
+  },
+  {
+   "fieldname": "concentration",
+   "fieldtype": "Data",
+   "label": "Concentration"
+  },
+  {
+   "fieldname": "duration_and_temperature",
+   "fieldtype": "Data",
+   "label": "Duration And Temperature"
+  },
+  {
+   "fieldname": "agriculture_item",
+   "fieldtype": "Table",
+   "label": "Agriculture Item",
+   "options": "Agriculture Item"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "declared_name",
+   "fieldtype": "Data",
+   "label": "Declared Name"
+  },
+  {
+   "fieldname": "address_of_consignee",
+   "fieldtype": "Data",
+   "label": "Address Of Consignee"
+  },
+  {
+   "fieldname": "distinguishing_marks",
+   "fieldtype": "Data",
+   "label": "Distinguishing Marks"
+  },
+  {
+   "fieldname": "place_of_origin",
+   "fieldtype": "Data",
+   "label": "Place Of Origin"
+  },
+  {
+   "fieldname": "additional_information",
+   "fieldtype": "Data",
+   "label": "Additional Information"
+  },
+  {
+   "fieldname": "additional_declartion",
+   "fieldtype": "Data",
+   "label": "Additional Declartion"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Agriculture Certificate Data",
+   "print_hide": 1,
+   "read_only": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2024-03-26 11:49:30.529908",
+ "modified_by": "Administrator",
+ "module": "Barcode Aec",
+ "name": "Agriculture Certificate Data",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "submit": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}

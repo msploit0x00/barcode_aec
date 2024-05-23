@@ -1,0 +1,201 @@
+{
+ "actions": [],
+ "allow_events_in_timeline": 1,
+ "allow_rename": 1,
+ "autoname": "naming_series:naming_series",
+ "creation": "2023-12-12 15:30:10.983835",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "naming_series",
+  "committee",
+  "column_break_7hpwl",
+  "location",
+  "column_break_tzyk3",
+  "subject",
+  "date_and_time_section",
+  "date",
+  "column_break_hd19k",
+  "from_time",
+  "column_break_ua4eg",
+  "to_time",
+  "meeting_agenda_section",
+  "meeting_agenda",
+  "section_break_au4pr",
+  "committee_member",
+  "section_break_urz88",
+  "external_authority",
+  "section_break_s88zv",
+  "council_entities",
+  "section_break_aftsv",
+  "notes",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "naming_series",
+   "fieldtype": "Select",
+   "hidden": 1,
+   "label": "Naming Series",
+   "options": "MET-.YYYY.-"
+  },
+  {
+   "fieldname": "committee",
+   "fieldtype": "Link",
+   "in_standard_filter": 1,
+   "label": "Committee",
+   "options": "Committee"
+  },
+  {
+   "fieldname": "column_break_7hpwl",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "location",
+   "fieldtype": "Link",
+   "label": "Location",
+   "options": "Location"
+  },
+  {
+   "fieldname": "column_break_tzyk3",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "subject",
+   "fieldtype": "Data",
+   "label": "Subject"
+  },
+  {
+   "fieldname": "date_and_time_section",
+   "fieldtype": "Section Break",
+   "label": "Date and Time"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "in_standard_filter": 1,
+   "label": "Date"
+  },
+  {
+   "fieldname": "column_break_hd19k",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "from_time",
+   "fieldtype": "Time",
+   "label": "From Time"
+  },
+  {
+   "fieldname": "column_break_ua4eg",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "to_time",
+   "fieldtype": "Time",
+   "label": "To Time"
+  },
+  {
+   "fieldname": "meeting_agenda_section",
+   "fieldtype": "Section Break",
+   "label": "Meeting Agenda"
+  },
+  {
+   "fieldname": "meeting_agenda",
+   "fieldtype": "Table",
+   "label": "Meeting Agenda",
+   "options": "Quality Meeting Agenda"
+  },
+  {
+   "fieldname": "section_break_au4pr",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "committee_member",
+   "fieldtype": "Table",
+   "label": "Committee Member",
+   "options": "Committee Members"
+  },
+  {
+   "fieldname": "section_break_urz88",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "external_authority",
+   "fieldtype": "Table",
+   "label": "External Entities",
+   "options": "External Authority"
+  },
+  {
+   "fieldname": "section_break_s88zv",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "council_entities",
+   "fieldtype": "Table",
+   "label": "Council Entities",
+   "options": "council entities"
+  },
+  {
+   "fieldname": "section_break_aftsv",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "notes",
+   "fieldtype": "Text Editor",
+   "label": "Notes "
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Meeting",
+   "print_hide": 1,
+   "read_only": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_calendar_and_gantt": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2024-04-15 16:37:08.269356",
+ "modified_by": "Administrator",
+ "module": "Barcode Aec",
+ "name": "Meeting",
+ "naming_rule": "By \"Naming Series\" field",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "submit": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Accounts User",
+   "share": 1,
+   "submit": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "title_field": "subject"
+}

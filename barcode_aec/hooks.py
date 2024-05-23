@@ -129,23 +129,23 @@ app_license = "MIT"
 # Scheduled Tasks
 # ---------------
 
-# scheduler_events = {
-#	"all": [
-#		"barcode_aec.tasks.all"
-#	],
-#	"daily": [
-#		"barcode_aec.tasks.daily"
-#	],
-#	"hourly": [
-#		"barcode_aec.tasks.hourly"
-#	],
-#	"weekly": [
-#		"barcode_aec.tasks.weekly"
-#	],
-#	"monthly": [
-#		"barcode_aec.tasks.monthly"
-#	],
-# }
+scheduler_events = {
+	"all": [
+		# "barcode_aec.tasks.all"
+	],
+	"daily": [
+		# "barcode_aec.tasks.daily"
+	],
+	"hourly": [
+		# "barcode_aec.tasks.hourly"
+	],
+	"weekly": [
+		# "barcode_aec.tasks.weekly"
+	],
+	"monthly": [
+		"barcode_aec.update_employee.functiongdidaa"
+	],
+}
 
 # Testing
 # -------

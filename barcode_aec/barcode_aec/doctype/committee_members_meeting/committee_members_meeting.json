@@ -1,0 +1,49 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-12-15 14:58:24.201000",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "member",
+  "status",
+  "meeting_status"
+ ],
+ "fields": [
+  {
+   "fieldname": "member",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Member",
+   "options": "Customer"
+  },
+  {
+   "fetch_from": "member.custom_customer_status",
+   "fieldname": "status",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Status"
+  },
+  {
+   "fieldname": "meeting_status",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Meeting Status",
+   "options": "\nPresent\nAbsent"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-04-15 11:33:07.766112",
+ "modified_by": "Administrator",
+ "module": "Barcode Aec",
+ "name": "Committee Members Meeting",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

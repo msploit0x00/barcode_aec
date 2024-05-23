@@ -1,0 +1,53 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-03-24 21:31:38.657138",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "season",
+  "total_in_egp",
+  "total_in_usd",
+  "quantity_in_tons"
+ ],
+ "fields": [
+  {
+   "fieldname": "season",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Season"
+  },
+  {
+   "fieldname": "total_in_egp",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Total In EGP"
+  },
+  {
+   "fieldname": "total_in_usd",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Total In USD"
+  },
+  {
+   "fieldname": "quantity_in_tons",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Quantity In Tons"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-03-24 21:31:38.657138",
+ "modified_by": "Administrator",
+ "module": "Barcode Aec",
+ "name": "Countries Export Volume",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

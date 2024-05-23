@@ -1,0 +1,123 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-04-08 10:22:29.073424",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "section_break_zky4s",
+  "authorities_committees",
+  "section_break_d2q01",
+  "authorities_committees_members",
+  "section_break_5tb1e",
+  "custom_contact",
+  "section_break_c6gdh",
+  "email",
+  "column_break_9zksx",
+  "whatsapp",
+  "column_break_sgezs",
+  "sms",
+  "column_break_ent2x",
+  "push_notification"
+ ],
+ "fields": [
+  {
+   "fieldname": "section_break_zky4s",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "authorities_committees",
+   "fieldtype": "Table",
+   "label": "Authorities Committees",
+   "options": "Authorities Committees"
+  },
+  {
+   "fieldname": "section_break_d2q01",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "authorities_committees_members",
+   "fieldtype": "Table",
+   "label": "Authorities Committees Members",
+   "options": "Authorities Committees Members"
+  },
+  {
+   "fieldname": "section_break_5tb1e",
+   "fieldtype": "Section Break",
+   "label": "Authorities Connections"
+  },
+  {
+   "fieldname": "custom_contact",
+   "fieldtype": "Table",
+   "label": "Contact",
+   "options": "contacts"
+  },
+  {
+   "fieldname": "section_break_c6gdh",
+   "fieldtype": "Section Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "email",
+   "fieldtype": "Check",
+   "label": "Email"
+  },
+  {
+   "fieldname": "column_break_9zksx",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "whatsapp",
+   "fieldtype": "Check",
+   "label": "Whatsapp"
+  },
+  {
+   "fieldname": "column_break_sgezs",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "sms",
+   "fieldtype": "Check",
+   "label": "SMS"
+  },
+  {
+   "fieldname": "column_break_ent2x",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "push_notification",
+   "fieldtype": "Check",
+   "label": "Push Notification"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-04-08 10:22:29.073424",
+ "modified_by": "Administrator",
+ "module": "Barcode Aec",
+ "name": "Authorities Generalization 2",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}

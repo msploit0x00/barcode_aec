@@ -1,0 +1,105 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-04-02 12:29:02.400643",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "contract_info_section",
+  "start_date",
+  "maintenance_entity",
+  "column_break_ylxvs",
+  "end_date",
+  "maintenance_manger",
+  "contract_section",
+  "description",
+  "attach_contract",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "contract_info_section",
+   "fieldtype": "Section Break",
+   "label": "Contract info"
+  },
+  {
+   "fieldname": "start_date",
+   "fieldtype": "Date",
+   "label": "Start Date"
+  },
+  {
+   "fieldname": "maintenance_entity",
+   "fieldtype": "Link",
+   "label": "Maintenance Entity",
+   "options": "Supplier"
+  },
+  {
+   "fieldname": "column_break_ylxvs",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "end_date",
+   "fieldtype": "Date",
+   "label": "End Date"
+  },
+  {
+   "fieldname": "maintenance_manger",
+   "fieldtype": "Link",
+   "label": "Maintenance Manger",
+   "options": "Employee"
+  },
+  {
+   "fieldname": "contract_section",
+   "fieldtype": "Section Break",
+   "label": "Contract"
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "Text",
+   "label": "Description"
+  },
+  {
+   "fieldname": "attach_contract",
+   "fieldtype": "Attach",
+   "in_list_view": 1,
+   "label": "Attach Contract",
+   "reqd": 1
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "IT Contracts",
+   "print_hide": 1,
+   "read_only": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2024-04-07 23:13:26.313728",
+ "modified_by": "Administrator",
+ "module": "Barcode Aec",
+ "name": "IT Contracts",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

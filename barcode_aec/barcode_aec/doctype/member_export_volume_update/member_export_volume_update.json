@@ -1,0 +1,179 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-03-20 18:42:01.510745",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "last_export_info_section",
+  "last_exported_record",
+  "season",
+  "month",
+  "column_break_18zoc",
+  "export_date",
+  "section_break_5w9i8",
+  "update_export_volume",
+  "last_update_member_exports",
+  "column_break_xxjpa",
+  "update_member_product_volume",
+  "last_update_member_product_volume",
+  "column_break_s9y4s",
+  "update_member_product_volume_section",
+  "update_products_volume",
+  "last_update_products_exports",
+  "update_countries_volume_section",
+  "update_countries_volume",
+  "last_update_countries_exports",
+  "stop_board_member_calculation_section",
+  "last_update",
+  "stop_board_member_calculation"
+ ],
+ "fields": [
+  {
+   "fieldname": "update_export_volume",
+   "fieldtype": "Button",
+   "label": "Update Member Export Volume"
+  },
+  {
+   "fieldname": "section_break_5w9i8",
+   "fieldtype": "Section Break",
+   "label": " Update Member Export Volume"
+  },
+  {
+   "fieldname": "column_break_xxjpa",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "update_products_volume",
+   "fieldtype": "Button",
+   "label": "Update Products Volume"
+  },
+  {
+   "fieldname": "column_break_s9y4s",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "update_countries_volume",
+   "fieldtype": "Button",
+   "label": "Update Countries Volume"
+  },
+  {
+   "fieldname": "last_update_member_exports",
+   "fieldtype": "Datetime",
+   "label": "Last Update Member Exports",
+   "read_only": 1
+  },
+  {
+   "fieldname": "last_update_products_exports",
+   "fieldtype": "Datetime",
+   "label": "Last Update Products Exports",
+   "read_only": 1
+  },
+  {
+   "fieldname": "last_update_countries_exports",
+   "fieldtype": "Datetime",
+   "label": "Last Update Countries Exports",
+   "read_only": 1
+  },
+  {
+   "fieldname": "last_export_info_section",
+   "fieldtype": "Section Break",
+   "label": "Last Export Info"
+  },
+  {
+   "fieldname": "last_exported_record",
+   "fieldtype": "Link",
+   "label": "Last Exported Record",
+   "options": "Data AEC Export",
+   "read_only": 1
+  },
+  {
+   "fieldname": "export_date",
+   "fieldtype": "Date",
+   "label": "Export Date",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_18zoc",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fetch_from": "last_exported_record.season",
+   "fieldname": "season",
+   "fieldtype": "Link",
+   "label": "Season",
+   "options": "Export Season",
+   "read_only": 1
+  },
+  {
+   "fetch_from": "last_exported_record.month",
+   "fieldname": "month",
+   "fieldtype": "Link",
+   "label": "Month",
+   "options": "Month",
+   "read_only": 1
+  },
+  {
+   "fieldname": "stop_board_member_calculation_section",
+   "fieldtype": "Section Break",
+   "label": "Stop Board Member Calculation"
+  },
+  {
+   "fieldname": "last_update",
+   "fieldtype": "Date",
+   "label": "Last Update ",
+   "read_only": 1
+  },
+  {
+   "fieldname": "stop_board_member_calculation",
+   "fieldtype": "Button",
+   "label": "Stop Board Member Calculation"
+  },
+  {
+   "fieldname": "update_member_product_volume_section",
+   "fieldtype": "Section Break",
+   "label": "Update Product Volume"
+  },
+  {
+   "fieldname": "update_member_product_volume",
+   "fieldtype": "Button",
+   "label": "Update Member Product Volume"
+  },
+  {
+   "fieldname": "last_update_member_product_volume",
+   "fieldtype": "Datetime",
+   "label": "Last Update Member Product Volume",
+   "read_only": 1
+  },
+  {
+   "fieldname": "update_countries_volume_section",
+   "fieldtype": "Section Break",
+   "label": "Update Countries Volume"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "issingle": 1,
+ "links": [],
+ "modified": "2024-04-22 15:05:30.758450",
+ "modified_by": "Administrator",
+ "module": "Barcode Aec",
+ "name": "Member Export Volume Update",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

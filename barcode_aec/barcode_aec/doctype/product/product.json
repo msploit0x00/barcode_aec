@@ -1,0 +1,210 @@
+{
+ "actions": [],
+ "allow_import": 1,
+ "allow_rename": 1,
+ "creation": "2023-12-24 15:12:03.136984",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "product_image",
+  "column_break_pnasc",
+  "image",
+  "section_break_wjdra",
+  "scientific_english_name",
+  "column_break_7bvu5",
+  "scientific_arabic_name",
+  "section_break_wlr0l",
+  "product_common_name",
+  "section_break_atndg",
+  "arabic_describition",
+  "column_break_xmqyj",
+  "english_describition",
+  "section_break_0fzeh",
+  "products_categories",
+  "column_break_spph2",
+  "hs_code",
+  "column_break_k6kx2",
+  "hs_code_family_name",
+  "committe_code",
+  "specifications_section",
+  "product_specifications_table",
+  "section_break_l5w6i",
+  "products_image",
+  "products_images",
+  "section_break_dmt43",
+  "custom_products_export_volume"
+ ],
+ "fields": [
+  {
+   "fieldname": "product_image",
+   "fieldtype": "Attach Image",
+   "label": "Product Image"
+  },
+  {
+   "fieldname": "column_break_pnasc",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "image",
+   "fieldtype": "Image",
+   "label": "Image",
+   "options": "product_image"
+  },
+  {
+   "fieldname": "section_break_wjdra",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "scientific_english_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Scientific English Name",
+   "unique": 1
+  },
+  {
+   "fieldname": "column_break_7bvu5",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "scientific_arabic_name",
+   "fieldtype": "Small Text",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Scientific Arabic Name"
+  },
+  {
+   "fieldname": "section_break_wlr0l",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "product_common_name",
+   "fieldtype": "Table",
+   "label": "Product Common Name",
+   "options": "Product Common Name Table"
+  },
+  {
+   "fieldname": "section_break_atndg",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "arabic_describition",
+   "fieldtype": "Text Editor",
+   "label": "Arabic Description"
+  },
+  {
+   "fieldname": "column_break_xmqyj",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "english_describition",
+   "fieldtype": "Text Editor",
+   "label": "English Description"
+  },
+  {
+   "fieldname": "section_break_0fzeh",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "products_categories",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Products Categories",
+   "options": "Products Categories"
+  },
+  {
+   "fieldname": "column_break_spph2",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "hs_code",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "HS Code Family",
+   "options": "HS CODE FAMILES"
+  },
+  {
+   "fieldname": "column_break_k6kx2",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fetch_from": "hs_code.arabic_name",
+   "fieldname": "hs_code_family_name",
+   "fieldtype": "Read Only",
+   "label": "HS Code Family Name"
+  },
+  {
+   "fieldname": "committe_code",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Committe Code",
+   "options": "Committee"
+  },
+  {
+   "fieldname": "specifications_section",
+   "fieldtype": "Section Break",
+   "label": "Specifications "
+  },
+  {
+   "fieldname": "product_specifications_table",
+   "fieldtype": "Table",
+   "label": "Product Specifications Table",
+   "options": "Product Specifications Table"
+  },
+  {
+   "fieldname": "section_break_l5w6i",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "products_image",
+   "fieldtype": "Table",
+   "label": "Products Image",
+   "options": "Image"
+  },
+  {
+   "fieldname": "section_break_dmt43",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "custom_products_export_volume",
+   "fieldtype": "Table",
+   "label": "Products Export Volume",
+   "options": "Products Export Volume"
+  },
+  {
+   "fieldname": "products_images",
+   "fieldtype": "HTML",
+   "label": "Products Images"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-04-07 19:09:48.229223",
+ "modified_by": "Administrator",
+ "module": "Barcode Aec",
+ "name": "Product",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "title_field": "scientific_english_name"
+}

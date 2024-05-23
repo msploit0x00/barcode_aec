@@ -1,0 +1,54 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-04-07 11:35:13.164134",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "committee",
+  "salutation",
+  "from",
+  "to"
+ ],
+ "fields": [
+  {
+   "fieldname": "committee",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Committee",
+   "options": "Committee"
+  },
+  {
+   "fieldname": "from",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "From"
+  },
+  {
+   "fieldname": "to",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "To"
+  },
+  {
+   "fieldname": "salutation",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Salutation",
+   "options": "Salutation"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-04-07 13:57:44.965982",
+ "modified_by": "Administrator",
+ "module": "Barcode Aec",
+ "name": "Committee Member History",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
