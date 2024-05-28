@@ -1,0 +1,212 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "naming_series:",
+ "creation": "2023-12-15 14:46:04.655586",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "naming_series",
+  "committee",
+  "column_break_7hpwl",
+  "location",
+  "column_break_tzyk3",
+  "subject",
+  "date_and_time_section",
+  "date",
+  "column_break_hd19k",
+  "from_time",
+  "column_break_ua4eg",
+  "to_time",
+  "meeting_agenda_section",
+  "meeting_agenda",
+  "total_completed",
+  "total_not_completed",
+  "section_break_au4pr",
+  "committee_member",
+  "present",
+  "absent",
+  "section_break_urz88",
+  "external_authority",
+  "total_present",
+  "total_absent",
+  "section_break_aftsv",
+  "attach_pdf",
+  "notes",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "naming_series",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "Naming Series",
+   "options": "MET-.YYYY.-"
+  },
+  {
+   "fieldname": "committee",
+   "fieldtype": "Link",
+   "label": "Committee",
+   "options": "Committee"
+  },
+  {
+   "fieldname": "column_break_7hpwl",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "location",
+   "fieldtype": "Link",
+   "label": "Location",
+   "options": "Location"
+  },
+  {
+   "fieldname": "column_break_tzyk3",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "subject",
+   "fieldtype": "Data",
+   "label": "Subject"
+  },
+  {
+   "fieldname": "date_and_time_section",
+   "fieldtype": "Section Break",
+   "label": "Date and Time"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "column_break_hd19k",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "from_time",
+   "fieldtype": "Time",
+   "label": "From Time"
+  },
+  {
+   "fieldname": "column_break_ua4eg",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "to_time",
+   "fieldtype": "Time",
+   "label": "To Time"
+  },
+  {
+   "fieldname": "meeting_agenda_section",
+   "fieldtype": "Section Break",
+   "label": "Meeting Agenda"
+  },
+  {
+   "fieldname": "meeting_agenda",
+   "fieldtype": "Table",
+   "label": "Meeting Agenda",
+   "options": "Meeting Agenda"
+  },
+  {
+   "fieldname": "total_completed",
+   "fieldtype": "Int",
+   "label": "Total Completed"
+  },
+  {
+   "fieldname": "total_not_completed",
+   "fieldtype": "Int",
+   "label": "Total Not Completed"
+  },
+  {
+   "fieldname": "section_break_au4pr",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "committee_member",
+   "fieldtype": "Table",
+   "label": "Committee Member",
+   "options": "Committee Members Meeting"
+  },
+  {
+   "fieldname": "present",
+   "fieldtype": "Int",
+   "label": "Total Present"
+  },
+  {
+   "fieldname": "absent",
+   "fieldtype": "Int",
+   "label": "Total Absent"
+  },
+  {
+   "fieldname": "section_break_urz88",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "external_authority",
+   "fieldtype": "Table",
+   "label": "External Authority",
+   "options": "External Authority Meeting"
+  },
+  {
+   "fieldname": "total_present",
+   "fieldtype": "Int",
+   "label": "Total Present"
+  },
+  {
+   "fieldname": "total_absent",
+   "fieldtype": "Int",
+   "label": "Total Absent"
+  },
+  {
+   "fieldname": "section_break_aftsv",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "attach_pdf",
+   "fieldtype": "Attach",
+   "label": "Attach Meeting Report PDF"
+  },
+  {
+   "fieldname": "notes",
+   "fieldtype": "Text Editor",
+   "label": "Notes "
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Minutes Of Meeting",
+   "print_hide": 1,
+   "read_only": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2024-05-28 08:27:57.733319",
+ "modified_by": "Administrator",
+ "module": "Barcode Aec",
+ "name": "Minutes Of Meeting",
+ "naming_rule": "By \"Naming Series\" field",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

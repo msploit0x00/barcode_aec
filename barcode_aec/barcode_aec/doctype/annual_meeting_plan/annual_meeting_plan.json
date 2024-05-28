@@ -1,0 +1,106 @@
+{
+ "actions": [],
+ "autoname": "naming_series:naming_series",
+ "creation": "2023-12-11 14:05:12.713691",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "naming_series",
+  "date",
+  "section_break_vqmnd",
+  "subiect",
+  "column_break_7a2ei",
+  "location",
+  "annual_meeting_plane_section",
+  "meeting_plane",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "naming_series",
+   "fieldtype": "Select",
+   "hidden": 1,
+   "label": "Naming Series",
+   "options": "MET-PL-.YYYY.-"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "section_break_vqmnd",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "subiect",
+   "fieldtype": "Data",
+   "label": "Subiect"
+  },
+  {
+   "fieldname": "column_break_7a2ei",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "location",
+   "fieldtype": "Link",
+   "label": "Location",
+   "options": "Location"
+  },
+  {
+   "fieldname": "annual_meeting_plane_section",
+   "fieldtype": "Section Break",
+   "label": "Annual Meeting Plan"
+  },
+  {
+   "fieldname": "meeting_plane",
+   "fieldtype": "Table",
+   "in_filter": 1,
+   "label": "Meeting Plane",
+   "options": "Annual Meeting Plane Table"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Annual Meeting Plan",
+   "print_hide": 1,
+   "read_only": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_calendar_and_gantt": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2024-05-28 08:27:01.053453",
+ "modified_by": "Administrator",
+ "module": "Barcode Aec",
+ "name": "Annual Meeting Plan",
+ "naming_rule": "By \"Naming Series\" field",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "select": 1,
+   "share": 1,
+   "submit": 1,
+   "write": 1
+  }
+ ],
+ "show_title_field_in_link": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "title_field": "subiect",
+ "track_changes": 1
+}
