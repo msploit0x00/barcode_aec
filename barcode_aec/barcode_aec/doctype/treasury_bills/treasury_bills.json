@@ -1,0 +1,203 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-12-11 09:38:18.490155",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "treasury_bills",
+  "posting_date",
+  "term_type",
+  "duration",
+  "bidding_status",
+  "suggested_purchasing_value",
+  "suggested_purchase_price",
+  "factories",
+  "nominal_value",
+  "small_nominal_value",
+  "grand_nominal_value",
+  "choice_nominal",
+  "purchasing_value",
+  "return",
+  "tax",
+  "net_profit",
+  "section_break_medlf",
+  "available_balance",
+  "remaining_balance",
+  "purchase_date",
+  "due_date",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "treasury_bills",
+   "fieldtype": "Select",
+   "label": "Treasury bills",
+   "options": "\nNew tender\nSession data"
+  },
+  {
+   "depends_on": "eval:doc.treasury_bills == 'New tender'",
+   "fieldname": "posting_date",
+   "fieldtype": "Date",
+   "in_standard_filter": 1,
+   "label": "Session Date",
+   "mandatory_depends_on": "eval:doc.customer_type != 'Company'"
+  },
+  {
+   "depends_on": "eval:doc.treasury_bills == 'New tender'",
+   "fieldname": "term_type",
+   "fieldtype": "Link",
+   "in_standard_filter": 1,
+   "label": "Term type",
+   "options": "Term Type"
+  },
+  {
+   "depends_on": "eval:doc.treasury_bills == 'New tender'",
+   "fetch_from": "term_type.duration",
+   "fieldname": "duration",
+   "fieldtype": "Data",
+   "in_standard_filter": 1,
+   "label": "Duration",
+   "read_only": 1
+  },
+  {
+   "allow_on_submit": 1,
+   "default": "\u0645\u0642\u062a\u0631\u062d",
+   "depends_on": "eval:doc.treasury_bills == 'New tender'",
+   "fieldname": "bidding_status",
+   "fieldtype": "Select",
+   "label": "Bidding status",
+   "options": "\n\u0645\u0642\u062a\u0631\u062d\n\u0642\u064a\u062f \u0627\u0644\u062a\u0646\u0641\u064a\u0630\n\u062a\u0645 \u0627\u0644\u0634\u0631\u0627\u0621\n\u0644\u0645 \u064a\u062a\u0645 \u0627\u0644\u0634\u0631\u0627\u0621"
+  },
+  {
+   "depends_on": "eval:doc.treasury_bills == 'New tender'",
+   "fieldname": "suggested_purchasing_value",
+   "fieldtype": "Currency",
+   "label": "Suggested purchasing value"
+  },
+  {
+   "depends_on": "eval:doc.treasury_bills == 'New tender'",
+   "fieldname": "suggested_purchase_price",
+   "fieldtype": "Percent",
+   "label": "Suggested purchase price"
+  },
+  {
+   "depends_on": "eval:doc.treasury_bills == 'New tender'",
+   "fieldname": "factories",
+   "fieldtype": "Data",
+   "label": "Factories"
+  },
+  {
+   "depends_on": "eval:doc.treasury_bills == 'New tender'",
+   "fieldname": "nominal_value",
+   "fieldtype": "Currency",
+   "label": "Nominal value"
+  },
+  {
+   "depends_on": "eval:doc.treasury_bills == 'New tender'",
+   "fieldname": "small_nominal_value",
+   "fieldtype": "Currency",
+   "label": "Small nominal value"
+  },
+  {
+   "depends_on": "eval:doc.treasury_bills == 'New tender'",
+   "fieldname": "grand_nominal_value",
+   "fieldtype": "Currency",
+   "label": "Grand nominal value"
+  },
+  {
+   "depends_on": "eval:doc.treasury_bills == 'New tender'",
+   "fieldname": "choice_nominal",
+   "fieldtype": "Select",
+   "label": "Choice Nominal",
+   "options": "\nGrand"
+  },
+  {
+   "depends_on": "eval:doc.treasury_bills == 'New tender'",
+   "fieldname": "purchasing_value",
+   "fieldtype": "Currency",
+   "label": "Purchasing value"
+  },
+  {
+   "depends_on": "eval:doc.treasury_bills == 'New tender'",
+   "fieldname": "return",
+   "fieldtype": "Currency",
+   "label": "Return "
+  },
+  {
+   "depends_on": "eval:doc.treasury_bills == 'New tender'",
+   "fieldname": "tax",
+   "fieldtype": "Currency",
+   "label": "Tax"
+  },
+  {
+   "depends_on": "eval:doc.treasury_bills == 'New tender'",
+   "fieldname": "net_profit",
+   "fieldtype": "Currency",
+   "label": "Net profit"
+  },
+  {
+   "fieldname": "section_break_medlf",
+   "fieldtype": "Column Break",
+   "label": "Balance"
+  },
+  {
+   "fieldname": "available_balance",
+   "fieldtype": "Currency",
+   "label": "Available balance"
+  },
+  {
+   "fieldname": "remaining_balance",
+   "fieldtype": "Currency",
+   "label": "Remaining balance"
+  },
+  {
+   "fieldname": "purchase_date",
+   "fieldtype": "Date",
+   "label": "Purchase Date",
+   "read_only": 1
+  },
+  {
+   "fieldname": "due_date",
+   "fieldtype": "Date",
+   "label": "Due Date",
+   "read_only": 1
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Treasury bills",
+   "print_hide": 1,
+   "read_only": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2024-05-30 09:06:29.801238",
+ "modified_by": "Administrator",
+ "module": "Barcode Aec",
+ "name": "Treasury bills",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

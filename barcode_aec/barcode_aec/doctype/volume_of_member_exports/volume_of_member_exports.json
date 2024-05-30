@@ -1,0 +1,189 @@
+{
+ "actions": [],
+ "allow_import": 1,
+ "allow_rename": 1,
+ "autoname": "format:VOL-{season}-{#######}",
+ "creation": "2023-11-09 09:50:12.533996",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "posring_date",
+  "season",
+  "season__name",
+  "month",
+  "month_name",
+  "tax__number",
+  "name1",
+  "customs_product_number",
+  "products_name",
+  "year",
+  "country_code",
+  "country_in_arabic",
+  "country_in_english",
+  "quantity_in_tons",
+  "total_amount_in_egp",
+  "total_amount_in_usd",
+  "shipping_port"
+ ],
+ "fields": [
+  {
+   "fetch_from": "season.start_date",
+   "fieldname": "posring_date",
+   "fieldtype": "Date",
+   "label": "Posting Date"
+  },
+  {
+   "fieldname": "season",
+   "fieldtype": "Link",
+   "label": "Season",
+   "options": "Export Season",
+   "reqd": 1
+  },
+  {
+   "fetch_from": "season.season__name",
+   "fieldname": "season__name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Season Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "month",
+   "fieldtype": "Link",
+   "label": "Month",
+   "options": "Month",
+   "reqd": 1,
+   "search_index": 1
+  },
+  {
+   "fetch_from": "month.arabic_name",
+   "fieldname": "month_name",
+   "fieldtype": "Data",
+   "label": "Month Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "tax__number",
+   "fieldtype": "Data",
+   "in_filter": 1,
+   "in_global_search": 1,
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Tax number",
+   "reqd": 1
+  },
+  {
+   "fieldname": "name1",
+   "fieldtype": "Text",
+   "in_standard_filter": 1,
+   "label": "Member Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "customs_product_number",
+   "fieldtype": "Int",
+   "in_filter": 1,
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Customs Product Number",
+   "reqd": 1
+  },
+  {
+   "fieldname": "products_name",
+   "fieldtype": "Text",
+   "in_filter": 1,
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Products Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "year",
+   "fieldtype": "Data",
+   "label": "Year",
+   "reqd": 1
+  },
+  {
+   "fieldname": "country_code",
+   "fieldtype": "Link",
+   "label": "Country Code",
+   "options": "Countries",
+   "reqd": 1
+  },
+  {
+   "fetch_from": "country_code.arabic_name",
+   "fieldname": "country_in_arabic",
+   "fieldtype": "Data",
+   "in_standard_filter": 1,
+   "label": "Country In Arabic",
+   "reqd": 1
+  },
+  {
+   "fetch_from": "country_code.english_name",
+   "fieldname": "country_in_english",
+   "fieldtype": "Data",
+   "label": "Country In English",
+   "reqd": 1
+  },
+  {
+   "fieldname": "quantity_in_tons",
+   "fieldtype": "Data",
+   "label": "Quantity In Tons",
+   "reqd": 1
+  },
+  {
+   "fieldname": "total_amount_in_egp",
+   "fieldtype": "Currency",
+   "in_filter": 1,
+   "in_global_search": 1,
+   "in_list_view": 1,
+   "label": "Total Amount In EGP",
+   "reqd": 1
+  },
+  {
+   "fieldname": "total_amount_in_usd",
+   "fieldtype": "Currency",
+   "label": "Total Amount In USD",
+   "reqd": 1
+  },
+  {
+   "fieldname": "shipping_port",
+   "fieldtype": "Link",
+   "in_standard_filter": 1,
+   "label": "Shipping Port",
+   "options": "Port of Shipment",
+   "reqd": 1
+  }
+ ],
+ "in_create": 1,
+ "index_web_pages_for_search": 1,
+ "is_calendar_and_gantt": 1,
+ "links": [],
+ "modified": "2024-05-30 09:04:18.330749",
+ "modified_by": "Administrator",
+ "module": "Barcode Aec",
+ "name": "Volume Of Member Exports",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}

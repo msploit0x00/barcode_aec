@@ -1,0 +1,74 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-12-07 11:55:27.425580",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "name_certificate",
+  "certificate_name_in_arabic",
+  "donor",
+  "certificate_number",
+  "certificate_date",
+  "expiry_date",
+  "attach"
+ ],
+ "fields": [
+  {
+   "fieldname": "name_certificate",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Certificate Name",
+   "options": "Cerificate Name"
+  },
+  {
+   "fetch_from": "name_certificate.certificate_name",
+   "fieldname": "certificate_name_in_arabic",
+   "fieldtype": "Data",
+   "label": "Certificate Name In Arabic"
+  },
+  {
+   "fieldname": "donor",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Provider"
+  },
+  {
+   "fieldname": "certificate_number",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Certificate Number"
+  },
+  {
+   "fieldname": "certificate_date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Certificate date"
+  },
+  {
+   "fieldname": "expiry_date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Expiry date"
+  },
+  {
+   "fieldname": "attach",
+   "fieldtype": "Attach",
+   "label": "Attach"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-05-30 09:10:46.086478",
+ "modified_by": "Administrator",
+ "module": "Barcode Aec",
+ "name": "Quality certificates obtained by the company",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

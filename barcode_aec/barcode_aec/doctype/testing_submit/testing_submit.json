@@ -1,0 +1,50 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-01-29 10:40:22.221483",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "ddd",
+  "crops_that_the_company_packs_at_the_station"
+ ],
+ "fields": [
+  {
+   "fieldname": "ddd",
+   "fieldtype": "Data",
+   "label": "ddd"
+  },
+  {
+   "fieldname": "crops_that_the_company_packs_at_the_station",
+   "fieldtype": "Table",
+   "label": "Crops that the company packs at the station",
+   "options": "Crops that the company packs at the station"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-05-30 09:00:48.450784",
+ "modified_by": "Administrator",
+ "module": "Barcode Aec",
+ "name": "testing submit",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

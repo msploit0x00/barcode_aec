@@ -1,0 +1,71 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-12-11 14:35:05.095026",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "baio1",
+  "baio2",
+  "baio3",
+  "baio4",
+  "baio5"
+ ],
+ "fields": [
+  {
+   "fieldname": "baio1",
+   "fieldtype": "Link",
+   "label": "Asset Account ",
+   "options": "Account"
+  },
+  {
+   "fieldname": "baio2",
+   "fieldtype": "Link",
+   "label": "Bank Account ",
+   "options": "Account"
+  },
+  {
+   "fieldname": "baio3",
+   "fieldtype": "Link",
+   "label": "Deferred returns Account ",
+   "options": "Account"
+  },
+  {
+   "fieldname": "baio4",
+   "fieldtype": "Link",
+   "label": "Tax Account ",
+   "options": "Account"
+  },
+  {
+   "fieldname": "baio5",
+   "fieldtype": "Link",
+   "label": "RevenuesAccount ",
+   "options": "Account"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "issingle": 1,
+ "links": [],
+ "modified": "2024-05-30 09:06:07.841472",
+ "modified_by": "Administrator",
+ "module": "Barcode Aec",
+ "name": "Treasury bill setting",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
