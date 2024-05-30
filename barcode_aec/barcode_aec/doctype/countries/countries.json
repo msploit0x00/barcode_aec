@@ -62,11 +62,10 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-05-15 10:35:24.445833",
+ "modified": "2024-05-29 11:52:06.953577",
  "modified_by": "Administrator",
  "module": "Barcode Aec",
  "name": "Countries",
- "naming_rule": "By fieldname",
  "owner": "Administrator",
  "permissions": [
   {
