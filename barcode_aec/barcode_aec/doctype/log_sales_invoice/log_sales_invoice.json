@@ -1,0 +1,59 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-01-08 10:37:41.451681",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "season",
+  "value",
+  "season_name",
+  "total_amount_in_usd",
+  "quantity_in_tons"
+ ],
+ "fields": [
+  {
+   "fieldname": "season",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Season"
+  },
+  {
+   "fieldname": "value",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Value (EGP)"
+  },
+  {
+   "fieldname": "season_name",
+   "fieldtype": "Data",
+   "label": " Season Name"
+  },
+  {
+   "fieldname": "total_amount_in_usd",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Value (USD)"
+  },
+  {
+   "fieldname": "quantity_in_tons",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Volume"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-06-02 15:20:02.100143",
+ "modified_by": "Administrator",
+ "module": "Barcode Aec",
+ "name": "log Sales Invoice",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
