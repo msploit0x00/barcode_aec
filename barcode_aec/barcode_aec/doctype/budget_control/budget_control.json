@@ -1,0 +1,89 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:budget_name",
+ "creation": "2024-02-11 16:29:17.499345",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "budget_name",
+  "fiscal_year",
+  "get_all_departments",
+  "departments_list",
+  "budget_controller",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "budget_name",
+   "fieldtype": "Data",
+   "label": "Budget Name",
+   "unique": 1
+  },
+  {
+   "fieldname": "fiscal_year",
+   "fieldtype": "Link",
+   "label": "Fiscal Year",
+   "options": "Fiscal Year"
+  },
+  {
+   "fieldname": "get_all_departments",
+   "fieldtype": "Button",
+   "label": "Get All Departments"
+  },
+  {
+   "fieldname": "departments_list",
+   "fieldtype": "Table",
+   "label": "Departments list",
+   "options": "Departments",
+   "reqd": 1
+  },
+  {
+   "default": "Employee",
+   "fieldname": "budget_controller",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Budget Controller",
+   "options": "\nFinancial\nEmployee",
+   "reqd": 1
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Budget Control",
+   "print_hide": 1,
+   "read_only": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2024-05-30 15:18:11.587571",
+ "modified_by": "Administrator",
+ "module": "Barcode Aec",
+ "name": "Budget Control",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "submit": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
