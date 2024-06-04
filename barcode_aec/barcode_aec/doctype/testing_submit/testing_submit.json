@@ -8,7 +8,8 @@
  "engine": "InnoDB",
  "field_order": [
   "ddd",
-  "crops_that_the_company_packs_at_the_station"
+  "crops_that_the_company_packs_at_the_station",
+  "test"
  ],
  "fields": [
   {
@@ -21,11 +22,16 @@
    "fieldtype": "Table",
    "label": "Crops that the company packs at the station",
    "options": "Crops that the company packs at the station"
+  },
+  {
+   "fieldname": "test",
+   "fieldtype": "JSON",
+   "label": "TEST"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-05-30 09:00:48.450784",
+ "modified": "2024-06-03 19:11:27.582601",
  "modified_by": "Administrator",
  "module": "Barcode Aec",
  "name": "testing submit",

@@ -7,25 +7,28 @@ def send_email(name):
     try:
         issue = frappe.get_doc("Issue", name)
         custom_the_contact = issue.custom_the_contact
+        custom_direct_print = issue.custom_direct_print
         attachments = get_attachments(issue)
-        content = frappe.render_template(issue.custom_body_mail, {"doc": issue.as_dict()})
-        args = issue.as_dict()
-        args["message"] = content
-        # Default print format if not specified in the issue
-        print_format = getattr(issue, 'print_format', 'issue letter')
         
-        for contact in custom_the_contact:
-            email = contact.get('email')
-              
-            # Attach print format if needed
-            print_format_attachment = attach_print("Issue", name, print_format)
+        # Default print format if not specified in the issue
+        print_format = getattr(issue, 'print_format', 'issue letter') ##---> 1 ##
+        print_format_attachment = attach_print("Issue", name, print_format)##---> 2 ##
+        custom_digital_signature = issue.custom_digital_signature
+        if (custom_digital_signature == 1):
             if print_format_attachment:
                 attachments.append(print_format_attachment)
 
+        content = frappe.render_template(issue.custom_body_mail, {"doc": issue.as_dict()})
+        args = issue.as_dict()
+        args["message"] = content
+        
+        for contact in custom_the_contact:
+            # Attach print format if needed
+           
             email_args = {
                 "subject": issue.subject,
                 "sender": issue.custom_email,
-                "recipients": [email],
+                "recipients": [contact.email],
                 "attachments": attachments,
                 "template": "newsletter",
                 "reference_doctype": issue.doctype,
@@ -36,14 +39,12 @@ def send_email(name):
                 "args": args
             }
             frappe.sendmail(**email_args)
-        else:
-            frappe.log_error(f"No email found for contact in Issue {name}", _("Missing email"))
 
         frappe.msgprint(_("Email(s) sent successfully"))
+    
     except Exception as e:
         frappe.log_error(frappe.get_traceback(), _("Error in send_email"))
         frappe.throw(_("An error occurred while sending emails: {0}").format(str(e)))
-
 
 def get_attachments(doc):
     attachments = []
@@ -72,8 +73,7 @@ def attach_print(doctype, name, print_format=None, style=None, as_pdf=True, no_l
         else:
             content = frappe.get_print(doctype, name, print_format, style=style, no_letterhead=no_letterhead)
             file_name = "{0}.html".format(frappe.scrub(name))
-        
+
         return {"fname": file_name, "fcontent": content}
     except Exception as e:
-        frappe.log_error(frappe.get_traceback(), _("Error in attach_print"))
         frappe.throw(_("An error occurred while generating the print format: {0}").format(str(e)))
