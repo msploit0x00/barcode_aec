@@ -1,0 +1,110 @@
+{
+ "charts": [],
+ "content": "[{\"id\":\"s4VzKAUlUL\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h2\\\" style=\\\"\\\"><b>Legal Affairs</b></span>\",\"col\":12}},{\"id\":\"Jzq_bhcgMI\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"g6BM7nWMDo\",\"type\":\"custom_block\",\"data\":{\"custom_block_name\":\"Matters\",\"col\":12}},{\"id\":\"qgVamz_PjT\",\"type\":\"card\",\"data\":{\"card_name\":\"Matters Data\",\"col\":4}},{\"id\":\"S7xsGkgTa7\",\"type\":\"card\",\"data\":{\"card_name\":\"Contracts\",\"col\":4}}]",
+ "creation": "2024-04-03 11:14:29.586971",
+ "custom_blocks": [
+  {
+   "custom_block_name": "Matters",
+   "label": "Matters"
+  }
+ ],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "quantity-1",
+ "idx": 0,
+ "is_hidden": 0,
+ "label": "Legal Affairs",
+ "links": [
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Matters Data",
+   "link_count": 5,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Matter list",
+   "link_count": 0,
+   "link_to": "Matter",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Matter Type",
+   "link_count": 0,
+   "link_to": "Matter Type",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Courts",
+   "link_count": 0,
+   "link_to": "Courts",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Legal Entities",
+   "link_count": 0,
+   "link_to": "Legal Entities",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Matter Session",
+   "link_count": 0,
+   "link_to": "Matter Session",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Contracts",
+   "link_count": 1,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Contracts",
+   "link_count": 0,
+   "link_to": "Contract",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  }
+ ],
+ "modified": "2024-06-05 12:57:46.394737",
+ "modified_by": "Administrator",
+ "module": "Barcode Aec",
+ "name": "Legal Affairs",
+ "number_cards": [],
+ "owner": "ahmed.radwan@datasofteg.com",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [],
+ "sequence_id": 39.0,
+ "shortcuts": [],
+ "title": "Legal Affairs"
+}
