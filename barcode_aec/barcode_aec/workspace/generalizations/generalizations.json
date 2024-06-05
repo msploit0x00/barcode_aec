@@ -1,0 +1,128 @@
+{
+ "charts": [],
+ "content": "[{\"id\":\"gqfKCYXUjP\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"\u0642\u0627\u0626\u0645\u0629 \u0627\u0644\u0623\u0639\u0636\u0627\u0621\",\"col\":4}},{\"id\":\"PUoCJDngy4\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"\u0642\u0627\u0626\u0645\u0629 \u0627\u0644\u0623\u0639\u0636\u0627\u0621 \u0627\u0644\u0645\u0648\u0642\u0648\u0641\u064a\u0646\",\"col\":4}},{\"id\":\"2T0TJLaq5i\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"\u0642\u0627\u0626\u0645\u0629 \u0637\u0644\u0628\u0627\u062a \u0627\u0644\u0639\u0636\u0648\u064a\u0629\",\"col\":4}},{\"id\":\"K6lIe4YKXj\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"bPQsNoZeFn\",\"type\":\"card\",\"data\":{\"card_name\":\"Committees Generalizations\",\"col\":4}},{\"id\":\"4edI9zCEs-\",\"type\":\"card\",\"data\":{\"card_name\":\"Authorities Generalizations\",\"col\":4}},{\"id\":\"ev3BYomG3G\",\"type\":\"spacer\",\"data\":{\"col\":12}}]",
+ "creation": "2024-01-13 22:15:09.244589",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 1,
+ "icon": "arrow-up-right",
+ "idx": 0,
+ "is_hidden": 0,
+ "label": "Generalizations",
+ "links": [
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "\u0642\u0627\u0626\u0645\u0629  \u0627\u0644\u0644\u062c\u0627\u0646",
+   "link_count": 0,
+   "link_to": "Committee",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Authorities Generalizations",
+   "link_count": 1,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Authorities Generalizations",
+   "link_count": 0,
+   "link_to": "Authorities Generalizations",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Committees Generalizations",
+   "link_count": 5,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": " Generalizations",
+   "link_count": 0,
+   "link_to": "Generalization",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Generalizations Types",
+   "link_count": 0,
+   "link_to": "Generalization Type",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Generalization Setting",
+   "link_count": 0,
+   "link_to": "Customer Newsletter",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Generalization Log",
+   "link_count": 0,
+   "link_to": "Generaliztion Log",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Email Sender Type",
+   "link_count": 0,
+   "link_to": "Member Type",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  }
+ ],
+ "modified": "2024-06-05 12:54:48.878081",
+ "modified_by": "Administrator",
+ "module": "Barcode Aec",
+ "name": "Generalizations",
+ "number_cards": [
+  {
+   "label": "\u0642\u0627\u0626\u0645\u0629 \u0627\u0644\u0623\u0639\u0636\u0627\u0621 \u0627\u0644\u0645\u0648\u0642\u0648\u0641\u064a\u0646",
+   "number_card_name": "Active Customers-1"
+  },
+  {
+   "label": "\u0642\u0627\u0626\u0645\u0629 \u0627\u0644\u0623\u0639\u0636\u0627\u0621",
+   "number_card_name": "Active Customers"
+  },
+  {
+   "label": "\u0642\u0627\u0626\u0645\u0629 \u0637\u0644\u0628\u0627\u062a \u0627\u0644\u0639\u0636\u0648\u064a\u0629",
+   "number_card_name": "Requested Customers"
+  }
+ ],
+ "owner": "mohamedmomtaz3221@gmail.cm",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [],
+ "sequence_id": 5.0,
+ "shortcuts": [],
+ "title": "Generalizations"
+}
