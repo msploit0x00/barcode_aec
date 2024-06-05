@@ -1,0 +1,226 @@
+{
+ "charts": [],
+ "content": "[{\"id\":\"2T0TJLaq5i\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Total Committees\",\"col\":4}},{\"id\":\"gqfKCYXUjP\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Active Committees\",\"col\":4}},{\"id\":\"PUoCJDngy4\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Inactive Committees\",\"col\":4}},{\"id\":\"K6lIe4YKXj\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"MsdYTGmV44\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Annual Meetings Calendar (Monthly)\",\"col\":4}},{\"id\":\"O7nPnXuuqU\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Annual Meetings Calendar (Yearly)\",\"col\":4}},{\"id\":\"p9DOjiImSi\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Committees  Meetings Calendar\",\"col\":4}},{\"id\":\"WNDIQXwxkb\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"FLvolZYzpZ\",\"type\":\"quick_list\",\"data\":{\"quick_list_name\":\"Committees Annual Meetings\",\"col\":6}},{\"id\":\"WKfEHS3TQF\",\"type\":\"quick_list\",\"data\":{\"quick_list_name\":\"Upcoming Committees Meetings\",\"col\":6}},{\"id\":\"q5NIKWxWLS\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"jtEr1eQIQ4\",\"type\":\"card\",\"data\":{\"card_name\":\"Committees & Annual Plan\",\"col\":4}},{\"id\":\"5q_zV_qbbQ\",\"type\":\"card\",\"data\":{\"card_name\":\"Committees Meetings\",\"col\":4}},{\"id\":\"bPQsNoZeFn\",\"type\":\"card\",\"data\":{\"card_name\":\"Committees Generalizations\",\"col\":4}},{\"id\":\"audRVcIN5U\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"iGyAzLWc3X\",\"type\":\"spacer\",\"data\":{\"col\":4}},{\"id\":\"RXjQgWAhAh\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Committees &amp; Meetings Reports</b></span>\",\"col\":7}},{\"id\":\"97k1APWGfa\",\"type\":\"custom_block\",\"data\":{\"custom_block_name\":\"committees reports\",\"col\":12}},{\"id\":\"CAeXvwkY-1\",\"type\":\"spacer\",\"data\":{\"col\":12}}]",
+ "creation": "2024-01-07 14:14:49.297384",
+ "custom_blocks": [
+  {
+   "custom_block_name": "committees reports",
+   "label": "committees reports"
+  }
+ ],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 1,
+ "icon": "folder-open",
+ "idx": 0,
+ "is_hidden": 0,
+ "label": "Committees",
+ "links": [
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "\u0642\u0627\u0626\u0645\u0629  \u0627\u0644\u0644\u062c\u0627\u0646",
+   "link_count": 0,
+   "link_to": "Committee",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Committees Meetings",
+   "link_count": 3,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Meetings",
+   "link_count": 0,
+   "link_to": "Meeting",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Meetings Locations",
+   "link_count": 0,
+   "link_to": "Location",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Meeting Minutes  ",
+   "link_count": 0,
+   "link_to": "Minutes Of Meeting",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Committees Generalizations",
+   "link_count": 4,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": " Generalizations",
+   "link_count": 0,
+   "link_to": "Generalization",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Committee Generalization",
+   "link_count": 0,
+   "link_to": "Committee Generalization",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Authorities Generalization",
+   "link_count": 0,
+   "link_to": "Authorities Generalization 2",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Customer Newsletter",
+   "link_count": 0,
+   "link_to": "Customer Newsletter",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Committees & Annual Plan",
+   "link_count": 4,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Committees  List",
+   "link_count": 0,
+   "link_to": "Committee",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Committees Annual Meetings Plan",
+   "link_count": 0,
+   "link_to": "Annual Meeting Plan",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": " Annual Meetings Reminders",
+   "link_count": 0,
+   "link_to": "Committee Annual Meeting",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 1,
+   "label": "Annual Meeting Plan Status Report",
+   "link_count": 0,
+   "link_to": "Annual Meeting Plan Status Report",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
+  }
+ ],
+ "modified": "2024-06-05 12:52:45.463273",
+ "modified_by": "Administrator",
+ "module": "Barcode Aec",
+ "name": "Committees",
+ "number_cards": [
+  {
+   "label": "Active Committees",
+   "number_card_name": "Requested Customers-1"
+  },
+  {
+   "label": "Inactive Committees",
+   "number_card_name": "Inactive Committes"
+  },
+  {
+   "label": "Total Committees",
+   "number_card_name": "Total Committes"
+  }
+ ],
+ "owner": "mohamedmomtaz3221@gmail.cm",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [
+  {
+   "document_type": "Meeting",
+   "label": "Upcoming Committees Meetings"
+  },
+  {
+   "document_type": "Committee Annual Meeting",
+   "label": "Committees Annual Meetings"
+  }
+ ],
+ "roles": [
+  {
+   "role": "All"
+  }
+ ],
+ "sequence_id": 2.0,
+ "shortcuts": [
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Annual Meetings Calendar (Monthly)",
+   "type": "URL",
+   "url": "http://85.195.99.171/app/committee-annual-meeting/view/calendar/Annual%20Meeting%20Plan%20View"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Annual Meetings Calendar (Yearly)",
+   "type": "URL",
+   "url": "http://85.195.99.171/app/committee-annual-meeting/view/kanban/Annual%20Meeting%20Yearly%20View"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Committees  Meetings Calendar",
+   "type": "URL",
+   "url": "http://85.195.99.171/app/meeting/view/calendar/Meeting"
+  }
+ ],
+ "title": "Committees"
+}

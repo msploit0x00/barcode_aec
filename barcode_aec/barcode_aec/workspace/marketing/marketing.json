@@ -1,0 +1,236 @@
+{
+ "charts": [],
+ "content": "[{\"id\":\"gqfKCYXUjP\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"\u0642\u0627\u0626\u0645\u0629 \u0627\u0644\u0623\u0639\u0636\u0627\u0621\",\"col\":4}},{\"id\":\"PUoCJDngy4\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"\u0642\u0627\u0626\u0645\u0629 \u0627\u0644\u0623\u0639\u0636\u0627\u0621 \u0627\u0644\u0645\u0648\u0642\u0648\u0641\u064a\u0646\",\"col\":4}},{\"id\":\"2T0TJLaq5i\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"\u0642\u0627\u0626\u0645\u0629 \u0637\u0644\u0628\u0627\u062a \u0627\u0644\u0639\u0636\u0648\u064a\u0629\",\"col\":4}},{\"id\":\"K6lIe4YKXj\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"PHrgExYhP0\",\"type\":\"card\",\"data\":{\"card_name\":\"Egyptian Products\",\"col\":4}},{\"id\":\"RyDGW3S91c\",\"type\":\"card\",\"data\":{\"card_name\":\"Members Export Volume\",\"col\":4}},{\"id\":\"cpY9eiX53o\",\"type\":\"card\",\"data\":{\"card_name\":\"Market Access\",\"col\":4}}]",
+ "creation": "2024-01-13 15:31:15.820649",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 1,
+ "icon": "chart",
+ "idx": 0,
+ "is_hidden": 0,
+ "label": "Marketing",
+ "links": [
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "\u0642\u0627\u0626\u0645\u0629  \u0627\u0644\u0644\u062c\u0627\u0646",
+   "link_count": 0,
+   "link_to": "Committee",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Members Export Volume",
+   "link_count": 5,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Export Seasons ",
+   "link_count": 0,
+   "link_to": "Export Season",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Months",
+   "link_count": 0,
+   "link_to": "Month",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Update Members Export Volume ",
+   "link_count": 0,
+   "link_to": "Data AEC Export",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Members Export Volume",
+   "link_count": 0,
+   "link_to": "Volume Of Member Exports",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Volume Importing Log",
+   "link_count": 0,
+   "link_to": "Volume Log",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Egyptian Products",
+   "link_count": 7,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Egyptian Products List",
+   "link_count": 0,
+   "link_to": "Product",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Products Categories",
+   "link_count": 0,
+   "link_to": "Products Categories",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Products Families ",
+   "link_count": 0,
+   "link_to": "HS CODE FAMILES",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Countries ",
+   "link_count": 0,
+   "link_to": "Countries",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Geographical Clusters List",
+   "link_count": 0,
+   "link_to": "Geographical Clusters List",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Products Common Names",
+   "link_count": 0,
+   "link_to": "Product Common Name",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 1,
+   "label": "Product Exports Volume ",
+   "link_count": 0,
+   "link_to": "Export Volume",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Market Access",
+   "link_count": 4,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Market",
+   "link_count": 0,
+   "link_to": "Market",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Market Follow Up",
+   "link_count": 0,
+   "link_to": "Market Follow Up",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Market Product",
+   "link_count": 0,
+   "link_to": "Market Product",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Technical Delegations",
+   "link_count": 0,
+   "link_to": "Technical Delegations",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  }
+ ],
+ "modified": "2024-06-05 12:52:11.938012",
+ "modified_by": "Administrator",
+ "module": "Barcode Aec",
+ "name": "Marketing",
+ "number_cards": [
+  {
+   "label": "\u0642\u0627\u0626\u0645\u0629 \u0637\u0644\u0628\u0627\u062a \u0627\u0644\u0639\u0636\u0648\u064a\u0629",
+   "number_card_name": "Requested Customers"
+  },
+  {
+   "label": "\u0642\u0627\u0626\u0645\u0629 \u0627\u0644\u0623\u0639\u0636\u0627\u0621 \u0627\u0644\u0645\u0648\u0642\u0648\u0641\u064a\u0646",
+   "number_card_name": "Active Customers-1"
+  },
+  {
+   "label": "\u0642\u0627\u0626\u0645\u0629 \u0627\u0644\u0623\u0639\u0636\u0627\u0621",
+   "number_card_name": "Active Customers"
+  }
+ ],
+ "owner": "mohamedmomtaz3221@gmail.cm",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [],
+ "sequence_id": 6.0,
+ "shortcuts": [],
+ "title": "Marketing"
+}

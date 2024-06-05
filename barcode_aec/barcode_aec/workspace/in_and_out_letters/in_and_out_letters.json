@@ -1,0 +1,177 @@
+{
+ "charts": [
+  {
+   "chart_name": "Issue Analysis",
+   "label": "\u0627\u062d\u0635\u0627\u0626\u064a\u0627\u062a \u0627\u0644\u062e\u0637\u0627\u0628\u0627\u062a"
+  },
+  {
+   "chart_name": "Issue Analysis types",
+   "label": "\u0627\u062d\u0635\u0627\u0626\u064a\u0627\u062a \u0627\u0644\u062e\u0637\u0627\u0628\u0627\u062a \u0637\u0628\u0642\u0627 \u0644\u0644\u0627\u0646\u0648\u0627\u0639"
+  }
+ ],
+ "content": "[{\"id\":\"JGYW5K6z1z\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h2\\\">\u062e\u0637\u0627\u0628\u0627\u062a \u0627\u0644\u0648\u0627\u0631\u062f \u0648\u0627\u0644\u0635\u0627\u062f\u0631</span>\",\"col\":12}},{\"id\":\"dX6oAwi6_n\",\"type\":\"chart\",\"data\":{\"chart_name\":\"\u0627\u062d\u0635\u0627\u0626\u064a\u0627\u062a \u0627\u0644\u062e\u0637\u0627\u0628\u0627\u062a\",\"col\":6}},{\"id\":\"2auFCco2Um\",\"type\":\"chart\",\"data\":{\"chart_name\":\"\u0627\u062d\u0635\u0627\u0626\u064a\u0627\u062a \u0627\u0644\u062e\u0637\u0627\u0628\u0627\u062a \u0637\u0628\u0642\u0627 \u0644\u0644\u0627\u0646\u0648\u0627\u0639\",\"col\":6}},{\"id\":\"mA5x97vacg\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"7LjOqu3sTe\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"\u0627\u062c\u0645\u0627\u0644\u064a \u0627\u0644\u0635\u0627\u062f\u0631\",\"col\":4}},{\"id\":\"3Q-TjwWgYH\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"\u0627\u062c\u0645\u0627\u0644\u064a \u0627\u0644\u062e\u0637\u0627\u0628\u0627\u062a\",\"col\":4}},{\"id\":\"ohvSfaWR75\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"\u0627\u062c\u0645\u0627\u0644\u064a \u0627\u0644\u0648\u0627\u0631\u062f\",\"col\":4}},{\"id\":\"mhhPd7WRij\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"lIp5lMhVAh\",\"type\":\"custom_block\",\"data\":{\"custom_block_name\":\"Incoming and outgoing letters type\",\"col\":12}},{\"id\":\"YshJyqVlNe\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"Ah2sooQhHL\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"\u0642\u0648\u0627\u0626\u0645 \u0627\u0644\u062e\u0637\u0627\u0628\u0627\u062a \u0627\u0644\u0635\u0627\u062f\u0631 \u0627\u0644\u0639\u0627\u0645\",\"col\":5}},{\"id\":\"7JB5jKULc7\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"\u0642\u0648\u0627\u0626\u0645 \u0627\u0644\u062e\u0637\u0627\u0628\u0627\u062a \u0627\u0644\u0648\u0627\u0631\u062f \u0627\u0644\u0639\u0627\u0645\",\"col\":4}},{\"id\":\"aLLnvmOmhf\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"_xsxg8fgLW\",\"type\":\"card\",\"data\":{\"card_name\":\"Master Data\",\"col\":4}},{\"id\":\"rNcFVb64kC\",\"type\":\"card\",\"data\":{\"card_name\":\"Reports\",\"col\":4}},{\"id\":\"RX2BWB9P8r\",\"type\":\"card\",\"data\":{\"card_name\":\"Assignments\",\"col\":4}}]",
+ "creation": "2024-02-19 17:07:19.547045",
+ "custom_blocks": [
+  {
+   "custom_block_name": "Incoming and outgoing letters type",
+   "label": "Incoming and outgoing letters type"
+  }
+ ],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "sort",
+ "idx": 0,
+ "is_hidden": 0,
+ "label": "In And out letters",
+ "links": [
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Reports",
+   "link_count": 1,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "\u0645\u062a\u0627\u0628\u0639\u0629 \u0627\u0644\u0648\u0627\u0631\u062f \u0648 \u0627\u0644\u0635\u0627\u062f\u0631",
+   "link_count": 0,
+   "link_to": "\u0645\u062a\u0627\u0628\u0639\u0629 \u0627\u0644\u0648\u0627\u0631\u062f \u0648 \u0627\u0644\u0635\u0627\u062f\u0631",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Assignments",
+   "link_count": 2,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Task",
+   "link_count": 0,
+   "link_to": "Task",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": " Issue Assignment",
+   "link_count": 0,
+   "link_to": "Issue Assignment",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Master Data",
+   "link_count": 5,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "\u0627\u0644\u0635\u0627\u062f\u0631 \u0648\u0627\u0644\u0648\u0627\u0631\u062f",
+   "link_count": 0,
+   "link_to": "Issue",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "\u0645\u0648\u0636\u0648\u0639\u0627\u062a \u0627\u0644\u062e\u0637\u0627\u0628\u0627\u062a",
+   "link_count": 0,
+   "link_to": "Issue Type",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "\u0627\u0644\u0627\u0648\u0644\u0648\u064a\u0627\u062a",
+   "link_count": 0,
+   "link_to": "Issue Priority",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "\u062a\u0648\u062c\u064a\u0647\u0627\u062a \u0627\u0644\u062e\u0637\u0627\u0628\u0627\u062a",
+   "link_count": 0,
+   "link_to": "Issue Assignment",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "\u0627\u0644\u0645\u0647\u0627\u0645",
+   "link_count": 0,
+   "link_to": "Task",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  }
+ ],
+ "modified": "2024-06-05 12:02:38.186217",
+ "modified_by": "Administrator",
+ "module": "Barcode Aec",
+ "name": "In And out letters",
+ "number_cards": [
+  {
+   "label": "\u0627\u062c\u0645\u0627\u0644\u064a \u0627\u0644\u0635\u0627\u062f\u0631",
+   "number_card_name": "\u0627\u062c\u0645\u0627\u0644\u064a \u0627\u0644\u0635\u0627\u062f\u0631"
+  },
+  {
+   "label": "\u0627\u062c\u0645\u0627\u0644\u064a \u0627\u0644\u062e\u0637\u0627\u0628\u0627\u062a",
+   "number_card_name": "\u0627\u062c\u0645\u0627\u0644\u064a \u0627\u0644\u062e\u0637\u0627\u0628\u0627\u062a"
+  },
+  {
+   "label": "\u0627\u062c\u0645\u0627\u0644\u064a \u0627\u0644\u0648\u0627\u0631\u062f",
+   "number_card_name": "\u0627\u062c\u0645\u0627\u0644\u064a \u0627\u0644\u0648\u0627\u0631\u062f"
+  }
+ ],
+ "owner": "ahmed.radwan@datasofteg.com",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [],
+ "sequence_id": 4.0,
+ "shortcuts": [
+  {
+   "color": "Yellow",
+   "doc_view": "List",
+   "label": "\u0642\u0648\u0627\u0626\u0645 \u0627\u0644\u062e\u0637\u0627\u0628\u0627\u062a \u0627\u0644\u0635\u0627\u062f\u0631 \u0627\u0644\u0639\u0627\u0645",
+   "link_to": "Issue",
+   "stats_filter": "{\"custom_destination\":[\"=\",\"Issued\"],\"custom_incoming_type\":[\"=\",\"external\"]}",
+   "type": "DocType"
+  },
+  {
+   "color": "Orange",
+   "doc_view": "List",
+   "label": "\u0642\u0648\u0627\u0626\u0645 \u0627\u0644\u062e\u0637\u0627\u0628\u0627\u062a \u0627\u0644\u0648\u0627\u0631\u062f \u0627\u0644\u0639\u0627\u0645",
+   "link_to": "Issue",
+   "stats_filter": "{\"custom_destination\":[\"=\",\"Incoming\"],\"custom_incoming_type\":[\"=\",\"external\"]}",
+   "type": "DocType"
+  }
+ ],
+ "title": "In And out letters"
+}
