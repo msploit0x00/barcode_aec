@@ -5,7 +5,7 @@
    "label": "Treasury Bills Sessions"
   }
  ],
- "content": "[{\"id\":\"D3RZAlyGBs\",\"type\":\"paragraph\",\"data\":{\"text\":\"Budget And Treasury bills\",\"col\":12}},{\"id\":\"BLOi5_JNJt\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Active Budget\",\"col\":4}},{\"id\":\"jFI1UJSpv8\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Cancelled Budget\",\"col\":4}},{\"id\":\"G7fUZWwybv\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Budget Requests\",\"col\":4}},{\"id\":\"EVpwSC6UXU\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Treasury Bills Sessions\",\"col\":12}},{\"id\":\"k8ItoFyOnh\",\"type\":\"card\",\"data\":{\"card_name\":\"Budget\",\"col\":4}},{\"id\":\"Og1-31CSU7\",\"type\":\"card\",\"data\":{\"card_name\":\"Treasury Bills\",\"col\":4}},{\"id\":\"phO4gfxB97\",\"type\":\"custom_block\",\"data\":{\"custom_block_name\":\"Budget reports\",\"col\":12}}]",
+ "content": "[{\"id\":\"D3RZAlyGBs\",\"type\":\"paragraph\",\"data\":{\"text\":\"Budget And Treasury bills\",\"col\":12}},{\"id\":\"BLOi5_JNJt\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Active Budget\",\"col\":4}},{\"id\":\"jFI1UJSpv8\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Cancelled Budget\",\"col\":4}},{\"id\":\"G7fUZWwybv\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Budget Requests\",\"col\":4}},{\"id\":\"EVpwSC6UXU\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Treasury Bills Sessions\",\"col\":12}},{\"id\":\"k8ItoFyOnh\",\"type\":\"card\",\"data\":{\"card_name\":\"Budget\",\"col\":4}},{\"id\":\"Og1-31CSU7\",\"type\":\"card\",\"data\":{\"card_name\":\"Treasury Bills\",\"col\":4}},{\"id\":\"V9Z5ZGcKU2\",\"type\":\"spacer\",\"data\":{\"col\":5}},{\"id\":\"Nle_y-sMlB\",\"type\":\"paragraph\",\"data\":{\"text\":\"<span class=\\\"h3\\\"><b>Budget Reports</b></span>\",\"col\":7}},{\"id\":\"phO4gfxB97\",\"type\":\"custom_block\",\"data\":{\"custom_block_name\":\"Budget reports\",\"col\":12}},{\"id\":\"iHYF3Rkx1_\",\"type\":\"spacer\",\"data\":{\"col\":12}}]",
  "creation": "2024-04-30 12:28:47.708082",
  "custom_blocks": [
   {
@@ -16,7 +16,7 @@
  "docstatus": 0,
  "doctype": "Workspace",
  "for_user": "",
- "hide_custom": 0,
+ "hide_custom": 1,
  "icon": "income",
  "idx": 0,
  "is_hidden": 0,
@@ -89,8 +89,8 @@
    "type": "Link"
   }
  ],
- "modified": "2024-06-05 12:01:23.243210",
- "modified_by": "Administrator",
+ "modified": "2024-06-09 16:14:38.540074",
+ "modified_by": "ahmed.radwan@datasofteg.com",
  "module": "Barcode Aec",
  "name": "Budget And Treasury bills",
  "number_cards": [

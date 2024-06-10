@@ -25,17 +25,17 @@
   {
    "hidden": 0,
    "is_query_report": 0,
-   "label": "Members Export Volume",
-   "link_count": 5,
+   "label": "Market Access",
+   "link_count": 4,
    "onboard": 0,
    "type": "Card Break"
   },
   {
    "hidden": 0,
    "is_query_report": 0,
-   "label": "Export Seasons ",
+   "label": "Market",
    "link_count": 0,
-   "link_to": "Export Season",
+   "link_to": "Market",
    "link_type": "DocType",
    "onboard": 0,
    "type": "Link"
@@ -43,9 +43,9 @@
   {
    "hidden": 0,
    "is_query_report": 0,
-   "label": "Months",
+   "label": "Market Follow Up",
    "link_count": 0,
-   "link_to": "Month",
+   "link_to": "Market Follow Up",
    "link_type": "DocType",
    "onboard": 0,
    "type": "Link"
@@ -53,9 +53,9 @@
   {
    "hidden": 0,
    "is_query_report": 0,
-   "label": "Update Members Export Volume ",
+   "label": "Market Product",
    "link_count": 0,
-   "link_to": "Data AEC Export",
+   "link_to": "Market Product",
    "link_type": "DocType",
    "onboard": 0,
    "type": "Link"
@@ -63,19 +63,9 @@
   {
    "hidden": 0,
    "is_query_report": 0,
-   "label": "Members Export Volume",
+   "label": "Technical Delegations",
    "link_count": 0,
-   "link_to": "Volume Of Member Exports",
-   "link_type": "DocType",
-   "onboard": 0,
-   "type": "Link"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "Volume Importing Log",
-   "link_count": 0,
-   "link_to": "Volume Log",
+   "link_to": "Technical Delegations",
    "link_type": "DocType",
    "onboard": 0,
    "type": "Link"
@@ -84,7 +74,7 @@
    "hidden": 0,
    "is_query_report": 0,
    "label": "Egyptian Products",
-   "link_count": 7,
+   "link_count": 8,
    "onboard": 0,
    "type": "Card Break"
   },
@@ -141,6 +131,16 @@
   {
    "hidden": 0,
    "is_query_report": 0,
+   "label": "Port of Shipment",
+   "link_count": 0,
+   "link_to": "Port of Shipment",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
    "label": "Products Common Names",
    "link_count": 0,
    "link_to": "Product Common Name",
@@ -161,17 +161,17 @@
   {
    "hidden": 0,
    "is_query_report": 0,
-   "label": "Market Access",
-   "link_count": 4,
+   "label": "Members Export Volume",
+   "link_count": 5,
    "onboard": 0,
    "type": "Card Break"
   },
   {
    "hidden": 0,
    "is_query_report": 0,
-   "label": "Market",
+   "label": "Export Seasons ",
    "link_count": 0,
-   "link_to": "Market",
+   "link_to": "Export Season",
    "link_type": "DocType",
    "onboard": 0,
    "type": "Link"
@@ -179,9 +179,9 @@
   {
    "hidden": 0,
    "is_query_report": 0,
-   "label": "Market Follow Up",
+   "label": "Months",
    "link_count": 0,
-   "link_to": "Market Follow Up",
+   "link_to": "Month",
    "link_type": "DocType",
    "onboard": 0,
    "type": "Link"
@@ -189,9 +189,9 @@
   {
    "hidden": 0,
    "is_query_report": 0,
-   "label": "Market Product",
+   "label": "Update Members Export Volume ",
    "link_count": 0,
-   "link_to": "Market Product",
+   "link_to": "Data AEC Export",
    "link_type": "DocType",
    "onboard": 0,
    "type": "Link"
@@ -199,16 +199,26 @@
   {
    "hidden": 0,
    "is_query_report": 0,
-   "label": "Technical Delegations",
+   "label": "Members Export Volume",
    "link_count": 0,
-   "link_to": "Technical Delegations",
+   "link_to": "Volume Of Member Exports",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Member Export Volume Update",
+   "link_count": 0,
+   "link_to": "Member Export Volume Update",
    "link_type": "DocType",
    "onboard": 0,
    "type": "Link"
   }
  ],
- "modified": "2024-06-05 12:52:11.938012",
- "modified_by": "Administrator",
+ "modified": "2024-06-08 13:19:30.111375",
+ "modified_by": "ahmed.radwan@datasofteg.com",
  "module": "Barcode Aec",
  "name": "Marketing",
  "number_cards": [

@@ -153,7 +153,7 @@
   },
   {
    "hidden": 0,
-   "is_query_report": 1,
+   "is_query_report": 0,
    "label": "Annual Meeting Plan Status Report",
    "link_count": 0,
    "link_to": "Annual Meeting Plan Status Report",
@@ -162,8 +162,8 @@
    "type": "Link"
   }
  ],
- "modified": "2024-06-05 12:52:45.463273",
- "modified_by": "Administrator",
+ "modified": "2024-06-09 10:09:17.545507",
+ "modified_by": "ahmed.radwan@datasofteg.com",
  "module": "Barcode Aec",
  "name": "Committees",
  "number_cards": [
