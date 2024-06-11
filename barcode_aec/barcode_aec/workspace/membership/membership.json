@@ -1,8 +1,13 @@
 {
  "charts": [],
- "content": "[{\"id\":\"-A3sjwhKHe\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Total Members\",\"col\":3}},{\"id\":\"gqfKCYXUjP\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Total Active Members\",\"col\":3}},{\"id\":\"PUoCJDngy4\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Total Inactive Members\",\"col\":3}},{\"id\":\"2T0TJLaq5i\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Total Requested Members\",\"col\":3}},{\"id\":\"K6lIe4YKXj\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"vrg58E6sew\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Membership Request\",\"col\":4}},{\"id\":\"3B0d2gELPE\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Membership Pricing\",\"col\":4}},{\"id\":\"sAghjR1Ex-\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Membership Services Pricing\",\"col\":4}},{\"id\":\"m_WH-KRYTp\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"-Crwd_lOCm\",\"type\":\"card\",\"data\":{\"card_name\":\"Members\",\"col\":4}},{\"id\":\"eBKFtpPFrV\",\"type\":\"card\",\"data\":{\"card_name\":\"Membership Pricing\",\"col\":4}},{\"id\":\"ZtqWHZfSEz\",\"type\":\"card\",\"data\":{\"card_name\":\"Member Services\",\"col\":4}},{\"id\":\"WuSQI79pID\",\"type\":\"card\",\"data\":{\"card_name\":\"\u062a\u0642\u0627\u0631\u064a\u0631 \u0627\u0644\u0623\u0639\u0636\u0627\u0621\",\"col\":4}},{\"id\":\"491eM_Z-bT\",\"type\":\"card\",\"data\":{\"card_name\":\"Membership Basic Data\",\"col\":4}},{\"id\":\"j78WN6s5eR\",\"type\":\"card\",\"data\":{\"card_name\":\"Member Services Reports\",\"col\":4}},{\"id\":\"ev3BYomG3G\",\"type\":\"spacer\",\"data\":{\"col\":12}}]",
+ "content": "[{\"id\":\"-A3sjwhKHe\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Total Members\",\"col\":3}},{\"id\":\"gqfKCYXUjP\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Total Active Members\",\"col\":3}},{\"id\":\"PUoCJDngy4\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Total Inactive Members\",\"col\":3}},{\"id\":\"2T0TJLaq5i\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Total Requested Members\",\"col\":3}},{\"id\":\"K6lIe4YKXj\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"vrg58E6sew\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Membership Request\",\"col\":4}},{\"id\":\"3B0d2gELPE\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Membership Pricing\",\"col\":4}},{\"id\":\"sAghjR1Ex-\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Membership Services Pricing\",\"col\":4}},{\"id\":\"m_WH-KRYTp\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"-Crwd_lOCm\",\"type\":\"card\",\"data\":{\"card_name\":\"Members\",\"col\":4}},{\"id\":\"eBKFtpPFrV\",\"type\":\"card\",\"data\":{\"card_name\":\"Membership Pricing\",\"col\":4}},{\"id\":\"ZtqWHZfSEz\",\"type\":\"card\",\"data\":{\"card_name\":\"Member Services\",\"col\":4}},{\"id\":\"WuSQI79pID\",\"type\":\"card\",\"data\":{\"card_name\":\"\u062a\u0642\u0627\u0631\u064a\u0631 \u0627\u0644\u0623\u0639\u0636\u0627\u0621\",\"col\":4}},{\"id\":\"491eM_Z-bT\",\"type\":\"card\",\"data\":{\"card_name\":\"Membership Basic Data\",\"col\":4}},{\"id\":\"j78WN6s5eR\",\"type\":\"card\",\"data\":{\"card_name\":\"Member Services Reports\",\"col\":4}},{\"id\":\"ev3BYomG3G\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"k52Ve-gR0q\",\"type\":\"spacer\",\"data\":{\"col\":4}},{\"id\":\"plrFFmT1R-\",\"type\":\"paragraph\",\"data\":{\"text\":\"<span class=\\\"h3\\\"><b>Membership Reports</b></span>\",\"col\":7}},{\"id\":\"8inIqhKgzg\",\"type\":\"custom_block\",\"data\":{\"custom_block_name\":\"Membership reports\",\"col\":12}}]",
  "creation": "2023-12-20 21:00:46.609579",
- "custom_blocks": [],
+ "custom_blocks": [
+  {
+   "custom_block_name": "Membership reports",
+   "label": "Membership reports"
+  }
+ ],
  "docstatus": 0,
  "doctype": "Workspace",
  "for_user": "",
@@ -291,7 +296,7 @@
    "type": "Link"
   }
  ],
- "modified": "2024-06-05 12:02:52.967170",
+ "modified": "2024-06-11 17:51:54.115714",
  "modified_by": "Administrator",
  "module": "Barcode Aec",
  "name": "Membership",

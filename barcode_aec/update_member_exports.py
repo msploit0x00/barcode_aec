@@ -65,7 +65,7 @@ def process_data(retries=3, delay=0.5):
                 tot_last_year = volume_of_member_exports_last_year(tax_ids)
                 if len(tot_last_year) > 0:
                     doc.append("volume_of_member_exports_for_three_years" , {
-                        'season': tot_last_year[0]['season'],
+                        'season1': tot_last_year[0]['season'],
                         'value': tot_last_year[0]['total'],
                         'season_name' :tot_last_year[0]['season_name'],
                         'total_amount_in_usd':tot_last_year[0]['total_amount_in_usd'],
@@ -76,7 +76,7 @@ def process_data(retries=3, delay=0.5):
                 tot_two_year = volume_of_member_exports_two_years(tax_ids)
                 if len(tot_two_year) > 0:
                     doc.append("volume_of_member_exports_for_three_years" , {
-                        'season': tot_two_year[0]['season'],
+                        'season1': tot_two_year[0]['season'],
                         'value': tot_two_year[0]['total'],
                         'season_name' :tot_two_year[0]['season_name'],
                         'total_amount_in_usd':tot_two_year[0]['total_amount_in_usd'],
@@ -87,7 +87,7 @@ def process_data(retries=3, delay=0.5):
                 tot_last_three_year = volume_of_member_exports_three_years(tax_ids)
                 if len(tot_last_three_year) > 0:
                     doc.append("volume_of_member_exports_for_three_years" , {
-                        'season': tot_last_three_year[0]['season'],
+                        'season1': tot_last_three_year[0]['season'],
                         'value': tot_last_three_year[0]['total'],
                         'season_name' :tot_last_three_year[0]['season_name'],
                         'total_amount_in_usd':tot_last_three_year[0]['total_amount_in_usd'],
@@ -104,7 +104,7 @@ def process_data(retries=3, delay=0.5):
                     if len(last_year_exported) > 0:
                         print("i don't have last three years")
                         doc.append("volume_of_member_exports_for_three_years" , {
-                        'season': last_year_exported[0]['season'],
+                        'season1': last_year_exported[0]['season'],
                         'value': last_year_exported[0]['total'],
                         'season_name' :last_year_exported[0]['season_name'],
                         'total_amount_in_usd':last_year_exported[0]['total_amount_in_usd'],
