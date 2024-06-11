@@ -1,6 +1,6 @@
 ## Barcode Aec
 
-barcode print
+apps for AEC
 
 #### License
 
