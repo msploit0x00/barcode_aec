@@ -27,17 +27,18 @@
    "label": "Status"
   },
   {
+   "default": "Attended",
    "fieldname": "meeting_status",
    "fieldtype": "Select",
    "in_list_view": 1,
    "label": "Meeting Status",
-   "options": "\nPresent\nAbsent"
+   "options": "\nAttended\nAbsent"
   }
  ],
  "index_web_pages_for_search": 1,
  "istable": 1,
  "links": [],
- "modified": "2024-04-15 11:33:07.766112",
+ "modified": "2024-06-10 13:03:13.009004",
  "modified_by": "Administrator",
  "module": "Barcode Aec",
  "name": "Committee Members Meeting",
