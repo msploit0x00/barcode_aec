@@ -162,7 +162,7 @@
    "type": "Link"
   }
  ],
- "modified": "2024-06-09 10:09:17.545507",
+ "modified": "2024-07-06 20:57:10.579970",
  "modified_by": "ahmed.radwan@datasofteg.com",
  "module": "Barcode Aec",
  "name": "Committees",
@@ -198,7 +198,7 @@
    "role": "All"
   }
  ],
- "sequence_id": 2.0,
+ "sequence_id": 4.0,
  "shortcuts": [
   {
    "color": "Grey",
