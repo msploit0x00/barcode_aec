@@ -1,0 +1,57 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:{question}",
+ "creation": "2024-07-18 15:50:21.962580",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "question",
+  "answer_type"
+ ],
+ "fields": [
+  {
+   "fieldname": "question",
+   "fieldtype": "Data",
+   "in_global_search": 1,
+   "label": "question",
+   "unique": 1
+  },
+  {
+   "fieldname": "answer_type",
+   "fieldtype": "Select",
+   "label": "Answer type",
+   "options": "\nText\nYes or No\nchoose\nrate\nout of 10"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-07-18 15:50:21.962580",
+ "modified_by": "Administrator",
+ "module": "Barcode Aec",
+ "name": "feedback",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "select": 1,
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "search_fields": "question",
+ "show_name_in_global_search": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

@@ -1,0 +1,106 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-05-29 09:45:14.360390",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "issue",
+  "custom_subject",
+  "issue_assignment",
+  "department",
+  "employee",
+  "column_break_ewlaf",
+  "status",
+  "custom_due_date",
+  "section_break_dpfzf",
+  "notes",
+  "remark"
+ ],
+ "fields": [
+  {
+   "fieldname": "issue",
+   "fieldtype": "Link",
+   "label": "Issue",
+   "options": "Issue"
+  },
+  {
+   "fieldname": "custom_subject",
+   "fieldtype": "Data",
+   "label": "Subject"
+  },
+  {
+   "fieldname": "issue_assignment",
+   "fieldtype": "Link",
+   "label": "Issue Assignment",
+   "options": "Issue Assignment"
+  },
+  {
+   "fieldname": "department",
+   "fieldtype": "Link",
+   "label": "Department",
+   "options": "Department"
+  },
+  {
+   "fieldname": "employee",
+   "fieldtype": "Link",
+   "label": "Employee",
+   "options": "Employee"
+  },
+  {
+   "fieldname": "column_break_ewlaf",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "label": "Status",
+   "options": "\nOpen\nIn progress\nDone"
+  },
+  {
+   "fieldname": "custom_due_date",
+   "fieldtype": "Date",
+   "label": "Due Date"
+  },
+  {
+   "fieldname": "section_break_dpfzf",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "notes",
+   "fieldtype": "Small Text",
+   "label": "Task"
+  },
+  {
+   "fieldname": "remark",
+   "fieldtype": "Text",
+   "label": "Remark"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-07-18 16:01:49.075326",
+ "modified_by": "Administrator",
+ "module": "Barcode Aec",
+ "name": "Issue Tasks",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

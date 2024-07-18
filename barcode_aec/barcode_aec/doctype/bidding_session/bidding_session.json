@@ -1,0 +1,250 @@
+{
+ "actions": [
+  {
+   "action": "supplier",
+   "action_type": "Route",
+   "label": "Supplier"
+  }
+ ],
+ "allow_rename": 1,
+ "autoname": "field:bidding_key",
+ "creation": "2024-07-18 15:51:34.666465",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "bidding_key",
+  "date",
+  "supplier",
+  "column_break_nmemw",
+  "deadline_in_days",
+  "section_break_y1pcc",
+  "stages",
+  "announced_prices_section",
+  "announced_prices",
+  "executed_prices_section",
+  "executed_prices",
+  "section_break_gkrqg",
+  "amount_displayed",
+  "purchase_amount",
+  "column_break_klbiv",
+  "amount_required",
+  "benefit",
+  "column_break_xgq0b",
+  "amount_executed",
+  "tax_on_benefit",
+  "release_section",
+  "session_date",
+  "column_break_0hx9c",
+  "session_time",
+  "column_break_mg2xc",
+  "purchasing_price",
+  "amended_from",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "allow_on_submit": 1,
+   "fieldname": "bidding_key",
+   "fieldtype": "Data",
+   "label": "Bidding Key",
+   "read_only": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "supplier",
+   "fieldtype": "Link",
+   "label": "Supplier Bank",
+   "options": "Supplier"
+  },
+  {
+   "fieldname": "column_break_nmemw",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "deadline_in_days",
+   "fieldtype": "Select",
+   "label": "Deadline in days",
+   "options": "\n91  days\n182 days\n273 days\n364 days"
+  },
+  {
+   "fieldname": "section_break_y1pcc",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "stages",
+   "fieldtype": "Select",
+   "label": "Stages",
+   "options": "\nAdvertisement\nPurchase\nRelease\nClosure"
+  },
+  {
+   "fieldname": "announced_prices_section",
+   "fieldtype": "Section Break",
+   "label": "Announced Prices"
+  },
+  {
+   "fieldname": "announced_prices",
+   "fieldtype": "Table",
+   "label": "Announced prices",
+   "options": "Announced prices"
+  },
+  {
+   "fieldname": "executed_prices_section",
+   "fieldtype": "Section Break",
+   "label": "Executed Prices"
+  },
+  {
+   "fieldname": "executed_prices",
+   "fieldtype": "Table",
+   "label": "Executed prices",
+   "options": "Executed prices"
+  },
+  {
+   "fieldname": "section_break_gkrqg",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "amount_displayed",
+   "fieldtype": "Currency",
+   "label": "Amount displayed"
+  },
+  {
+   "fieldname": "purchase_amount",
+   "fieldtype": "Currency",
+   "label": "Purchase amount"
+  },
+  {
+   "fieldname": "column_break_klbiv",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "amount_required",
+   "fieldtype": "Currency",
+   "label": "Amount required"
+  },
+  {
+   "fieldname": "benefit",
+   "fieldtype": "Percent",
+   "label": "Benefit"
+  },
+  {
+   "fieldname": "column_break_xgq0b",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "amount_executed",
+   "fieldtype": "Currency",
+   "label": "Amount executed"
+  },
+  {
+   "fieldname": "tax_on_benefit",
+   "fieldtype": "Percent",
+   "label": "Tax on Benefit"
+  },
+  {
+   "fieldname": "release_section",
+   "fieldtype": "Section Break",
+   "label": "Release"
+  },
+  {
+   "fieldname": "session_date",
+   "fieldtype": "Date",
+   "label": "Session date"
+  },
+  {
+   "fieldname": "column_break_0hx9c",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "session_time",
+   "fieldtype": "Time",
+   "label": "Session time"
+  },
+  {
+   "fieldname": "column_break_mg2xc",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "purchasing_price",
+   "fieldtype": "Currency",
+   "label": "Purchasing price"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Bidding Session",
+   "print_hide": 1,
+   "read_only": 1
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Bidding Session",
+   "print_hide": 1,
+   "read_only": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [
+  {
+   "link_doctype": "Purchase Order",
+   "link_fieldname": "supplier",
+   "parent_doctype": "Purchase Order",
+   "table_fieldname": "supplier"
+  }
+ ],
+ "modified": "2024-07-18 15:51:34.666465",
+ "modified_by": "Administrator",
+ "module": "Barcode Aec",
+ "name": "Bidding Session",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "amend": 1,
+   "cancel": 1,
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "set_user_permissions": 1,
+   "share": 1,
+   "submit": 1,
+   "write": 1
+  },
+  {
+   "amend": 1,
+   "cancel": 1,
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Accounts User",
+   "share": 1,
+   "submit": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}
