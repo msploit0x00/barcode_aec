@@ -1,7 +1,7 @@
 {
  "actions": [],
  "allow_rename": 1,
- "autoname": "format:{circular_no}-{####}",
+ "autoname": "format:{committees}-{####}",
  "creation": "2024-02-18 11:18:16.647631",
  "default_view": "List",
  "doctype": "DocType",
@@ -26,9 +26,9 @@
  ],
  "fields": [
   {
-   "default": "HHH-YYYY-",
    "fieldname": "circular_no",
    "fieldtype": "Data",
+   "hidden": 1,
    "label": "Circular No"
   },
   {
@@ -113,7 +113,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-04-22 10:35:22.956099",
+ "modified": "2024-07-17 22:27:13.778310",
  "modified_by": "Administrator",
  "module": "Barcode Aec",
  "name": "Committee Generalization",

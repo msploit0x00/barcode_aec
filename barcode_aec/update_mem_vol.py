@@ -50,7 +50,7 @@ def process_data(retries=3, delay=0.5):
 def volume_of_member_exports_last_year_exported(tax_ids):
     data = frappe.db.sql("""
         SELECT
-            `tax_id` AS `tax_id`,
+            `tax__number` AS `tax__number`,
             `season__name` AS `season_name`,
             `season` AS `season`,
             `year` AS `year`,
@@ -61,7 +61,7 @@ def volume_of_member_exports_last_year_exported(tax_ids):
         FROM
             `tabVolume Of Member Exports`
         WHERE 
-            tax_id IN (%s)
+            tax__number IN (%s)
             AND `tabVolume Of Member Exports`.`year` = YEAR(CURDATE()) - 1
 
         LIMIT 1;
