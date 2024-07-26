@@ -1,0 +1,139 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-01-08 23:12:27.965772",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "committee",
+  "column_break_byawa",
+  "products",
+  "column_break_x0msl",
+  "territory",
+  "section_break_qzkpg",
+  "membership_type",
+  "column_break_h4roy",
+  "member_status",
+  "column_break_zgcf5",
+  "customer_activity_type",
+  "section_break_dbkdo",
+  "company_type",
+  "column_break_d7iyw",
+  "blocs_of_targeted_countries",
+  "column_break_oop4s",
+  "board_of_directors_member_"
+ ],
+ "fields": [
+  {
+   "fieldname": "committee",
+   "fieldtype": "Link",
+   "label": "Committee",
+   "options": "Committee"
+  },
+  {
+   "fieldname": "column_break_byawa",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "products",
+   "fieldtype": "Link",
+   "label": "Products",
+   "options": "Product"
+  },
+  {
+   "fieldname": "column_break_x0msl",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "territory",
+   "fieldtype": "Link",
+   "label": "Territory",
+   "options": "Territory"
+  },
+  {
+   "fieldname": "section_break_qzkpg",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "membership_type",
+   "fieldtype": "Link",
+   "label": "Membership type",
+   "options": "Salutation"
+  },
+  {
+   "fieldname": "column_break_h4roy",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "member_status",
+   "fieldtype": "Select",
+   "label": "Member Status",
+   "options": "\nRequested\nRequested From Website\nActive\nInactive\nSuspended"
+  },
+  {
+   "fieldname": "column_break_zgcf5",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "customer_activity_type",
+   "fieldtype": "Link",
+   "label": "Customer Activity Type",
+   "options": "Customer Activity Type"
+  },
+  {
+   "fieldname": "section_break_dbkdo",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "company_type",
+   "fieldtype": "Link",
+   "label": "Company Type",
+   "options": "Company Type"
+  },
+  {
+   "fieldname": "column_break_d7iyw",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "blocs_of_targeted_countries",
+   "fieldtype": "Link",
+   "label": "Blocs of Targeted Countries",
+   "options": "Geographical Clusters List"
+  },
+  {
+   "fieldname": "column_break_oop4s",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "board_of_directors_member_",
+   "fieldtype": "Check",
+   "label": "Board of directors member ?"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "issingle": 1,
+ "links": [],
+ "modified": "2024-07-26 21:54:00.564747",
+ "modified_by": "Administrator",
+ "module": "Barcode Aec",
+ "name": "Members Search",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
