@@ -1,0 +1,40 @@
+{
+ "actions": [],
+ "creation": "2023-12-15 14:52:01.057143",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "agenda",
+  "status"
+ ],
+ "fields": [
+  {
+   "fieldname": "agenda",
+   "fieldtype": "Text Editor",
+   "in_list_view": 1,
+   "label": "Agenda"
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Status",
+   "options": "\nCompleted\nNot Completed"
+  }
+ ],
+ "istable": 1,
+ "links": [],
+ "modified": "2024-07-26 22:01:32.514888",
+ "modified_by": "Administrator",
+ "module": "Barcode Aec",
+ "name": "Meeting Agenda",
+ "owner": "Administrator",
+ "permissions": [],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "ASC",
+ "states": [],
+ "track_changes": 1
+}
