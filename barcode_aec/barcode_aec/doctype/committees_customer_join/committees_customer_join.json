@@ -1,0 +1,41 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-07-26 22:18:15.840917",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "committees",
+  "salutation"
+ ],
+ "fields": [
+  {
+   "fieldname": "committees",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Committees",
+   "options": "Committee"
+  },
+  {
+   "fieldname": "salutation",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Salutation",
+   "options": "Salutation"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-07-26 22:18:15.840917",
+ "modified_by": "Administrator",
+ "module": "Barcode Aec",
+ "name": "Committees customer join",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
