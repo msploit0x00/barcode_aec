@@ -1,0 +1,149 @@
+{
+ "actions": [],
+ "allow_import": 1,
+ "allow_rename": 1,
+ "autoname": "format:{##}",
+ "creation": "2023-12-23 16:32:17.346142",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "code",
+  "english_name",
+  "section_break_8pg4h",
+  "line_name",
+  "country",
+  "pods",
+  "pol",
+  "section_break_olnky",
+  "arrival_time",
+  "arrival_in_weekss",
+  "section_break_prwoi",
+  "expectted_price",
+  "acttual_price",
+  "section_break_utitb",
+  "address",
+  "contact"
+ ],
+ "fields": [
+  {
+   "fieldname": "code",
+   "fieldtype": "Data",
+   "in_filter": 1,
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Arabic Name",
+   "unique": 1
+  },
+  {
+   "fieldname": "english_name",
+   "fieldtype": "Data",
+   "in_filter": 1,
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "English Name",
+   "unique": 1
+  },
+  {
+   "fieldname": "section_break_8pg4h",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "line_name",
+   "fieldtype": "Data",
+   "in_filter": 1,
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Line Name"
+  },
+  {
+   "fieldname": "country",
+   "fieldtype": "Link",
+   "in_filter": 1,
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Country",
+   "options": "Country"
+  },
+  {
+   "fieldname": "pods",
+   "fieldtype": "Data",
+   "label": "PODS"
+  },
+  {
+   "fieldname": "pol",
+   "fieldtype": "Data",
+   "label": "POL"
+  },
+  {
+   "fieldname": "section_break_olnky",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "arrival_time",
+   "fieldtype": "Int",
+   "label": "Arrival Time"
+  },
+  {
+   "fieldname": "arrival_in_weekss",
+   "fieldtype": "Int",
+   "label": "Arrival in Weekss"
+  },
+  {
+   "fieldname": "section_break_prwoi",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "section_break_utitb",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "address",
+   "fieldtype": "Link",
+   "label": "Address",
+   "options": "Address"
+  },
+  {
+   "fieldname": "contact",
+   "fieldtype": "Link",
+   "label": "Contact",
+   "options": "Contact"
+  },
+  {
+   "fieldname": "expectted_price",
+   "fieldtype": "Currency",
+   "label": "Expected Price"
+  },
+  {
+   "fieldname": "acttual_price",
+   "fieldtype": "Currency",
+   "label": "Actual Price"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-07-26 10:48:30.029983",
+ "modified_by": "Administrator",
+ "module": "Barcode Aec",
+ "name": "Port of Shipment",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
