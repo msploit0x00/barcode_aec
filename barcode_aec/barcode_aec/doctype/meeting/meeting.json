@@ -160,7 +160,7 @@
  "is_calendar_and_gantt": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2024-04-15 16:37:08.269356",
+ "modified": "2024-08-04 12:02:28.173818",
  "modified_by": "Administrator",
  "module": "Barcode Aec",
  "name": "Meeting",
@@ -181,6 +181,7 @@
    "write": 1
   },
   {
+   "cancel": 1,
    "create": 1,
    "delete": 1,
    "email": 1,

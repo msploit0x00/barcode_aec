@@ -1,11 +1,11 @@
 {
  "charts": [
   {
-   "chart_name": "\u062c\u0644\u0633\u0627\u062a \u0627\u0630\u0648\u0646 \u0627\u0644\u062e\u0632\u0627\u0646\u0647",
-   "label": "Treasury Bills Sessions"
+   "chart_name": "\u062c\u0644\u0633\u0627\u062a \u0627\u0630\u0648\u0646 \u0627\u0644\u062e\u0632\u0627\u0646\u0647 \u0644\u0644\u0645\u0639\u0631\u0648\u0636 \u0648\u0627\u0644\u0645\u0646\u0641\u0630",
+   "label": "\u062c\u0644\u0633\u0627\u062a \u0627\u0630\u0648\u0646 \u0627\u0644\u062e\u0632\u0627\u0646\u0647 \u0644\u0644\u0645\u0639\u0631\u0648\u0636 \u0648\u0627\u0644\u0645\u0646\u0641\u0630"
   }
  ],
- "content": "[{\"id\":\"D3RZAlyGBs\",\"type\":\"paragraph\",\"data\":{\"text\":\"Budget And Treasury bills\",\"col\":12}},{\"id\":\"BLOi5_JNJt\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Active Budget\",\"col\":4}},{\"id\":\"jFI1UJSpv8\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Cancelled Budget\",\"col\":4}},{\"id\":\"G7fUZWwybv\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Budget Requests\",\"col\":4}},{\"id\":\"EVpwSC6UXU\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Treasury Bills Sessions\",\"col\":12}},{\"id\":\"k8ItoFyOnh\",\"type\":\"card\",\"data\":{\"card_name\":\"Budget\",\"col\":4}},{\"id\":\"Og1-31CSU7\",\"type\":\"card\",\"data\":{\"card_name\":\"Treasury Bills\",\"col\":4}},{\"id\":\"V9Z5ZGcKU2\",\"type\":\"spacer\",\"data\":{\"col\":4}},{\"id\":\"VBH3Fe8Zbj\",\"type\":\"spacer\",\"data\":{\"col\":4}},{\"id\":\"Nle_y-sMlB\",\"type\":\"paragraph\",\"data\":{\"text\":\"<span class=\\\"h3\\\"><b>Budget &amp;</b><span class=\\\"h3\\\"><b>Treasury Bills</b></span><b>&nbsp;Reports</b></span>\",\"col\":7}},{\"id\":\"phO4gfxB97\",\"type\":\"custom_block\",\"data\":{\"custom_block_name\":\"Budget reports\",\"col\":12}},{\"id\":\"iHYF3Rkx1_\",\"type\":\"spacer\",\"data\":{\"col\":12}}]",
+ "content": "[{\"id\":\"D3RZAlyGBs\",\"type\":\"paragraph\",\"data\":{\"text\":\"Budget And Treasury bills\",\"col\":12}},{\"id\":\"BLOi5_JNJt\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Active Budget\",\"col\":4}},{\"id\":\"jFI1UJSpv8\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Cancelled Budget\",\"col\":4}},{\"id\":\"G7fUZWwybv\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Budget Requests\",\"col\":4}},{\"id\":\"PL_eHrTqrj\",\"type\":\"chart\",\"data\":{\"chart_name\":\"\u062c\u0644\u0633\u0627\u062a \u0627\u0630\u0648\u0646 \u0627\u0644\u062e\u0632\u0627\u0646\u0647 \u0644\u0644\u0645\u0639\u0631\u0648\u0636 \u0648\u0627\u0644\u0645\u0646\u0641\u0630\",\"col\":12}},{\"id\":\"k8ItoFyOnh\",\"type\":\"card\",\"data\":{\"card_name\":\"Budget\",\"col\":4}},{\"id\":\"Og1-31CSU7\",\"type\":\"card\",\"data\":{\"card_name\":\"Treasury Bills\",\"col\":4}},{\"id\":\"V9Z5ZGcKU2\",\"type\":\"spacer\",\"data\":{\"col\":4}},{\"id\":\"VBH3Fe8Zbj\",\"type\":\"spacer\",\"data\":{\"col\":4}},{\"id\":\"Nle_y-sMlB\",\"type\":\"paragraph\",\"data\":{\"text\":\"<span class=\\\"h3\\\"><b>Budget &amp;</b><span class=\\\"h3\\\"><b>Treasury Bills</b></span><b>&nbsp;Reports</b></span>\",\"col\":7}},{\"id\":\"phO4gfxB97\",\"type\":\"custom_block\",\"data\":{\"custom_block_name\":\"Budget reports\",\"col\":12}},{\"id\":\"iHYF3Rkx1_\",\"type\":\"spacer\",\"data\":{\"col\":12}}]",
  "creation": "2024-04-30 12:28:47.708082",
  "custom_blocks": [
   {
@@ -89,7 +89,7 @@
    "type": "Link"
   }
  ],
- "modified": "2024-07-06 20:57:11.186837",
+ "modified": "2024-08-06 22:03:00.499105",
  "modified_by": "ahmed.radwan@datasofteg.com",
  "module": "Barcode Aec",
  "name": "Budget And Treasury bills",

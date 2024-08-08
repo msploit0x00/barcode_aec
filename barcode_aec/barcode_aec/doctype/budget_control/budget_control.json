@@ -10,6 +10,9 @@
  "field_order": [
   "budget_name",
   "fiscal_year",
+  "column_break_ntyat",
+  "status",
+  "section_break_kv81l",
   "get_all_departments",
   "departments_list",
   "budget_controller",
@@ -57,12 +60,27 @@
    "options": "Budget Control",
    "print_hide": 1,
    "read_only": 1
+  },
+  {
+   "fieldname": "column_break_ntyat",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "In Progress",
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "label": "Status",
+   "options": "\nIn Progress\nActive\nInactive"
+  },
+  {
+   "fieldname": "section_break_kv81l",
+   "fieldtype": "Section Break"
   }
  ],
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2024-05-30 15:18:11.587571",
+ "modified": "2024-07-30 09:22:21.869752",
  "modified_by": "Administrator",
  "module": "Barcode Aec",
  "name": "Budget Control",

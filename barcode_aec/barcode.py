@@ -65,8 +65,8 @@ def create_journal_entry(treasury_bills):
             return _("Purchase date not found in Treasury Bills")
         purchase_date_dt = datetime.strptime(str(purchase_date), '%Y-%m-%d').date()
         current_date_dt = datetime.now().date()
-        if purchase_date_dt != current_date_dt:
-            return {"message": _("The purchase date is not today. Cannot create a Journal Entry.")}
+#        if purchase_date_dt != current_date_dt:
+#            return {"message": _("The purchase date is not today. Cannot create a Journal Entry.")}
 
         treasury_bills_setting = frappe.get_doc('Treasury bill setting', None)
         baio1_account = treasury_bills_setting.baio1 
@@ -119,7 +119,7 @@ def create_journal_entry(treasury_bills):
 
 
 
-# #################################################################################
+##################################################################################
 @frappe.whitelist(allow_guest=True)
 def journal_entry_due_date_1(treasury_bills):
     try:
@@ -130,8 +130,8 @@ def journal_entry_due_date_1(treasury_bills):
             return _("Due date not found in Treasury Bills")
         due_date_dt = datetime.strptime(str(due_date), '%Y-%m-%d').date()
         current_date_dt = datetime.now().date()
-        if due_date_dt != current_date_dt:
-            return {"message": _("The due date is not today. Cannot create a Journal Entry.")}
+#        if due_date_dt != current_date_dt:
+#            return {"message": _("The due date is not today. Cannot create a Journal Entry.")}
         
         treasury_bills_setting = frappe.get_doc('Treasury bill setting', None)
         baio1_account = treasury_bills_setting.baio1 
@@ -186,8 +186,8 @@ def journal_entry_due_date_2(treasury_bills):
             return _("Due date not found in Treasury Bills")
         due_date_dt = datetime.strptime(str(due_date), '%Y-%m-%d').date()
         current_date_dt = datetime.now().date()
-        if due_date_dt != current_date_dt:
-            return {"message": _("The due date is not today. Cannot create a Journal Entry.")}
+#        if due_date_dt != current_date_dt:
+#            return {"message": _("The due date is not today. Cannot create a Journal Entry.")}
 
         treasury_bills_setting = frappe.get_doc('Treasury bill setting', None)
         baio4_account = treasury_bills_setting.baio4 
@@ -239,8 +239,8 @@ def journal_entry_due_date_3(treasury_bills):
             return _("Due date not found in Treasury Bills")
         due_date_dt = datetime.strptime(str(due_date), '%Y-%m-%d').date()
         current_date_dt = datetime.now().date()
-        if due_date_dt != current_date_dt:
-            return {"message": _("The due date is not today. Cannot create a Journal Entry.")}
+#        if due_date_dt != current_date_dt:
+#            return {"message": _("The due date is not today. Cannot create a Journal Entry.")}
 
         treasury_bills_setting = frappe.get_doc('Treasury bill setting', None)
         baio3_account = treasury_bills_setting.baio3 
