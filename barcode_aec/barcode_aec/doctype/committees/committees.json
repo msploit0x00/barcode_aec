@@ -1,0 +1,41 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-02-18 11:22:55.583225",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "the_commission",
+  "select"
+ ],
+ "fields": [
+  {
+   "fieldname": "the_commission",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Committees",
+   "options": "Committee"
+  },
+  {
+   "default": "0",
+   "fieldname": "select",
+   "fieldtype": "Check",
+   "in_list_view": 1,
+   "label": "Select "
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-08-10 20:22:44.620124",
+ "modified_by": "Administrator",
+ "module": "Barcode Aec",
+ "name": "Committees",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
