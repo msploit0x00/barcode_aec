@@ -29,7 +29,7 @@
    "ignore_user_permissions": 0,
    "ignore_xss_filter": 0,
    "in_global_search": 0,
-   "in_list_view": 0,
+   "in_list_view": 1,
    "in_preview": 0,
    "in_standard_filter": 0,
    "insert_after": "meeting_status",
@@ -88,29 +88,6 @@
    "property_type": "Data",
    "row_name": null,
    "value": "[\"member\", \"status\", \"meeting_status\", \"custom_ceo_name\"]"
-  },
-  {
-   "_assign": null,
-   "_comments": null,
-   "_liked_by": null,
-   "_user_tags": null,
-   "creation": "2024-04-18 13:09:22.491339",
-   "default_value": null,
-   "doc_type": "Committee Members Meeting",
-   "docstatus": 0,
-   "doctype_or_field": "DocField",
-   "field_name": "meeting_status",
-   "idx": 0,
-   "is_system_generated": 0,
-   "modified": "2024-04-18 13:09:22.491339",
-   "modified_by": "ahmed.radwan@datasofteg.com",
-   "module": null,
-   "name": "Committee Members Meeting-meeting_status-default",
-   "owner": "ahmed.radwan@datasofteg.com",
-   "property": "default",
-   "property_type": "Text",
-   "row_name": null,
-   "value": "Present"
   }
  ],
  "sync_on_migrate": 1
