@@ -8,7 +8,10 @@
  "engine": "InnoDB",
  "field_order": [
   "treasury_bills",
+  "calculate_financial_center",
   "posting_date",
+  "due_date",
+  "purchase_date",
   "term_type",
   "duration",
   "bidding_status",
@@ -23,11 +26,12 @@
   "return",
   "tax",
   "net_profit",
+  "section_break_2fjtb",
+  "payment_schedule",
+  "section_break_y4bag",
   "section_break_medlf",
   "available_balance",
   "remaining_balance",
-  "purchase_date",
-  "due_date",
   "amended_from"
  ],
  "fields": [
@@ -173,12 +177,32 @@
    "options": "Treasury bills",
    "print_hide": 1,
    "read_only": 1
+  },
+  {
+   "fieldname": "payment_schedule",
+   "fieldtype": "Table",
+   "label": "Payment Schedule",
+   "options": "Payment"
+  },
+  {
+   "fieldname": "section_break_2fjtb",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "section_break_y4bag",
+   "fieldtype": "Section Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "calculate_financial_center",
+   "fieldtype": "Check",
+   "label": "Calculate Financial center"
   }
  ],
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2024-05-30 09:06:29.801238",
+ "modified": "2024-08-18 12:02:39.940104",
  "modified_by": "Administrator",
  "module": "Barcode Aec",
  "name": "Treasury bills",
