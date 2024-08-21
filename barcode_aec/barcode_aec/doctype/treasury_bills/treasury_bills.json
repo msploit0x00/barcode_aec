@@ -27,6 +27,7 @@
   "tax",
   "net_profit",
   "section_break_2fjtb",
+  "make_entry",
   "payment_schedule",
   "section_break_y4bag",
   "section_break_medlf",
@@ -197,12 +198,18 @@
    "fieldname": "calculate_financial_center",
    "fieldtype": "Check",
    "label": "Calculate Financial center"
+  },
+  {
+   "default": "0",
+   "fieldname": "make_entry",
+   "fieldtype": "Check",
+   "label": "Journal Entry Created"
   }
  ],
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2024-08-18 12:02:39.940104",
+ "modified": "2024-08-21 13:39:54.570061",
  "modified_by": "Administrator",
  "module": "Barcode Aec",
  "name": "Treasury bills",
