@@ -11,7 +11,9 @@
   "baio2",
   "baio3",
   "baio4",
-  "baio5"
+  "baio5",
+  "due_returns",
+  "taxes_owed"
  ],
  "fields": [
   {
@@ -43,12 +45,24 @@
    "fieldtype": "Link",
    "label": "RevenuesAccount ",
    "options": "Account"
+  },
+  {
+   "fieldname": "due_returns",
+   "fieldtype": "Link",
+   "label": "Due returns",
+   "options": "Account"
+  },
+  {
+   "fieldname": "taxes_owed",
+   "fieldtype": "Link",
+   "label": "Taxes owed",
+   "options": "Account"
   }
  ],
  "index_web_pages_for_search": 1,
  "issingle": 1,
  "links": [],
- "modified": "2024-05-30 09:06:07.841472",
+ "modified": "2024-08-22 13:00:07.011086",
  "modified_by": "Administrator",
  "module": "Barcode Aec",
  "name": "Treasury bill setting",
