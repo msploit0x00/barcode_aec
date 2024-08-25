@@ -130,9 +130,11 @@ app_license = "MIT"
 # ---------------
 
 scheduler_events = {
-	"all": [
-		# "barcode_aec.tasks.all"
-	],
+    "cron": {
+        "0 0 * * *":"barcode_aec.make_journal_entry.cron",
+        "* * * * *" :"barcode_aec.sendmail2.send_email",
+        
+    },
 	"daily": [
 		"barcode_aec.make_journal_entry.make_journal_entry"
 	],
