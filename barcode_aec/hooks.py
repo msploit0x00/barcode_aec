@@ -136,7 +136,7 @@ scheduler_events = {
         
     },
 	"daily": [
-		"barcode_aec.make_journal_entry.make_journal_entry"
+		# "barcode_aec.make_journal_entry.make_journal_entry"
 	],
 	"hourly": [
 		# "barcode_aec.tasks.hourly"
