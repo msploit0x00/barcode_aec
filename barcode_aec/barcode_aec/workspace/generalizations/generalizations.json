@@ -25,26 +25,8 @@
   {
    "hidden": 0,
    "is_query_report": 0,
-   "label": "Authorities Generalizations",
-   "link_count": 1,
-   "onboard": 0,
-   "type": "Card Break"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "Authorities Generalizations",
-   "link_count": 0,
-   "link_to": "Authorities Generalizations",
-   "link_type": "DocType",
-   "onboard": 0,
-   "type": "Link"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
    "label": "Committees Generalizations",
-   "link_count": 5,
+   "link_count": 3,
    "onboard": 0,
    "type": "Card Break"
   },
@@ -61,29 +43,9 @@
   {
    "hidden": 0,
    "is_query_report": 0,
-   "label": "Generalizations Types",
-   "link_count": 0,
-   "link_to": "Generalization Type",
-   "link_type": "DocType",
-   "onboard": 0,
-   "type": "Link"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "Generalization Setting",
+   "label": "Customer Newsletter",
    "link_count": 0,
    "link_to": "Customer Newsletter",
-   "link_type": "DocType",
-   "onboard": 0,
-   "type": "Link"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "Generalization Log",
-   "link_count": 0,
-   "link_to": "Generaliztion Log",
    "link_type": "DocType",
    "onboard": 0,
    "type": "Link"
@@ -97,9 +59,47 @@
    "link_type": "DocType",
    "onboard": 0,
    "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Authorities Generalizations",
+   "link_count": 3,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Authorities Generalizations",
+   "link_count": 0,
+   "link_to": "Authorities Generalizations",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Authorities Generalization 2",
+   "link_count": 0,
+   "link_to": "Authorities Generalization 2",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Generalization Queuing",
+   "link_count": 0,
+   "link_to": "Generalization Queuing",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
   }
  ],
- "modified": "2024-07-06 20:57:10.985063",
+ "modified": "2024-09-02 15:12:38.731289",
  "modified_by": "ahmed.radwan@datasofteg.com",
  "module": "Barcode Aec",
  "name": "Generalizations",

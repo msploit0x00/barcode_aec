@@ -57,7 +57,7 @@
    "fieldname": "status",
    "fieldtype": "Select",
    "label": "Status",
-   "options": "\nOpen\nIn progress\nDone"
+   "options": "\nOpen\nIn progress\nHold\nCancelled\nDone"
   },
   {
    "fieldname": "custom_due_date",
@@ -81,7 +81,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-07-18 16:01:49.075326",
+ "modified": "2024-08-29 11:02:03.320611",
  "modified_by": "Administrator",
  "module": "Barcode Aec",
  "name": "Issue Tasks",
