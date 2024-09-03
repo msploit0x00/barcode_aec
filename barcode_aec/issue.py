@@ -3,7 +3,7 @@ from frappe import _
 from frappe.utils.pdf import get_pdf
 
 @frappe.whitelist(allow_guest=True)
-def send_email(name):
+def send_email(name,print_format_name):
     try:
         issue = frappe.get_doc("Issue", name)
         custom_the_contact = issue.custom_the_contact
@@ -11,7 +11,7 @@ def send_email(name):
         attachments = get_attachments(issue)
         
         # Default print format if not specified in the issue
-        print_format = getattr(issue, 'print_format', 'issue letter') ##---> 1 ##
+        print_format = getattr(issue, 'print_format', print_format_name) ##---> 1 ##
         print_format_attachment = attach_print("Issue", name, print_format)##---> 2 ##
         custom_digital_signature = issue.custom_digital_signature
         if (custom_digital_signature == 1):
