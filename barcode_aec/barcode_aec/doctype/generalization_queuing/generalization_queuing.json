@@ -35,10 +35,11 @@
    "label": "start time"
   },
   {
+   "default": "Not Sent",
    "fieldname": "status",
    "fieldtype": "Select",
    "label": "status",
-   "options": "Sent\nNot Sent\nIn Progress"
+   "options": "Sent\nNot Sent\nIn Progress\nStop\nPause"
   },
   {
    "fieldname": "sender_type",
@@ -76,7 +77,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-08-15 15:16:35.621092",
+ "modified": "2024-09-03 15:15:57.763394",
  "modified_by": "Administrator",
  "module": "Barcode Aec",
  "name": "Generalization Queuing",
