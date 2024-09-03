@@ -37,7 +37,7 @@
   {
    "hidden": 0,
    "is_query_report": 0,
-   "label": "In And Out letters",
+   "label": "Letters",
    "link_count": 0,
    "link_to": "Issue",
    "link_type": "DocType",
@@ -47,7 +47,7 @@
   {
    "hidden": 0,
    "is_query_report": 0,
-   "label": "In And Out Type",
+   "label": "Letter Topic",
    "link_count": 0,
    "link_to": "Issue Type",
    "link_type": "DocType",
@@ -67,7 +67,7 @@
   {
    "hidden": 0,
    "is_query_report": 0,
-   "label": "In And Out Assignment",
+   "label": "Letter Assignment",
    "link_count": 0,
    "link_to": "Issue Assignment",
    "link_type": "DocType",
@@ -77,28 +77,10 @@
   {
    "hidden": 0,
    "is_query_report": 0,
-   "label": "In And Out Tasks",
+   "label": "Letter Tasks",
    "link_count": 0,
    "link_to": "Issue Tasks",
    "link_type": "DocType",
-   "onboard": 0,
-   "type": "Link"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "Reports",
-   "link_count": 1,
-   "onboard": 0,
-   "type": "Card Break"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "In And Out Follow Up",
-   "link_count": 0,
-   "link_to": "\u0645\u062a\u0627\u0628\u0639\u0629 \u0627\u0644\u0648\u0627\u0631\u062f \u0648 \u0627\u0644\u0635\u0627\u062f\u0631",
-   "link_type": "Report",
    "onboard": 0,
    "type": "Link"
   },
@@ -113,7 +95,7 @@
   {
    "hidden": 0,
    "is_query_report": 0,
-   "label": "In And Out Tasks",
+   "label": "LettersTasks",
    "link_count": 0,
    "link_to": "Issue Tasks",
    "link_type": "DocType",
@@ -123,16 +105,35 @@
   {
    "hidden": 0,
    "is_query_report": 0,
-   "label": "In And Out  Assignment",
+   "label": "Letter  Assignment",
    "link_count": 0,
    "link_to": "Issue Assignment",
    "link_type": "DocType",
    "onboard": 0,
    "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Reports",
+   "link_count": 1,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "dependencies": "",
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Letters Follow Up",
+   "link_count": 0,
+   "link_to": "\u0645\u062a\u0627\u0628\u0639\u0629 \u0627\u0644\u0648\u0627\u0631\u062f \u0648 \u0627\u0644\u0635\u0627\u062f\u0631",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
   }
  ],
- "modified": "2024-08-27 09:51:54.609632",
- "modified_by": "ebram@datasofteg.com",
+ "modified": "2024-09-03 12:46:46.713012",
+ "modified_by": "ahmed.radwan@datasofteg.com",
  "module": "Barcode Aec",
  "name": "In And out letters",
  "number_cards": [
