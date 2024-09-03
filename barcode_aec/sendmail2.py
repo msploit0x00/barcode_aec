@@ -33,7 +33,7 @@ def send_email():
                     "sender":generalization_queuing.sender_email,
                     "recipients":recipients,
                     "attachments":get_attachments(generalization_queuing),
-                    "template": "issue_mail",
+                    "template": "newsletter",
                     "reference_doctype": generalization_queuing.doctype,
                     "reference_name": generalization_queuing.name,
                     "queue_separately": True,
