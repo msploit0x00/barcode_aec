@@ -30,7 +30,7 @@ def send_email(name,print_format_name):
                 "sender": issue.custom_email,
                 "recipients": [contact.email],
                 "attachments": attachments,
-                "template": "newsletter",
+                "template": "issue_mail",
                 "reference_doctype": issue.doctype,
                 "reference_name": name,
                 "queue_separately": True,
