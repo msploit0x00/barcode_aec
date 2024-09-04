@@ -7,6 +7,7 @@
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
+  "source",
   "gen_id",
   "date",
   "time",
@@ -21,8 +22,9 @@
  "fields": [
   {
    "fieldname": "gen_id",
-   "fieldtype": "Data",
-   "label": "generalization source id"
+   "fieldtype": "Dynamic Link",
+   "label": "generalization ID",
+   "options": "source"
   },
   {
    "fieldname": "date",
@@ -73,11 +75,17 @@
    "fieldtype": "Table",
    "label": "attachs",
    "options": "Newsletter Attachment"
+  },
+  {
+   "fieldname": "source",
+   "fieldtype": "Link",
+   "label": "source",
+   "options": "DocType"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-09-03 15:15:57.763394",
+ "modified": "2024-09-04 10:14:09.607438",
  "modified_by": "Administrator",
  "module": "Barcode Aec",
  "name": "Generalization Queuing",
