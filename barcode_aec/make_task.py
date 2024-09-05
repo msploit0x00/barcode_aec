@@ -22,8 +22,8 @@ def make_task(issue, subject, name):
         'employee':row.employee,
         'custom_due_date':row.custom_due_date
         })
-        make_task.insert()
-        make_task.submit()
+        make_task.insert(ignore_permissions=True)
+        # make_task.submit()
         frappe.db.set_value('Issue assignment  departments', row.name, 'custom_task_link', make_task.name)
         print("makeTaskName",make_task.name)
     
