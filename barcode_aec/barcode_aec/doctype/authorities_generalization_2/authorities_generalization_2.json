@@ -1,12 +1,15 @@
 {
  "actions": [],
  "allow_rename": 1,
+ "autoname": "naming_series:[naming_series]",
  "creation": "2024-04-08 10:22:29.073424",
  "default_view": "List",
  "doctype": "DocType",
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
+  "naming_series",
+  "due_date",
   "section_break_zky4s",
   "authorities_committees",
   "section_break_d2q01",
@@ -93,14 +96,27 @@
    "fieldname": "push_notification",
    "fieldtype": "Check",
    "label": "Push Notification"
+  },
+  {
+   "fieldname": "due_date",
+   "fieldtype": "Date",
+   "label": "Due Date"
+  },
+  {
+   "fieldname": "naming_series",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "Naming Series",
+   "options": "EN-GN-"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-04-08 10:22:29.073424",
+ "modified": "2024-09-16 22:55:29.654685",
  "modified_by": "Administrator",
  "module": "Barcode Aec",
  "name": "Authorities Generalization 2",
+ "naming_rule": "By \"Naming Series\" field",
  "owner": "Administrator",
  "permissions": [
   {

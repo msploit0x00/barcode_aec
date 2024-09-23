@@ -94,8 +94,8 @@
    "type": "Link"
   }
  ],
- "modified": "2024-08-27 09:51:56.941207",
- "modified_by": "ebram@datasofteg.com",
+ "modified": "2024-09-11 21:36:10.207995",
+ "modified_by": "ahmed.radwan@datasofteg.com",
  "module": "Barcode Aec",
  "name": "Legal Affairs",
  "number_cards": [],
@@ -103,7 +103,11 @@
  "parent_page": "",
  "public": 1,
  "quick_lists": [],
- "roles": [],
+ "roles": [
+  {
+   "role": "System Manager"
+  }
+ ],
  "sequence_id": 39.0,
  "shortcuts": [],
  "title": "Legal Affairs"

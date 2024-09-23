@@ -1,6 +1,7 @@
 {
  "actions": [],
  "allow_rename": 1,
+ "autoname": "format:{source}-{####}",
  "creation": "2024-08-14 13:55:00.080371",
  "default_view": "List",
  "doctype": "DocType",
@@ -29,6 +30,7 @@
   {
    "fieldname": "date",
    "fieldtype": "Date",
+   "in_standard_filter": 1,
    "label": "Date"
   },
   {
@@ -40,12 +42,14 @@
    "default": "Not Sent",
    "fieldname": "status",
    "fieldtype": "Select",
+   "in_standard_filter": 1,
    "label": "status",
    "options": "Sent\nNot Sent\nIn Progress\nStop\nPause"
   },
   {
    "fieldname": "sender_type",
    "fieldtype": "Link",
+   "in_standard_filter": 1,
    "label": "Sender Type",
    "options": "Member Type"
   },
@@ -85,10 +89,11 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-09-04 10:14:09.607438",
+ "modified": "2024-09-15 15:22:58.281571",
  "modified_by": "Administrator",
  "module": "Barcode Aec",
  "name": "Generalization Queuing",
+ "naming_rule": "Expression",
  "owner": "Administrator",
  "permissions": [
   {

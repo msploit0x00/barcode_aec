@@ -20,7 +20,9 @@
   "whatsapp",
   "push_notification",
   "column_break_glapr",
-  "condition_of_members",
+  "active",
+  "inactive",
+  "suspended",
   "section_break_jdam0",
   "terms"
  ],
@@ -53,8 +55,7 @@
    "fieldname": "committees",
    "fieldtype": "Link",
    "label": "Committees",
-   "options": "Committee",
-   "read_only": 1
+   "options": "Committee"
   },
   {
    "fieldname": "section_break_khvfu",
@@ -96,12 +97,6 @@
    "fieldtype": "Column Break"
   },
   {
-   "fieldname": "condition_of_members",
-   "fieldtype": "Select",
-   "label": "Condition of members",
-   "options": "\nActive\nNot Active"
-  },
-  {
    "fieldname": "section_break_jdam0",
    "fieldtype": "Section Break"
   },
@@ -109,11 +104,29 @@
    "fieldname": "terms",
    "fieldtype": "Text Editor",
    "label": "Terms"
+  },
+  {
+   "default": "0",
+   "fieldname": "active",
+   "fieldtype": "Check",
+   "label": "Active"
+  },
+  {
+   "default": "0",
+   "fieldname": "inactive",
+   "fieldtype": "Check",
+   "label": "Inactive"
+  },
+  {
+   "default": "0",
+   "fieldname": "suspended",
+   "fieldtype": "Check",
+   "label": "Suspended"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-07-17 22:27:13.778310",
+ "modified": "2024-09-15 15:25:09.101658",
  "modified_by": "Administrator",
  "module": "Barcode Aec",
  "name": "Committee Generalization",

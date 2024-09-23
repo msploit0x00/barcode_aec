@@ -1,0 +1,32 @@
+{
+ "custom_fields": [],
+ "custom_perms": [],
+ "doctype": "Crops that the company packs at the station2",
+ "links": [],
+ "property_setters": [
+  {
+   "_assign": null,
+   "_comments": null,
+   "_liked_by": null,
+   "_user_tags": null,
+   "creation": "2024-07-24 22:58:45.389487",
+   "default_value": null,
+   "doc_type": "Crops that the company packs at the station2",
+   "docstatus": 0,
+   "doctype_or_field": "DocField",
+   "field_name": "international_product_hs_code",
+   "idx": 0,
+   "is_system_generated": 0,
+   "modified": "2024-07-24 22:58:45.389487",
+   "modified_by": "ahmed.radwan@datasofteg.com",
+   "module": null,
+   "name": "Crops that the company packs at the station2-international_product_hs_code-label",
+   "owner": "ahmed.radwan@datasofteg.com",
+   "property": "label",
+   "property_type": "Data",
+   "row_name": null,
+   "value": "International Product HS Code"
+  }
+ ],
+ "sync_on_migrate": 1
+}

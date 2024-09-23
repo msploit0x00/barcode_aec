@@ -9,9 +9,10 @@ def make_task(issue, subject, name):
     items = frappe.get_all(
         "Issue assignment  departments",filters={"parent": name},
         fields=["custom_task_link", "name", "department","employee", "custom_due_date", "notes"])
-    print("items",items)   
+    attachments = frappe.get_all(
+        "Issue Attachments",filters={"parent": name},
+        fields=["subject","attachment"])
     for row in items:
-        print("rowwwwwwwwwwwwwwww",row.name)
         make_task = frappe.get_doc({
         'doctype': 'Issue Tasks',
         'issue': issue,
@@ -20,15 +21,12 @@ def make_task(issue, subject, name):
         'department':row.department,
         'notes':row.notes,
         'employee':row.employee,
-        'custom_due_date':row.custom_due_date
+        'custom_due_date':row.custom_due_date,
+        'attachments': attachments  
         })
-        make_task.insert(ignore_permissions=True)
-        # make_task.submit()
+        make_task.insert()
+        make_task.save()
         frappe.db.set_value('Issue assignment  departments', row.name, 'custom_task_link', make_task.name)
-        print("makeTaskName",make_task.name)
-    
 
-    # print("items",items)    
-    
-        # 
+
         

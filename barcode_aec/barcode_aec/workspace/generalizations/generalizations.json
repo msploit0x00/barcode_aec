@@ -1,6 +1,15 @@
 {
- "charts": [],
- "content": "[{\"id\":\"gqfKCYXUjP\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"\u0642\u0627\u0626\u0645\u0629 \u0627\u0644\u0623\u0639\u0636\u0627\u0621\",\"col\":4}},{\"id\":\"PUoCJDngy4\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"\u0642\u0627\u0626\u0645\u0629 \u0627\u0644\u0623\u0639\u0636\u0627\u0621 \u0627\u0644\u0645\u0648\u0642\u0648\u0641\u064a\u0646\",\"col\":4}},{\"id\":\"2T0TJLaq5i\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"\u0642\u0627\u0626\u0645\u0629 \u0637\u0644\u0628\u0627\u062a \u0627\u0644\u0639\u0636\u0648\u064a\u0629\",\"col\":4}},{\"id\":\"K6lIe4YKXj\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"bPQsNoZeFn\",\"type\":\"card\",\"data\":{\"card_name\":\"Committees Generalizations\",\"col\":4}},{\"id\":\"4edI9zCEs-\",\"type\":\"card\",\"data\":{\"card_name\":\"Authorities Generalizations\",\"col\":4}},{\"id\":\"ev3BYomG3G\",\"type\":\"spacer\",\"data\":{\"col\":12}}]",
+ "charts": [
+  {
+   "chart_name": "Generalization Queuing Types",
+   "label": "Generalization Queuing Types"
+  },
+  {
+   "chart_name": "Generalization Queuing Status",
+   "label": "Generalization Queuing Status"
+  }
+ ],
+ "content": "[{\"id\":\"gqfKCYXUjP\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"\u0642\u0627\u0626\u0645\u0629 \u0627\u0644\u0623\u0639\u0636\u0627\u0621\",\"col\":4}},{\"id\":\"PUoCJDngy4\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"\u0642\u0627\u0626\u0645\u0629 \u0627\u0644\u0623\u0639\u0636\u0627\u0621 \u0627\u0644\u0645\u0648\u0642\u0648\u0641\u064a\u0646\",\"col\":4}},{\"id\":\"2T0TJLaq5i\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"\u0642\u0627\u0626\u0645\u0629 \u0637\u0644\u0628\u0627\u062a \u0627\u0644\u0639\u0636\u0648\u064a\u0629\",\"col\":4}},{\"id\":\"SVSXlB9_Sv\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Generalization Queuing Status\",\"col\":6}},{\"id\":\"bazOzqAsKP\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Generalization Queuing Types\",\"col\":6}},{\"id\":\"K6lIe4YKXj\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"A4Sax2cFT7\",\"type\":\"card\",\"data\":{\"card_name\":\"Generalizations\",\"col\":4}},{\"id\":\"xfNOB0nDo6\",\"type\":\"card\",\"data\":{\"card_name\":\"Generalization Data\",\"col\":4}},{\"id\":\"caKsRhkPI7\",\"type\":\"card\",\"data\":{\"card_name\":\"Settings\",\"col\":4}},{\"id\":\"ev3BYomG3G\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"_eRDviFKq9\",\"type\":\"card\",\"data\":{\"card_name\":\"Follow Up\",\"col\":4}}]",
  "creation": "2024-01-13 22:15:09.244589",
  "custom_blocks": [],
  "docstatus": 0,
@@ -25,7 +34,25 @@
   {
    "hidden": 0,
    "is_query_report": 0,
-   "label": "Committees Generalizations",
+   "label": "Settings",
+   "link_count": 1,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Generalization Settings",
+   "link_count": 0,
+   "link_to": "Generalization Settings",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Generalizations",
    "link_count": 3,
    "onboard": 0,
    "type": "Card Break"
@@ -33,12 +60,40 @@
   {
    "hidden": 0,
    "is_query_report": 0,
-   "label": " Generalizations",
+   "label": "Committee Generalization",
+   "link_count": 0,
+   "link_to": "Committee Generalization",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Generalization",
    "link_count": 0,
    "link_to": "Generalization",
    "link_type": "DocType",
    "onboard": 0,
    "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Authorities Generalization 2",
+   "link_count": 0,
+   "link_to": "Authorities Generalization 2",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Generalization Data",
+   "link_count": 3,
+   "onboard": 0,
+   "type": "Card Break"
   },
   {
    "hidden": 0,
@@ -63,43 +118,45 @@
   {
    "hidden": 0,
    "is_query_report": 0,
-   "label": "Authorities Generalizations",
-   "link_count": 3,
-   "onboard": 0,
-   "type": "Card Break"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "Authorities Generalizations",
-   "link_count": 0,
-   "link_to": "Authorities Generalizations",
-   "link_type": "DocType",
-   "onboard": 0,
-   "type": "Link"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "Authorities Generalization 2",
-   "link_count": 0,
-   "link_to": "Authorities Generalization 2",
-   "link_type": "DocType",
-   "onboard": 0,
-   "type": "Link"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
    "label": "Generalization Queuing",
    "link_count": 0,
    "link_to": "Generalization Queuing",
    "link_type": "DocType",
    "onboard": 0,
    "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Follow Up",
+   "link_count": 2,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "dependencies": "Generalization Queuing",
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Generalization Queuing Follow Up",
+   "link_count": 0,
+   "link_to": "Generalization Queuing Follow Up",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "dependencies": "Email Queue",
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Generalization Follow Up",
+   "link_count": 0,
+   "link_to": "Generalization Follow Up",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
   }
  ],
- "modified": "2024-09-02 15:12:38.731289",
+ "modified": "2024-09-15 15:36:40.929995",
  "modified_by": "ahmed.radwan@datasofteg.com",
  "module": "Barcode Aec",
  "name": "Generalizations",

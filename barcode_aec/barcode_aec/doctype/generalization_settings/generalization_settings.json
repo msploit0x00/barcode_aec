@@ -7,19 +7,101 @@
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
-  "queue_time"
+  "queue_time",
+  "section_break_ou3ak",
+  "committee_generalization_sms",
+  "committee_whatsapp",
+  "committee_push_notifications",
+  "generalizations_settings_section",
+  "generalizations_sms",
+  "generalizations_whatsapp",
+  "generalizations_push_notifications",
+  "entities_settings_section",
+  "entities_sms",
+  "entities_whatsapp",
+  "entities_push_notifications"
  ],
  "fields": [
   {
+   "description": "Time Between every Queue (Must be integer number)",
    "fieldname": "queue_time",
    "fieldtype": "Int",
    "label": " Queue Time"
+  },
+  {
+   "fieldname": "section_break_ou3ak",
+   "fieldtype": "Section Break",
+   "label": "Committee Generalizations Settings"
+  },
+  {
+   "default": "0",
+   "fieldname": "committee_generalization_sms",
+   "fieldtype": "Check",
+   "label": "Committee Generalization SMS"
+  },
+  {
+   "default": "0",
+   "fieldname": "committee_whatsapp",
+   "fieldtype": "Check",
+   "label": "Committee Whatsapp"
+  },
+  {
+   "default": "0",
+   "fieldname": "committee_push_notifications",
+   "fieldtype": "Check",
+   "label": "Committee Push Notifications "
+  },
+  {
+   "fieldname": "generalizations_settings_section",
+   "fieldtype": "Section Break",
+   "label": "Generalizations Settings"
+  },
+  {
+   "default": "0",
+   "fieldname": "generalizations_sms",
+   "fieldtype": "Check",
+   "label": "Generalizations SMS"
+  },
+  {
+   "default": "0",
+   "fieldname": "generalizations_whatsapp",
+   "fieldtype": "Check",
+   "label": "Generalizations Whatsapp"
+  },
+  {
+   "default": "0",
+   "fieldname": "generalizations_push_notifications",
+   "fieldtype": "Check",
+   "label": "Generalizations Push Notifications"
+  },
+  {
+   "fieldname": "entities_settings_section",
+   "fieldtype": "Section Break",
+   "label": "Entities Settings"
+  },
+  {
+   "default": "0",
+   "fieldname": "entities_sms",
+   "fieldtype": "Check",
+   "label": "Entities SMS"
+  },
+  {
+   "default": "0",
+   "fieldname": "entities_whatsapp",
+   "fieldtype": "Check",
+   "label": "Entities Whatsapp"
+  },
+  {
+   "default": "0",
+   "fieldname": "entities_push_notifications",
+   "fieldtype": "Check",
+   "label": "Entities Push Notifications"
   }
  ],
  "index_web_pages_for_search": 1,
  "issingle": 1,
  "links": [],
- "modified": "2024-09-05 19:03:49.550346",
+ "modified": "2024-09-15 15:40:46.023743",
  "modified_by": "Administrator",
  "module": "Barcode Aec",
  "name": "Generalization Settings",

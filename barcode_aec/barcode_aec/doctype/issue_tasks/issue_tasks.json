@@ -1,6 +1,7 @@
 {
  "actions": [],
  "allow_rename": 1,
+ "autoname": "format: Task-{employee}-{custom_due_date}",
  "creation": "2024-05-29 09:45:14.360390",
  "default_view": "List",
  "doctype": "DocType",
@@ -12,12 +13,14 @@
   "issue_assignment",
   "department",
   "employee",
+  "user",
   "column_break_ewlaf",
   "status",
   "custom_due_date",
   "section_break_dpfzf",
   "notes",
-  "remark"
+  "remark",
+  "attachments"
  ],
  "fields": [
   {
@@ -77,14 +80,28 @@
    "fieldname": "remark",
    "fieldtype": "Text",
    "label": "Remark"
+  },
+  {
+   "fieldname": "attachments",
+   "fieldtype": "Table",
+   "label": "Attachments",
+   "options": "Issue Attachments"
+  },
+  {
+   "fetch_from": "employee.user_id",
+   "fieldname": "user",
+   "fieldtype": "Link",
+   "label": "User",
+   "options": "User"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-08-29 11:02:03.320611",
+ "modified": "2024-09-11 14:56:39.811518",
  "modified_by": "Administrator",
  "module": "Barcode Aec",
  "name": "Issue Tasks",
+ "naming_rule": "Expression",
  "owner": "Administrator",
  "permissions": [
   {

@@ -9,7 +9,7 @@
    "label": "Letters Status"
   }
  ],
- "content": "[{\"id\":\"3Q-TjwWgYH\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Total Letters\",\"col\":4}},{\"id\":\"7LjOqu3sTe\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Total Issued\",\"col\":4}},{\"id\":\"ohvSfaWR75\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Total Incoming\",\"col\":4}},{\"id\":\"dX6oAwi6_n\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Issue Tasks Status\",\"col\":6}},{\"id\":\"dfAJxRux8M\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Letters Status\",\"col\":6}},{\"id\":\"mhhPd7WRij\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"lIp5lMhVAh\",\"type\":\"custom_block\",\"data\":{\"custom_block_name\":\"Incoming and outgoing letters type\",\"col\":12}},{\"id\":\"YshJyqVlNe\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"Ah2sooQhHL\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"In letters\",\"col\":5}},{\"id\":\"7JB5jKULc7\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"out letters\",\"col\":4}},{\"id\":\"aLLnvmOmhf\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"_xsxg8fgLW\",\"type\":\"card\",\"data\":{\"card_name\":\"Master Data\",\"col\":4}},{\"id\":\"rNcFVb64kC\",\"type\":\"card\",\"data\":{\"card_name\":\"Reports\",\"col\":4}},{\"id\":\"RX2BWB9P8r\",\"type\":\"card\",\"data\":{\"card_name\":\"Assignments\",\"col\":4}}]",
+ "content": "[{\"id\":\"3Q-TjwWgYH\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Total Letters\",\"col\":4}},{\"id\":\"7LjOqu3sTe\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Total Issued\",\"col\":4}},{\"id\":\"ohvSfaWR75\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Total Incoming\",\"col\":4}},{\"id\":\"dX6oAwi6_n\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Issue Tasks Status\",\"col\":6}},{\"id\":\"dfAJxRux8M\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Letters Status\",\"col\":6}},{\"id\":\"mhhPd7WRij\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"lIp5lMhVAh\",\"type\":\"custom_block\",\"data\":{\"custom_block_name\":\"Incoming and outgoing letters type\",\"col\":12}},{\"id\":\"YshJyqVlNe\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"aLLnvmOmhf\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"_xsxg8fgLW\",\"type\":\"card\",\"data\":{\"card_name\":\"Master Data\",\"col\":4}},{\"id\":\"rNcFVb64kC\",\"type\":\"card\",\"data\":{\"card_name\":\"\u0627\u0644\u062a\u0642\u0627\u0631\u064a\u0631\",\"col\":4}},{\"id\":\"RX2BWB9P8r\",\"type\":\"card\",\"data\":{\"card_name\":\"Assignments\",\"col\":4}}]",
  "creation": "2024-02-19 17:07:19.547045",
  "custom_blocks": [
   {
@@ -95,7 +95,7 @@
   {
    "hidden": 0,
    "is_query_report": 0,
-   "label": "LettersTasks",
+   "label": "Letter Tasks",
    "link_count": 0,
    "link_to": "Issue Tasks",
    "link_type": "DocType",
@@ -105,7 +105,7 @@
   {
    "hidden": 0,
    "is_query_report": 0,
-   "label": "Letter  Assignment",
+   "label": "Issue Assignment",
    "link_count": 0,
    "link_to": "Issue Assignment",
    "link_type": "DocType",
@@ -115,16 +115,16 @@
   {
    "hidden": 0,
    "is_query_report": 0,
-   "label": "Reports",
+   "label": "\u0627\u0644\u062a\u0642\u0627\u0631\u064a\u0631",
    "link_count": 1,
    "onboard": 0,
    "type": "Card Break"
   },
   {
-   "dependencies": "",
+   "dependencies": "Issue",
    "hidden": 0,
    "is_query_report": 0,
-   "label": "Letters Follow Up",
+   "label": "\u0645\u062a\u0627\u0628\u0639\u0629 \u0627\u0644\u0648\u0627\u0631\u062f \u0648 \u0627\u0644\u0635\u0627\u062f\u0631",
    "link_count": 0,
    "link_to": "\u0645\u062a\u0627\u0628\u0639\u0629 \u0627\u0644\u0648\u0627\u0631\u062f \u0648 \u0627\u0644\u0635\u0627\u062f\u0631",
    "link_type": "Report",
@@ -132,7 +132,7 @@
    "type": "Link"
   }
  ],
- "modified": "2024-09-03 12:46:46.713012",
+ "modified": "2024-09-22 10:24:05.476763",
  "modified_by": "ahmed.radwan@datasofteg.com",
  "module": "Barcode Aec",
  "name": "In And out letters",
@@ -154,25 +154,15 @@
  "parent_page": "",
  "public": 1,
  "quick_lists": [],
- "roles": [],
- "sequence_id": 6.0,
- "shortcuts": [
+ "roles": [
   {
-   "color": "Blue",
-   "doc_view": "List",
-   "label": "In letters",
-   "link_to": "Issue",
-   "stats_filter": "{\"custom_destination\":[\"=\",\"Issued\"]}",
-   "type": "DocType"
+   "role": "\u0627\u062f\u0627\u0631\u0629 \u0634\u0624\u0648\u0646 \u0627\u0644\u0644\u062c\u0627\u0646"
   },
   {
-   "color": "Red",
-   "doc_view": "List",
-   "label": "out letters",
-   "link_to": "Issue",
-   "stats_filter": "{\"custom_destination\":[\"=\",\"Incoming\"]}",
-   "type": "DocType"
+   "role": "\u0646\u0627\u0626\u0628 \u0627\u0644\u0645\u062f\u064a\u0631 \u0627\u0644\u062a\u0646\u0641\u064a\u0630\u064a"
   }
  ],
+ "sequence_id": 6.0,
+ "shortcuts": [],
  "title": "In And out letters"
 }
