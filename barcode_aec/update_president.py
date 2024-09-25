@@ -45,3 +45,23 @@ def validate_cust(com,cust):
         for row in doc.custom_committees_you_would_like_to_join:
             if row.committees != com:
                 frappe.throw('This Member is not joined to this')
+
+
+
+
+
+@frappe.whitelist(allow_guest=True)
+def update_committe_after_end_perioud(customer, com, type):
+    doc = frappe.get_doc('Customer',customer)
+    # return doc
+    for row in doc.custom_committees_you_would_like_to_join:
+        # if salutation == 'عضوية وكيل لجنة':
+        if type == 'مصدر':
+            if row.committees == com and (row.salutation == 'عضوية وكيل لجنة' or row.salutation == 'عضوية رئيس لجنة'):
+                row.salutation = 'عضوية لجنة سلعية'
+        if type == 'خدمي':
+            if row.committees == com and (row.salutation == 'عضوية وكيل لجنة' or row.salutation == 'عضوية رئيس لجنة'):
+                row.salutation =  'عضوية لجنة خدمية'
+    doc.save()
+    frappe.db.commit()
+    return "FIN"

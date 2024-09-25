@@ -11,6 +11,7 @@ def send_email():
     current_time_in_hour_min = datetime.now().strftime('%H:%M') 
     # get all generalization Queuing
     # print("current Date and time",current_date,current_time_in_hour_min)
+    queue_time = frappe.get_single_value("Generalization Settings",)
     docs =frappe.get_all("Generalization Queuing")
     print("Generalization Queuing",docs)
     for doc in docs:
