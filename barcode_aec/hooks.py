@@ -137,6 +137,7 @@ scheduler_events = {
     },
 	"daily": [
 		# "barcode_aec.make_journal_entry.make_journal_entry"
+		"barcode_aec.validate_reason_of_suspense.validate_customer"
 	],
 	"hourly": [
 		# "barcode_aec.tasks.hourly"
