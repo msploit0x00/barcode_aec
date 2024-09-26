@@ -36,7 +36,7 @@
    "in_list_view": 1,
    "in_preview": 1,
    "label": "Status",
-   "options": "\nPresent\nAbsent"
+   "options": "\nAttended\nAbsent"
   },
   {
    "fieldname": "designation",
@@ -48,7 +48,7 @@
  "index_web_pages_for_search": 1,
  "istable": 1,
  "links": [],
- "modified": "2024-04-15 13:45:25.803319",
+ "modified": "2024-09-26 08:52:58.728923",
  "modified_by": "Administrator",
  "module": "Barcode Aec",
  "name": "council entities",
