@@ -1,0 +1,247 @@
+{
+ "charts": [],
+ "content": "[{\"id\":\"NQMhRpXdez\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Markets And Exhibitions</span>\",\"col\":12}},{\"id\":\"4GHJjqoSSQ\",\"type\":\"card\",\"data\":{\"card_name\":\"Market Access\",\"col\":4}},{\"id\":\"b0bF_r-No8\",\"type\":\"card\",\"data\":{\"card_name\":\"Foreigner  Affairs\",\"col\":4}},{\"id\":\"bgwvmoTwgn\",\"type\":\"card\",\"data\":{\"card_name\":\"Exhibitions\",\"col\":4}}]",
+ "creation": "2024-06-23 09:59:05.527975",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 1,
+ "icon": "branch",
+ "idx": 0,
+ "is_hidden": 0,
+ "label": "Markets And Exhibitions",
+ "links": [
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Market Access",
+   "link_count": 8,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Market",
+   "link_count": 0,
+   "link_to": "Market",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Market Product",
+   "link_count": 0,
+   "link_to": "Market Product",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Market Follow Up",
+   "link_count": 0,
+   "link_to": "Market Follow Up",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Technical Delegations",
+   "link_count": 0,
+   "link_to": "Technical Delegations",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Cooperation Agreements",
+   "link_count": 0,
+   "link_to": "Cooperation Agreements",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "External Achievements",
+   "link_count": 0,
+   "link_to": "External Achievements",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Protocol",
+   "link_count": 0,
+   "link_to": "Protocol",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Channel",
+   "link_count": 0,
+   "link_to": "Channel",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Exhibitions",
+   "link_count": 5,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Exhibitions",
+   "link_count": 0,
+   "link_to": "Exhibitions",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Exhibitors",
+   "link_count": 0,
+   "link_to": "Exhibitors",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Exhibition Type",
+   "link_count": 0,
+   "link_to": "Exhibition Type",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Exhibition specialty",
+   "link_count": 0,
+   "link_to": "Exhibition specialty",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Exhibition Terms",
+   "link_count": 0,
+   "link_to": "Exhibition Terms",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Foreigner  Affairs",
+   "link_count": 6,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Foreigner  Affairs  Opportunities",
+   "link_count": 0,
+   "link_to": "Foreigner  Affairs  Opportunities",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Buyers",
+   "link_count": 0,
+   "link_to": "Buyers",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Business to Business Meetings",
+   "link_count": 0,
+   "link_to": "Business to Business Meetings",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Trade Missions",
+   "link_count": 0,
+   "link_to": "Trade Missions",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 1,
+   "label": "Export Opportunites Generalization",
+   "link_count": 0,
+   "link_to": "Export Opportunites Generalization",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Company Profile Form",
+   "link_count": 0,
+   "link_to": "Company Profile Form",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  }
+ ],
+ "modified": "2024-09-26 15:56:42.173728",
+ "modified_by": "Administrator",
+ "module": "Barcode Aec",
+ "name": "Markets And Exhibitions",
+ "number_cards": [],
+ "owner": "ahmed.radwan@datasofteg.com",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [
+  {
+   "role": "System Manager"
+  }
+ ],
+ "sequence_id": 41.0,
+ "shortcuts": [],
+ "title": "Markets And Exhibitions"
+}
