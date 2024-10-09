@@ -21,9 +21,9 @@ def cron():
         print("Treasury_bill",table)
         for row in table:
             print("Row",row)  # Print entry date and current date
-            if today() == str(row.entry_date):
-                print("Dayessss",row.dayes)  # Print entry date and current date
-                journal_entry = frappe.get_doc({
+            # if today() == str(row.entry_date):
+            print("Dayessss",row.dayes)  # Print entry date and current date
+            journal_entry = frappe.get_doc({
                 'doctype': 'Journal Entry',
                 'posting_date': today(),
                 'accounts': [
@@ -52,16 +52,16 @@ def cron():
                         "debit_in_account_currency": row.tax_on_return,
                     },
                 ] })
-                journal_entry.insert()
-                journal_entry.submit()
+            journal_entry.insert()
+            journal_entry.submit()
 
                 # Update the payment schedule row with the journal entry reference
-                frappe.db.set_value('Payment', row.name, 'journal_entry', journal_entry.name)
-                frappe.db.set_value('Treasury bills', doc.name,'make_entry', 1)
-                print("Ok.....")
+            frappe.db.set_value('Payment', row.name, 'journal_entry', journal_entry.name)
+            frappe.db.set_value('Treasury bills', doc.name,'make_entry', 1)
+            print("Ok.....")
 
-            else:
-                print("Not Ok.....")
+            # else:
+            #     print("Not Ok.....")
 
 
 
