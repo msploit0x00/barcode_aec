@@ -57,6 +57,7 @@ def cron():
             journal_entry.submit()
 
                 # Update the payment schedule row with the journal entry reference
+            print(journal_entry)
         frappe.db.set_value('Payment', row.name, 'journal_entry', journal_entry.name)
         print(doc.name)
         frappe.db.set_value('Treasury bills', doc.name,'make_entry', 1)
