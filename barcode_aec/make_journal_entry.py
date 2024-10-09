@@ -58,6 +58,8 @@ def cron():
 
                 # Insert and submit the journal entry
                 journal_entry.insert(ignore_permissions=True)
+                journal_entry.save()
+                frappe.db.commit()
                 # journal_entry.submit()
                 print(f"Journal Entry {journal_entry.name} created for {doc.name}")
 
