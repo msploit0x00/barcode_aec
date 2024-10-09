@@ -143,6 +143,7 @@ def journal_entry_due_date_1(treasury_bills):
                 return _("Treasury Bills accounts not found in settings")
 
         nominal_value = treasury_bills_doc.nominal_value
+        grand_nominal_value = treasury_bills_doc.grand_nominal_value
 
         new_journal_entry = frappe.get_doc({
                 'doctype': 'Journal Entry',
@@ -150,13 +151,13 @@ def journal_entry_due_date_1(treasury_bills):
                 'accounts': [
                     {
                         'account': baio2_account,
-                        'debit_in_account_currency': nominal_value,
+                        'debit_in_account_currency': grand_nominal_value,
                         'credit_in_account_currency': 0,
                     },
                     {
                         'account': baio1_account,
                         'debit_in_account_currency': 0,
-                        'credit_in_account_currency': nominal_value,
+                        'credit_in_account_currency': grand_nominal_value,
                     },
                 ],
                 'custom_reference_type': 'Treasury bills',
