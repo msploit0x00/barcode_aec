@@ -52,7 +52,7 @@ def cron():
                         "debit_in_account_currency": row.tax_on_return,
                     },
                 ] })
-            journal_entry.insert()
+            journal_entry.insert(ignore_permissions=True)
             journal_entry.submit()
 
                 # Update the payment schedule row with the journal entry reference
