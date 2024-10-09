@@ -22,7 +22,8 @@ def cron():
         for row in table:
             print("Row",row)  # Print entry date and current date
             # if today() == str(row.entry_date):
-            print("Dayessss",row.dayes)  # Print entry date and current date
+            print("Dayessss",row.dayes) 
+            print(today()) # Print entry date and current date
             journal_entry = frappe.get_doc({
                 'doctype': 'Journal Entry',
                 'posting_date': today(),
