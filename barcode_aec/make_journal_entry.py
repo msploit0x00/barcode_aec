@@ -15,7 +15,8 @@ def cron():
     # Fetch all 'Treasury bills' documents
     docs = frappe.get_all("Treasury bills")
     current_time = now_datetime().strftime('%H:%M:%S')
-
+    jl_names = []
+    row_name = []
     for doc in docs:
         treasury_bill = frappe.get_doc("Treasury bills", doc.name)
         table = treasury_bill.payment_schedule
@@ -65,10 +66,19 @@ def cron():
 
                 # Update the payment schedule row with the journal entry reference
                 frappe.db.set_value('Payment', row.name, 'journal_entry', journal_entry.name)
+                jl_names.append(journal_entry.name)
                 frappe.db.set_value('Treasury bills', doc.name, 'make_entry', 1)
+                row_name.append(row.name)
                 print(f"Updated Payment {row.name} with Journal Entry {journal_entry.name}")
 
             except Exception as e:
                 print(f"Error while creating journal entry for {doc.name}: {e}")
+    
+    for row in row_name:
+        for jl in jl_names:
+            print(row)
+            print(jl)
+            frappe.db.set_value("Payment", row, 'journal_entry', jl)
+
 
     print("Cron Job Completed")
