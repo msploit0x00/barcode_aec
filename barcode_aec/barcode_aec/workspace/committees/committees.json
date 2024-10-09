@@ -1,6 +1,6 @@
 {
  "charts": [],
- "content": "[{\"id\":\"2T0TJLaq5i\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Total Committees\",\"col\":4}},{\"id\":\"gqfKCYXUjP\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Active Committees\",\"col\":4}},{\"id\":\"PUoCJDngy4\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Inactive Committees\",\"col\":4}},{\"id\":\"K6lIe4YKXj\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"MsdYTGmV44\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Annual Meetings Calendar (Monthly)\",\"col\":4}},{\"id\":\"O7nPnXuuqU\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Annual Meetings Calendar (Yearly)\",\"col\":4}},{\"id\":\"p9DOjiImSi\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Committees  Meetings Calendar\",\"col\":4}},{\"id\":\"WNDIQXwxkb\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"FLvolZYzpZ\",\"type\":\"quick_list\",\"data\":{\"quick_list_name\":\"Committees Annual Meetings\",\"col\":6}},{\"id\":\"WKfEHS3TQF\",\"type\":\"quick_list\",\"data\":{\"quick_list_name\":\"Upcoming Committees Meetings\",\"col\":6}},{\"id\":\"q5NIKWxWLS\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"jtEr1eQIQ4\",\"type\":\"card\",\"data\":{\"card_name\":\"Committees & Annual Plan\",\"col\":4}},{\"id\":\"5q_zV_qbbQ\",\"type\":\"card\",\"data\":{\"card_name\":\"Committees Meetings\",\"col\":4}},{\"id\":\"bPQsNoZeFn\",\"type\":\"card\",\"data\":{\"card_name\":\"Committees Generalizations\",\"col\":4}},{\"id\":\"audRVcIN5U\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"iGyAzLWc3X\",\"type\":\"spacer\",\"data\":{\"col\":4}},{\"id\":\"RXjQgWAhAh\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Committees &amp; Meetings Reports</b></span>\",\"col\":7}},{\"id\":\"97k1APWGfa\",\"type\":\"custom_block\",\"data\":{\"custom_block_name\":\"committees reports\",\"col\":12}},{\"id\":\"CAeXvwkY-1\",\"type\":\"spacer\",\"data\":{\"col\":12}}]",
+ "content": "[{\"id\":\"2T0TJLaq5i\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Total Committees\",\"col\":4}},{\"id\":\"gqfKCYXUjP\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Active Committees\",\"col\":4}},{\"id\":\"PUoCJDngy4\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Inactive Committees\",\"col\":4}},{\"id\":\"K6lIe4YKXj\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"MsdYTGmV44\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Annual Meetings Calendar (Monthly)\",\"col\":4}},{\"id\":\"O7nPnXuuqU\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Annual Meetings Calendar (Yearly)\",\"col\":4}},{\"id\":\"p9DOjiImSi\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Committees  Meetings Calendar\",\"col\":4}},{\"id\":\"WNDIQXwxkb\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"FLvolZYzpZ\",\"type\":\"quick_list\",\"data\":{\"quick_list_name\":\"Committees Annual Meetings\",\"col\":6}},{\"id\":\"WKfEHS3TQF\",\"type\":\"quick_list\",\"data\":{\"quick_list_name\":\"Upcoming Committees Meetings\",\"col\":6}},{\"id\":\"q5NIKWxWLS\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"jtEr1eQIQ4\",\"type\":\"card\",\"data\":{\"card_name\":\"Committees & Annual Plan\",\"col\":4}},{\"id\":\"5q_zV_qbbQ\",\"type\":\"card\",\"data\":{\"card_name\":\"\u0625\u062c\u062a\u0645\u0627\u0639\u0627\u062a \u0627\u0644\u0644\u062c\u0627\u0646\",\"col\":4}},{\"id\":\"sH9_bD34P2\",\"type\":\"card\",\"data\":{\"card_name\":\"\u0627\u0644\u062a\u0642\u0627\u0631\u064a\u0631\",\"col\":4}},{\"id\":\"audRVcIN5U\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"iGyAzLWc3X\",\"type\":\"spacer\",\"data\":{\"col\":4}},{\"id\":\"RXjQgWAhAh\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Committees &amp; Meetings Reports</b></span>\",\"col\":7}},{\"id\":\"97k1APWGfa\",\"type\":\"custom_block\",\"data\":{\"custom_block_name\":\"committees reports\",\"col\":12}},{\"id\":\"CAeXvwkY-1\",\"type\":\"spacer\",\"data\":{\"col\":12}}]",
  "creation": "2024-01-07 14:14:49.297384",
  "custom_blocks": [
   {
@@ -23,92 +23,6 @@
    "label": "\u0642\u0627\u0626\u0645\u0629  \u0627\u0644\u0644\u062c\u0627\u0646",
    "link_count": 0,
    "link_to": "Committee",
-   "link_type": "DocType",
-   "onboard": 0,
-   "type": "Link"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "Committees Meetings",
-   "link_count": 3,
-   "onboard": 0,
-   "type": "Card Break"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "Meetings",
-   "link_count": 0,
-   "link_to": "Meeting",
-   "link_type": "DocType",
-   "onboard": 0,
-   "type": "Link"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "Meetings Locations",
-   "link_count": 0,
-   "link_to": "Location",
-   "link_type": "DocType",
-   "onboard": 0,
-   "type": "Link"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "Meeting Minutes  ",
-   "link_count": 0,
-   "link_to": "Minutes Of Meeting",
-   "link_type": "DocType",
-   "onboard": 0,
-   "type": "Link"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "Committees Generalizations",
-   "link_count": 4,
-   "onboard": 0,
-   "type": "Card Break"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": " Generalizations",
-   "link_count": 0,
-   "link_to": "Generalization",
-   "link_type": "DocType",
-   "onboard": 0,
-   "type": "Link"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "Committee Generalization",
-   "link_count": 0,
-   "link_to": "Committee Generalization",
-   "link_type": "DocType",
-   "onboard": 0,
-   "type": "Link"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "Authorities Generalization",
-   "link_count": 0,
-   "link_to": "Authorities Generalization 2",
-   "link_type": "DocType",
-   "onboard": 0,
-   "type": "Link"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "Customer Newsletter",
-   "link_count": 0,
-   "link_to": "Customer Newsletter",
    "link_type": "DocType",
    "onboard": 0,
    "type": "Link"
@@ -150,10 +64,67 @@
    "link_type": "DocType",
    "onboard": 0,
    "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "\u0625\u062c\u062a\u0645\u0627\u0639\u0627\u062a \u0627\u0644\u0644\u062c\u0627\u0646",
+   "link_count": 3,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "\u0627\u0644\u0625\u062c\u062a\u0645\u0627\u0639\u0627\u062a",
+   "link_count": 0,
+   "link_to": "Meeting",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "\u0623\u0645\u0627\u0643\u0646 \u0627\u0644\u0625\u062c\u062a\u0645\u0627\u0639\u0627\u062a",
+   "link_count": 0,
+   "link_to": "Location",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "\u0645\u062d\u0627\u0636\u0631 \u0625\u062c\u062a\u0645\u0627\u0639\u0627\u062a \u0627\u0644\u0644\u062c\u0627\u0646 ",
+   "link_count": 0,
+   "link_to": "Minutes Of Meeting",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "\u0627\u0644\u062a\u0642\u0627\u0631\u064a\u0631",
+   "link_count": 1,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "dependencies": "Meeting",
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "\u062a\u0642\u0631\u064a\u0631 \u0627\u0644\u0627\u062c\u062a\u0645\u0627\u0639\u0627\u062a",
+   "link_count": 0,
+   "link_to": "Meeting report",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
   }
  ],
- "modified": "2024-08-27 09:51:54.431953",
- "modified_by": "ebram@datasofteg.com",
+ "modified": "2024-09-28 00:47:21.810162",
+ "modified_by": "ahmed.radwan@datasofteg.com",
  "module": "Barcode Aec",
  "name": "Committees",
  "number_cards": [
