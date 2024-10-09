@@ -78,6 +78,8 @@ def create_journal_entry(treasury_bills):
 
         nominal_value = treasury_bills_doc.nominal_value
         purchasing_value = treasury_bills_doc.purchasing_value
+        grand_nominal_value = treasury_bills_doc.grand_nominal_value
+        return_value = grand_nominal_value - purchasing_value
 
         new_journal_entry = frappe.get_doc({
             'doctype': 'Journal Entry',
@@ -85,7 +87,7 @@ def create_journal_entry(treasury_bills):
             'accounts': [
                 {
                     'account': baio1_account,
-                    'debit_in_account_currency': nominal_value,
+                    'debit_in_account_currency': grand_nominal_value,
                     'credit_in_account_currency': 0,
                 },
                 {
@@ -96,7 +98,7 @@ def create_journal_entry(treasury_bills):
                 {
                     'account': baio3_account,
                     'debit_in_account_currency': 0,
-                    'credit_in_account_currency': nominal_value - purchasing_value,
+                    'credit_in_account_currency': return_value,
                 }
             ],
             'custom_reference_type': 'Treasury bills',
