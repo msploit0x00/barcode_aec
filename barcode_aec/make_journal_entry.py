@@ -27,7 +27,7 @@ def cron():
                 # Create a journal entry for each row without validation
                 journal_entry = frappe.get_doc({
                     'doctype': 'Journal Entry',
-                    'posting_date': today(),
+                    'posting_date': row.entry_date,
                     'accounts': [
                         {
                             "account": setting5,
