@@ -253,7 +253,7 @@ def journal_entry_due_date_3(treasury_bills):
             return _("Treasury Bills accounts not found in settings")
         nominal_value = treasury_bills_doc.nominal_value
         purchasing_value = treasury_bills_doc.purchasing_value
-        return_value = grand_nominal_value - purchasing_value
+        return_value = treasury_bills_doc.grand_nominal_value - purchasing_value
 
 
         new_journal_entry = frappe.get_doc({
