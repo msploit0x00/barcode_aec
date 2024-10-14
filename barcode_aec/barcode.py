@@ -194,7 +194,8 @@ def journal_entry_due_date_2(treasury_bills):
 
         treasury_bills_setting = frappe.get_doc('Treasury bill setting', None)
         baio4_account = treasury_bills_setting.baio4 
-        baio2_account = treasury_bills_setting.baio2 
+        baio2_account = treasury_bills_setting.baio2
+        taxes_owed = treasury_bills_setting.taxes_owed 
 
         if not baio4_account or not baio2_account :
            return _("Treasury Bills accounts not found in settings")
@@ -204,7 +205,7 @@ def journal_entry_due_date_2(treasury_bills):
             'posting_date': due_date,
             'accounts': [
                 {
-                    'account': baio4_account,
+                    'account': taxes_owed,
                     'debit_in_account_currency': tax,
                     'credit_in_account_currency': 0,
                 },
@@ -247,7 +248,8 @@ def journal_entry_due_date_3(treasury_bills):
 
         treasury_bills_setting = frappe.get_doc('Treasury bill setting', None)
         baio3_account = treasury_bills_setting.baio3 
-        baio5_account = treasury_bills_setting.baio5 
+        baio5_account = treasury_bills_setting.baio5
+        due_returns = treasury_bills_setting.due_returns 
 
         if not baio3_account or not baio5_account :
             return _("Treasury Bills accounts not found in settings")
@@ -266,7 +268,7 @@ def journal_entry_due_date_3(treasury_bills):
                     'credit_in_account_currency': 0,
                 },
                 {
-                    'account': baio5_account,
+                    'account': due_returns,
                     'debit_in_account_currency': 0,
                     'credit_in_account_currency': return_value,
                 },
