@@ -19,31 +19,31 @@
   {
    "fieldname": "baio1",
    "fieldtype": "Link",
-   "label": "Asset Account ",
+   "label": "Asset Account",
    "options": "Account"
   },
   {
    "fieldname": "baio2",
    "fieldtype": "Link",
-   "label": "Bank Account ",
+   "label": "Bank Account",
    "options": "Account"
   },
   {
    "fieldname": "baio3",
    "fieldtype": "Link",
-   "label": "Deferred returns Account ",
+   "label": "Deferred returns Account",
    "options": "Account"
   },
   {
    "fieldname": "baio4",
    "fieldtype": "Link",
-   "label": "Tax Account ",
+   "label": "Tax Account",
    "options": "Account"
   },
   {
    "fieldname": "baio5",
    "fieldtype": "Link",
-   "label": "RevenuesAccount ",
+   "label": "Revenues Account",
    "options": "Account"
   },
   {
@@ -62,7 +62,7 @@
  "index_web_pages_for_search": 1,
  "issingle": 1,
  "links": [],
- "modified": "2024-08-22 13:00:07.011086",
+ "modified": "2024-10-14 15:37:55.826119",
  "modified_by": "Administrator",
  "module": "Barcode Aec",
  "name": "Treasury bill setting",
