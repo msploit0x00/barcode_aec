@@ -33,27 +33,27 @@ def cron():
                         'accounts': [
                             {
                                 "account": setting5,
-                                "credit": row.earned_return,
-                                "against_account": setting3,
-                                "credit_in_account_currency": row.earned_return,
-                            },
-                            {
-                                "account": setting3,
                                 "debit": row.earned_return,
-                                "against_account": setting5,
+                                "against_account": setting3,
                                 "debit_in_account_currency": row.earned_return,
                             },
                             {
+                                "account": setting3,
+                                "credit": row.earned_return,
+                                "against_account": setting5,
+                                "credit_in_account_currency": row.earned_return,
+                            },
+                            {
                                 "account": setting6,
-                                "credit": row.tax_on_return,
+                                "debit": row.tax_on_return,
                                 "against_account": setting4,
-                                "credit_in_account_currency": row.tax_on_return,
+                                "debit_in_account_currency": row.tax_on_return,
                             },
                             {
                                 "account": setting4,
-                                "debit": row.tax_on_return,
+                                "credit": row.tax_on_return,
                                 "against_account": setting6,
-                                "debit_in_account_currency": row.tax_on_return,
+                                "credit_in_account_currency": row.tax_on_return,
                             },
                         ]
                     })
