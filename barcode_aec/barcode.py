@@ -263,12 +263,12 @@ def journal_entry_due_date_3(treasury_bills):
             'posting_date': due_date,
             'accounts': [
                 {
-                    'account': baio3_account,
+                    'account': due_returns,
                     'debit_in_account_currency': return_value,
                     'credit_in_account_currency': 0,
                 },
                 {
-                    'account': due_returns,
+                    'account': baio5_account,
                     'debit_in_account_currency': 0,
                     'credit_in_account_currency': return_value,
                 },
