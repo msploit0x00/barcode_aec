@@ -22,7 +22,7 @@ def cron():
         table = treasury_bill.payment_schedule
         
         for row in table:
-             if today() == str(row.entry_date):
+            #  if today() == str(row.entry_date):
                 print(f"Processing row {row.name} from Treasury Bill {doc.name}")
 
                 try:
