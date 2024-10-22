@@ -11,7 +11,7 @@ def cron():
     setting4 = frappe.db.get_single_value('Treasury bill setting', 'baio4')
     setting5 = frappe.db.get_single_value('Treasury bill setting', 'due_returns')
     setting6 = frappe.db.get_single_value('Treasury bill setting', 'taxes_owed')
-    
+    setting7 = frappe.db.get_single_value('Treasury bill setting', 'baio5')
     # Fetch all 'Treasury bills' documents
     docs = frappe.get_all("Treasury bills")
     current_time = now_datetime().strftime('%H:%M:%S')
@@ -38,19 +38,19 @@ def cron():
                                 "debit_in_account_currency": row.earned_return,
                             },
                             {
-                                "account": setting3,
+                                "account": setting7,
                                 "credit": row.earned_return,
                                 "against_account": setting5,
                                 "credit_in_account_currency": row.earned_return,
                             },
                             {
-                                "account": setting6,
+                                "account": setting4,
                                 "debit": row.tax_on_return,
                                 "against_account": setting4,
                                 "debit_in_account_currency": row.tax_on_return,
                             },
                             {
-                                "account": setting4,
+                                "account": setting6,
                                 "credit": row.tax_on_return,
                                 "against_account": setting6,
                                 "credit_in_account_currency": row.tax_on_return,
