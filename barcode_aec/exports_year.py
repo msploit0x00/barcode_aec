@@ -67,9 +67,9 @@ def exports_years(retries=3, delay=0.5):
                 
                 doc.save()
                 frappe.db.commit()
-                success = True  # If the transaction succeeds, set success to True to exit the retry loop
+                success = True  
                 print("Done")
-            except frappe.QueryDeadlockError:  # Catch the deadlock error
+            except frappe.QueryDeadlockError:  
                 print("Deadlock encountered, retrying...")
                 retry_count += 1
                 time.sleep(delay)
