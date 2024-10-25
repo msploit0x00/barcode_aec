@@ -1,0 +1,48 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-10-25 14:55:08.217837",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "year",
+  "total_amount_in_egp",
+  "total_amount_in_usd",
+  "quantity_in_tons"
+ ],
+ "fields": [
+  {
+   "fieldname": "year",
+   "fieldtype": "Data",
+   "label": "Year"
+  },
+  {
+   "fieldname": "total_amount_in_egp",
+   "fieldtype": "Currency",
+   "label": "Total Amount In EGP"
+  },
+  {
+   "fieldname": "total_amount_in_usd",
+   "fieldtype": "Currency",
+   "label": "Total Amount In USD"
+  },
+  {
+   "fieldname": "quantity_in_tons",
+   "fieldtype": "Currency",
+   "label": "Quantity In Tons"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-10-25 14:55:08.217837",
+ "modified_by": "Administrator",
+ "module": "Barcode Aec",
+ "name": "Volume of Exports In Years",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
