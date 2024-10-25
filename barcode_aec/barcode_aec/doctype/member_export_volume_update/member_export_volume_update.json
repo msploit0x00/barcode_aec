@@ -28,7 +28,9 @@
   "last_update_countries_exports",
   "stop_board_member_calculation_section",
   "last_update",
-  "stop_board_member_calculation"
+  "stop_board_member_calculation",
+  "update_volume_exports_in_years_only_section",
+  "update_member_exports_in_year"
  ],
  "fields": [
   {
@@ -151,12 +153,22 @@
    "fieldname": "update_countries_volume_section",
    "fieldtype": "Section Break",
    "label": "Update Countries Volume"
+  },
+  {
+   "fieldname": "update_volume_exports_in_years_only_section",
+   "fieldtype": "Section Break",
+   "label": "Update Volume Exports In Years Only"
+  },
+  {
+   "fieldname": "update_member_exports_in_year",
+   "fieldtype": "Button",
+   "label": "Update Member Exports In Year"
   }
  ],
  "index_web_pages_for_search": 1,
  "issingle": 1,
  "links": [],
- "modified": "2024-04-22 15:05:30.758450",
+ "modified": "2024-10-25 15:35:36.073948",
  "modified_by": "Administrator",
  "module": "Barcode Aec",
  "name": "Member Export Volume Update",
