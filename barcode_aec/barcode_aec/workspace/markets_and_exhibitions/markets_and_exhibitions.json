@@ -103,64 +103,6 @@
   {
    "hidden": 0,
    "is_query_report": 0,
-   "label": "Exhibitions",
-   "link_count": 5,
-   "onboard": 0,
-   "type": "Card Break"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "Exhibitions",
-   "link_count": 0,
-   "link_to": "Exhibitions",
-   "link_type": "DocType",
-   "onboard": 0,
-   "type": "Link"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "Exhibitors",
-   "link_count": 0,
-   "link_to": "Exhibitors",
-   "link_type": "DocType",
-   "onboard": 0,
-   "type": "Link"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "Exhibition Type",
-   "link_count": 0,
-   "link_to": "Exhibition Type",
-   "link_type": "DocType",
-   "onboard": 0,
-   "type": "Link"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "Exhibition specialty",
-   "link_count": 0,
-   "link_to": "Exhibition specialty",
-   "link_type": "DocType",
-   "onboard": 0,
-   "type": "Link"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "Exhibition Terms",
-   "link_count": 0,
-   "link_to": "Exhibition Terms",
-   "link_type": "DocType",
-   "onboard": 0,
-   "type": "Link"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
    "label": "Foreigner  Affairs",
    "link_count": 7,
    "onboard": 0,
@@ -235,9 +177,77 @@
    "link_type": "DocType",
    "onboard": 0,
    "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Exhibitions",
+   "link_count": 6,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Exhibitions Annual Plan",
+   "link_count": 0,
+   "link_to": "Exhibitions Annual Plan",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Exhibitions",
+   "link_count": 0,
+   "link_to": "Exhibitions",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Exhibitors",
+   "link_count": 0,
+   "link_to": "Exhibitors",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Exhibition Type",
+   "link_count": 0,
+   "link_to": "Exhibition Type",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Exhibition specialty",
+   "link_count": 0,
+   "link_to": "Exhibition specialty",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Exhibition Terms",
+   "link_count": 0,
+   "link_to": "Exhibition Terms",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
   }
  ],
- "modified": "2024-10-20 16:19:46.380667",
+ "modified": "2024-10-28 19:56:39.654513",
  "modified_by": "ahmed.radwan@datasofteg.com",
  "module": "Barcode Aec",
  "name": "Markets And Exhibitions",
