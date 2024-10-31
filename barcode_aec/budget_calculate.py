@@ -1,29 +1,6 @@
 import frappe
 from frappe.utils import getdate, add_days
 
-@frappe.whitelist()
-def get_po_totals(filters):
-    results = {}
-
-    filters = frappe.parse_json(filters)
-    purchase_orders = frappe.get_all('Purchase Order', fields=['name'], filters=filters)
-
-    if purchase_orders:
-        for po in purchase_orders:
-            po_items = frappe.get_all('Purchase Order Item', fields=['amount', 'expense_account'], filters={
-                'parent': po.name
-            })
-
-            for item in po_items:
-                expense_account = item.expense_account or ''
-                amount = item.amount or 0
-
-                if expense_account:
-                    if expense_account not in results:
-                        results[expense_account] = {'total_amount': 0}
-                    results[expense_account]['total_amount'] += amount
-
-    return results
 
 @frappe.whitelist()
 def get_po_totals(month, fiscal_year, expense_account, cost_center):
@@ -94,24 +71,6 @@ def get_po_totals(month, fiscal_year, expense_account, cost_center):
 @frappe.whitelist()
 def get_budget_details(fiscal_year):
     budget_details = []
-
-    budgets = frappe.get_all('Budget', fields=['name', 'cost_center'], filters={
-        'docstatus': 1,
-        'fiscal_year': fiscal_year
-    })
-
-    for budget in budgets:
-        budget_doc = frappe.get_doc('Budget', budget.name)
-        for account in budget_doc.accounts:
-            budget_details.append({
-                'account': account.account,
-                'budget_amount': account.budget_amount,
-                'monthly_distribution': account.monthly_distribution,
-                'cost_center': budget.cost_center,
-                'parent': budget.name
-            })
-
-    return budget_details
 
     budgets = frappe.get_all(
         "Budget",
@@ -312,10 +271,6 @@ def get_monthly_distribution(fiscal_year, cost_center, expense_account, month):
 #     filters = frappe.parse_json(filters)  # Parse filters from JSON
 #     if not transaction_date:
 #         frappe.throw(_("Transaction date is required"))
-    
-#     doc = frappe.get_doc('Purchase Order', docname)
-#     result = handle_workflow_action(filters)
-    
 
 #     doc = frappe.get_doc('Purchase Order', docname)
 #     result = handle_workflow_action(filters)
