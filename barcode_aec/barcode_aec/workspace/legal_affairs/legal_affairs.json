@@ -104,9 +104,9 @@
   {
    "hidden": 0,
    "is_query_report": 0,
-   "label": "Penalties Rules",
+   "label": "Penalty Type",
    "link_count": 0,
-   "link_to": "Penalties Rules",
+   "link_to": "Penalty Type",
    "link_type": "DocType",
    "onboard": 0,
    "type": "Link"
@@ -114,9 +114,9 @@
   {
    "hidden": 0,
    "is_query_report": 0,
-   "label": "Penalty Type",
+   "label": "Penalties Rules",
    "link_count": 0,
-   "link_to": "Penalty Type",
+   "link_to": "Penalties Rules",
    "link_type": "DocType",
    "onboard": 0,
    "type": "Link"
@@ -142,7 +142,7 @@
    "type": "Link"
   }
  ],
- "modified": "2024-11-04 09:56:08.780919",
+ "modified": "2024-11-17 16:01:44.529301",
  "modified_by": "ahmed.radwan@datasofteg.com",
  "module": "Barcode Aec",
  "name": "Legal Affairs",
