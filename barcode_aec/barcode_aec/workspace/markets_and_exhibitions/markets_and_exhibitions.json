@@ -103,84 +103,6 @@
   {
    "hidden": 0,
    "is_query_report": 0,
-   "label": "Foreigner  Affairs",
-   "link_count": 7,
-   "onboard": 0,
-   "type": "Card Break"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "Foreigner  Affairs  Opportunities",
-   "link_count": 0,
-   "link_to": "Foreigner  Affairs  Opportunities",
-   "link_type": "DocType",
-   "onboard": 0,
-   "type": "Link"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "Buyers",
-   "link_count": 0,
-   "link_to": "Buyers",
-   "link_type": "DocType",
-   "onboard": 0,
-   "type": "Link"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "Business to Business Meetings",
-   "link_count": 0,
-   "link_to": "Business to Business Meetings",
-   "link_type": "DocType",
-   "onboard": 0,
-   "type": "Link"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "Missions",
-   "link_count": 0,
-   "link_to": "Missions",
-   "link_type": "DocType",
-   "onboard": 0,
-   "type": "Link"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 1,
-   "label": "Export Opportunites Generalization",
-   "link_count": 0,
-   "link_to": "Export Opportunites Generalization",
-   "link_type": "Report",
-   "onboard": 0,
-   "type": "Link"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "Company Profile Form",
-   "link_count": 0,
-   "link_to": "Company Profile Form",
-   "link_type": "DocType",
-   "onboard": 0,
-   "type": "Link"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "Trade Cooperation Agreements",
-   "link_count": 0,
-   "link_to": "Trade Cooperation Agreements",
-   "link_type": "DocType",
-   "onboard": 0,
-   "type": "Link"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
    "label": "Exhibitions",
    "link_count": 6,
    "onboard": 0,
@@ -245,9 +167,87 @@
    "link_type": "DocType",
    "onboard": 0,
    "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Foreigner  Affairs",
+   "link_count": 7,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Foreigner  Affairs  Opportunities",
+   "link_count": 0,
+   "link_to": "Foreigner  Affairs  Opportunities",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Buyers",
+   "link_count": 0,
+   "link_to": "Buyers",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Business to Business Meetings",
+   "link_count": 0,
+   "link_to": "Business to Business Meetings",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Missions",
+   "link_count": 0,
+   "link_to": "Missions",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 1,
+   "label": "Export Opportunites Generalization",
+   "link_count": 0,
+   "link_to": "Export Opportunites Generalization2",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Company Profile Form",
+   "link_count": 0,
+   "link_to": "Company Profile Form",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Trade Cooperation Agreements",
+   "link_count": 0,
+   "link_to": "Trade Cooperation Agreements",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
   }
  ],
- "modified": "2024-10-28 19:56:39.654513",
+ "modified": "2024-11-26 22:36:58.760406",
  "modified_by": "ahmed.radwan@datasofteg.com",
  "module": "Barcode Aec",
  "name": "Markets And Exhibitions",

@@ -12,6 +12,8 @@
   "title",
   "mob",
   "email",
+  "status",
+  "request_date",
   "column_break_4qnvv",
   "company_name",
   "adress",
@@ -137,12 +139,25 @@
    "options": "Company Profile Form",
    "print_hide": 1,
    "read_only": 1
+  },
+  {
+   "default": "Requested",
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "label": "Status",
+   "options": "\nRequested\nUnder Review\nReviewed"
+  },
+  {
+   "default": "Now",
+   "fieldname": "request_date",
+   "fieldtype": "Datetime",
+   "label": "Request Date",
+   "read_only": 1
   }
  ],
  "index_web_pages_for_search": 1,
- "is_submittable": 1,
  "links": [],
- "modified": "2024-03-25 13:49:44.053333",
+ "modified": "2024-11-27 13:41:14.219880",
  "modified_by": "Administrator",
  "module": "Barcode Aec",
  "name": "Company Profile Form",
@@ -158,7 +173,6 @@
    "report": 1,
    "role": "System Manager",
    "share": 1,
-   "submit": 1,
    "write": 1
   }
  ],

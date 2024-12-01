@@ -204,8 +204,26 @@
   {
    "hidden": 0,
    "is_query_report": 0,
+   "label": "Reports",
+   "link_count": 1,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Export Volume",
+   "link_count": 0,
+   "link_to": "Export Volume",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
    "label": "Egyptian Products",
-   "link_count": 4,
+   "link_count": 6,
    "onboard": 0,
    "type": "Card Break"
   },
@@ -252,23 +270,25 @@
   {
    "hidden": 0,
    "is_query_report": 0,
-   "label": "Reports",
-   "link_count": 1,
+   "label": "International Subcode",
+   "link_count": 0,
+   "link_to": "International Subcode",
+   "link_type": "DocType",
    "onboard": 0,
-   "type": "Card Break"
+   "type": "Link"
   },
   {
    "hidden": 0,
    "is_query_report": 0,
-   "label": "Export Volume",
+   "label": "International Product HS Code",
    "link_count": 0,
-   "link_to": "Export Volume",
-   "link_type": "Report",
+   "link_to": "International Product HS Code",
+   "link_type": "DocType",
    "onboard": 0,
    "type": "Link"
   }
  ],
- "modified": "2024-11-17 14:25:49.605139",
+ "modified": "2024-11-20 14:34:05.489497",
  "modified_by": "ahmed.radwan@datasofteg.com",
  "module": "Barcode Aec",
  "name": "Marketing",

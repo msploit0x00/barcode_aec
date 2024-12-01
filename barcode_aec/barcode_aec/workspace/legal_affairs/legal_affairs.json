@@ -20,64 +20,6 @@
   {
    "hidden": 0,
    "is_query_report": 0,
-   "label": "Matters Data",
-   "link_count": 5,
-   "onboard": 0,
-   "type": "Card Break"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "Matter list",
-   "link_count": 0,
-   "link_to": "Matter",
-   "link_type": "DocType",
-   "onboard": 0,
-   "type": "Link"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "Matter Type",
-   "link_count": 0,
-   "link_to": "Matter Type",
-   "link_type": "DocType",
-   "onboard": 0,
-   "type": "Link"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "Courts",
-   "link_count": 0,
-   "link_to": "Courts",
-   "link_type": "DocType",
-   "onboard": 0,
-   "type": "Link"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "Legal Entities",
-   "link_count": 0,
-   "link_to": "Legal Entities",
-   "link_type": "DocType",
-   "onboard": 0,
-   "type": "Link"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "Matter Session",
-   "link_count": 0,
-   "link_to": "Matter Session",
-   "link_type": "DocType",
-   "onboard": 0,
-   "type": "Link"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
    "label": "Contracts",
    "link_count": 1,
    "onboard": 0,
@@ -140,9 +82,77 @@
    "link_type": "DocType",
    "onboard": 0,
    "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Matters Data",
+   "link_count": 6,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Matter list",
+   "link_count": 0,
+   "link_to": "Matter",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Matter Type",
+   "link_count": 0,
+   "link_to": "Matter Type",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Courts",
+   "link_count": 0,
+   "link_to": "Courts",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Legal Entities",
+   "link_count": 0,
+   "link_to": "Legal Entities",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Matter Session",
+   "link_count": 0,
+   "link_to": "Matter Session",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Investigation",
+   "link_count": 0,
+   "link_to": "Investigation",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
   }
  ],
- "modified": "2024-11-17 16:01:44.529301",
+ "modified": "2024-11-19 14:35:59.713958",
  "modified_by": "ahmed.radwan@datasofteg.com",
  "module": "Barcode Aec",
  "name": "Legal Affairs",

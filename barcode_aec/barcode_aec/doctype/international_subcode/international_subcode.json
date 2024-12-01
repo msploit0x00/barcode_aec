@@ -1,5 +1,6 @@
 {
  "actions": [],
+ "allow_import": 1,
  "allow_rename": 1,
  "autoname": "field:code",
  "creation": "2024-10-13 09:39:20.080123",
@@ -10,7 +11,8 @@
  "field_order": [
   "code",
   "arabic_name",
-  "english_name"
+  "english_name",
+  "common_name"
  ],
  "fields": [
   {
@@ -28,11 +30,16 @@
    "fieldname": "english_name",
    "fieldtype": "Data",
    "label": "English Name"
+  },
+  {
+   "fieldname": "common_name",
+   "fieldtype": "Small Text",
+   "label": "Common Name"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-10-13 15:45:41.350332",
+ "modified": "2024-11-24 11:44:29.287502",
  "modified_by": "Administrator",
  "module": "Barcode Aec",
  "name": "International Subcode",
@@ -52,6 +59,7 @@
    "write": 1
   }
  ],
+ "search_fields": "arabic_name,english_name,common_name",
  "sort_field": "modified",
  "sort_order": "DESC",
  "states": []
