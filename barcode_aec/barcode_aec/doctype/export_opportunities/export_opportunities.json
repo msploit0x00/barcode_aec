@@ -1,0 +1,108 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-12-11 11:33:50.929640",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "committee",
+  "membership_status",
+  "country",
+  "cluster",
+  "column_break_ly7cl",
+  "number_of_records",
+  "season",
+  "shipping_port",
+  "product_number_local_hs",
+  "section_break_0lp4t",
+  "targeted_members"
+ ],
+ "fields": [
+  {
+   "fieldname": "committee",
+   "fieldtype": "Link",
+   "label": "Committee",
+   "options": "Committee"
+  },
+  {
+   "fieldname": "country",
+   "fieldtype": "Link",
+   "label": "Country",
+   "options": "Country"
+  },
+  {
+   "fetch_from": "country.custom_geographical_clusters",
+   "fieldname": "cluster",
+   "fieldtype": "Link",
+   "label": "Cluster",
+   "options": "Geographical Clusters List"
+  },
+  {
+   "fieldname": "season",
+   "fieldtype": "Link",
+   "label": "Season",
+   "options": "Export Season"
+  },
+  {
+   "fieldname": "shipping_port",
+   "fieldtype": "Data",
+   "label": "Shipping Port"
+  },
+  {
+   "fieldname": "product_number_local_hs",
+   "fieldtype": "Data",
+   "label": "Product Number (Local HS)"
+  },
+  {
+   "fieldname": "targeted_members",
+   "fieldtype": "Table",
+   "label": "Targeted Members",
+   "options": "Targeted Members"
+  },
+  {
+   "fieldname": "column_break_ly7cl",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_0lp4t",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "membership_status",
+   "fieldtype": "Select",
+   "label": "membership Status",
+   "options": "\nRequested\nRequested From Website\nActive\nInactive\nSuspended\nData completion"
+  },
+  {
+   "fieldname": "number_of_records",
+   "fieldtype": "Int",
+   "label": "Number of Records"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-12-11 16:26:38.252825",
+ "modified_by": "Administrator",
+ "module": "Barcode Aec",
+ "name": "Export Opportunities",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
