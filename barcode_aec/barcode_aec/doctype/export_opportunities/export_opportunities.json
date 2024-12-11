@@ -1,6 +1,7 @@
 {
  "actions": [],
  "allow_rename": 1,
+ "autoname": "hash",
  "creation": "2024-12-11 11:33:50.929640",
  "default_view": "List",
  "doctype": "DocType",
@@ -43,7 +44,8 @@
    "fieldname": "season",
    "fieldtype": "Link",
    "label": "Season",
-   "options": "Export Season"
+   "options": "Export Season",
+   "unique": 1
   },
   {
    "fieldname": "shipping_port",
@@ -83,10 +85,11 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-12-11 16:26:38.252825",
+ "modified": "2024-12-11 17:58:31.112560",
  "modified_by": "Administrator",
  "module": "Barcode Aec",
  "name": "Export Opportunities",
+ "naming_rule": "Random",
  "owner": "Administrator",
  "permissions": [
   {

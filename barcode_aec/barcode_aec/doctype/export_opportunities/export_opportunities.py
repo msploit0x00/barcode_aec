@@ -41,7 +41,7 @@ class ExportOpportunities(Document):
         if fields["product_number_local_hs"]:
             conditions.append("`tabVolume Of Member Exports`.`customs_product_number` = %(product_number_local_hs)s")  
         if fields["number_of_records"]:
-            conditions.append("`tabVolume Of Member Exports for Three Years`.`quantity_in_tons` > %(number_of_records)s")  
+            conditions.append("CAST(`tabVolume Of Member Exports`.`quantity_in_tons` AS Float)  > %(number_of_records)s")  
         conditions_str = " AND ".join(conditions)
         if conditions_str:
             conditions_str = "WHERE " + conditions_str
@@ -56,7 +56,7 @@ class ExportOpportunities(Document):
             `tabVolume Of Member Exports for Three Years`.`total_amount_in_egp` AS `total_amount_in_egp`,
             CONCAT(FLOOR(`tabVolume Of Member Exports for Three Years`.`total_amount_in_usd`), ' $') AS `total_amount_in_usd`,
             `tabVolume Of Member Exports`.`season__name` AS `season__name`,
-            `tabVolume Of Member Exports`.`quantity_in_tons` AS `quantity_in_tons`,
+            CAST(`tabVolume Of Member Exports`.`quantity_in_tons` AS Float) AS `quantity_in_tons`,
             `tabVolume Of Member Exports`.`customs_product_number` AS `product_number `,
             `tabVolume Of Member Exports`.`shipping_port` AS `shipping_port`,
             `tabCustomer`.`territory` AS `territory_code`,
@@ -76,7 +76,7 @@ class ExportOpportunities(Document):
             ON `tabCountries`.`name` = `tabVolume Of Member Exports`.`country_code`
         {conditions_str}
         GROUP BY `member`
-        ORDER BY `tabVolume Of Member Exports`.`quantity_in_tons`;
+        ORDER BY `tabVolume Of Member Exports`.`quantity_in_tons` ASC;
     """
         mydata = frappe.db.sql(
         sql,

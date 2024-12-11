@@ -11,9 +11,10 @@ frappe.ui.form.on('Export Opportunities', {
 				freeze_message: __("Fetching Data"),
       }).then((response) => {
         cur_frm.clear_table('targeted_members');
+        console.log("Message",response.message )
         if (response.message) { 
 
-          console.log("Message",response.message )
+          
           let msg = response.message
           
           for (let cri of msg){
