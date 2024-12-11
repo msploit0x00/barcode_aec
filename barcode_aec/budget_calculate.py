@@ -116,7 +116,7 @@ def get_monthly_distribution(fiscal_year, cost_center, expense_account, month):
     sql = """
         SELECT
             b.name AS budgetname,
-            b.action_if_accumulated_monthly_budget_exceeded_on_po AS status,
+            b.custom_action_if__monthly_budget_exceeded_on_po AS status,
             b.fiscal_year,
             b.cost_center,
             ba.account AS expense_account,

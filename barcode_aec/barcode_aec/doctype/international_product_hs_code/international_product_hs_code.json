@@ -10,7 +10,8 @@
  "field_order": [
   "code",
   "arabic_name",
-  "english_name"
+  "english_name",
+  "common_name"
  ],
  "fields": [
   {
@@ -28,11 +29,16 @@
    "fieldname": "english_name",
    "fieldtype": "Data",
    "label": "English Name"
+  },
+  {
+   "fieldname": "common_name",
+   "fieldtype": "Small Text",
+   "label": "Common Name"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-10-13 15:39:48.559238",
+ "modified": "2024-11-20 16:41:32.510331",
  "modified_by": "Administrator",
  "module": "Barcode Aec",
  "name": "International Product HS Code",
@@ -52,6 +58,7 @@
    "write": 1
   }
  ],
+ "search_fields": "arabic_name,english_name,common_name",
  "sort_field": "modified",
  "sort_order": "DESC",
  "states": []

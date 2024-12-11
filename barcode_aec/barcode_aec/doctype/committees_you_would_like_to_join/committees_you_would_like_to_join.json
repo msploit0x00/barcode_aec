@@ -9,9 +9,6 @@
  "field_order": [
   "committees",
   "salutation",
-  "image_sticker",
-  "sticker_image",
-  "priority",
   "from",
   "to",
   "ended",
@@ -37,27 +34,6 @@
    "in_standard_filter": 1,
    "label": "\u0646\u0648\u0639 \u0627\u0644\u0639\u0636\u0648\u064a\u0629",
    "options": "Salutation"
-  },
-  {
-   "fetch_from": "salutation.sticker",
-   "fetch_if_empty": 1,
-   "fieldname": "image_sticker",
-   "fieldtype": "Attach Image",
-   "label": "Image Sticker"
-  },
-  {
-   "fieldname": "sticker_image",
-   "fieldtype": "Image",
-   "label": "Sticker Image",
-   "max_height": "20px",
-   "options": "image_sticker",
-   "width": "20px"
-  },
-  {
-   "fetch_from": "salutation.priority",
-   "fieldname": "priority",
-   "fieldtype": "Int",
-   "label": "Priority"
   },
   {
    "fieldname": "from",
@@ -87,7 +63,7 @@
  "index_web_pages_for_search": 1,
  "istable": 1,
  "links": [],
- "modified": "2024-05-12 10:27:45.939213",
+ "modified": "2024-10-26 15:24:10.207106",
  "modified_by": "Administrator",
  "module": "Barcode Aec",
  "name": "Committees you would like to join",

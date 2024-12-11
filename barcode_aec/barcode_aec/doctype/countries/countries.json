@@ -62,10 +62,11 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-05-29 11:52:06.953577",
+ "modified": "2024-10-31 13:22:24.510722",
  "modified_by": "Administrator",
  "module": "Barcode Aec",
  "name": "Countries",
+ "naming_rule": "By fieldname",
  "owner": "Administrator",
  "permissions": [
   {
@@ -81,7 +82,9 @@
    "write": 1
   }
  ],
+ "show_title_field_in_link": 1,
  "sort_field": "modified",
  "sort_order": "DESC",
- "states": []
+ "states": [],
+ "title_field": "arabic_name"
 }
