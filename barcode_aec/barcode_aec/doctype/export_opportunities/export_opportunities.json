@@ -11,6 +11,7 @@
   "committee",
   "membership_status",
   "country",
+  "cluster_name",
   "cluster",
   "column_break_ly7cl",
   "number_of_records",
@@ -81,11 +82,23 @@
    "fieldname": "number_of_records",
    "fieldtype": "Int",
    "label": "Number of Records"
+  },
+  {
+   "fieldname": "cluster_name",
+   "fieldtype": "Link",
+   "label": "Cluster name",
+   "options": "Geographical Clusters List"
+  },
+  {
+   "fetch_from": "cluster_name.arabic_name",
+   "fieldname": "cluster",
+   "fieldtype": "Data",
+   "label": "Cluster"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-12-11 17:58:31.112560",
+ "modified": "2024-12-12 13:14:17.789053",
  "modified_by": "Administrator",
  "module": "Barcode Aec",
  "name": "Export Opportunities",
