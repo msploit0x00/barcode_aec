@@ -14,7 +14,7 @@ class ExportOpportunities(Document):
                 "committee_name": doc.get("committee"),
                 "membership_status": doc.get("membership_status"),
                 "country": doc.get("country"),
-                # "cluster": doc.get("cluster"),
+                "cluster": doc.get("cluster"),
                 "season": doc.get("season"),
                 "shipping_port": doc.get("shipping_port"),
                 "product_number_local_hs": doc.get("product_number_local_hs"),
@@ -32,8 +32,8 @@ class ExportOpportunities(Document):
             conditions.append(
                 "`tabVolume Of Member Exports`.`country_in_arabic` = %(country)s"
             )
-        # if fields["cluster"]:
-        #     conditions.append("`tabCountries`.`geographical_clusters_name` = %(cluster)s")
+        if fields["cluster"]:
+            conditions.append("`tabCountries`.`geographical_clusters_name` = %(cluster)s")
         if fields["season"]:
             conditions.append("`tabVolume Of Member Exports`.`season__name` = %(season)s")
         if fields["shipping_port"]:
@@ -45,6 +45,10 @@ class ExportOpportunities(Document):
         conditions_str = " AND ".join(conditions)
         if conditions_str:
             conditions_str = "WHERE " + conditions_str
+            
+        limit_clause = ""
+        if fields["number_of_records"]:
+            limit_clause = f"LIMIT {fields['number_of_records']}"
         sql = f"""
         SELECT
             `tabCustomer`.`name` AS `member`,
@@ -76,7 +80,8 @@ class ExportOpportunities(Document):
             ON `tabCountries`.`name` = `tabVolume Of Member Exports`.`country_code`
         {conditions_str}
         GROUP BY `member`
-        ORDER BY `tabVolume Of Member Exports`.`quantity_in_tons` ASC;
+        ORDER BY `tabVolume Of Member Exports`.`quantity_in_tons` ASC
+        {limit_clause};
     """
         mydata = frappe.db.sql(
         sql,
@@ -86,6 +91,7 @@ class ExportOpportunities(Document):
             "committee_name": fields["committee_name"],
             "membership_status": fields["membership_status"],
             "country": fields["country"],
+            "cluster": fields["cluster"],
             "shipping_port":fields["shipping_port"],
             "product_number_local_hs":fields["product_number_local_hs"],
             "number_of_records":fields["number_of_records"],
