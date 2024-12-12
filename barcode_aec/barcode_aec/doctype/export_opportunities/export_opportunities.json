@@ -35,6 +35,13 @@
    "options": "Country"
   },
   {
+   "fetch_from": "country.custom_geographical_clusters",
+   "fieldname": "cluster",
+   "fieldtype": "Link",
+   "label": "Cluster",
+   "options": "Geographical Clusters List"
+  },
+  {
    "fieldname": "season",
    "fieldtype": "Link",
    "label": "Season",

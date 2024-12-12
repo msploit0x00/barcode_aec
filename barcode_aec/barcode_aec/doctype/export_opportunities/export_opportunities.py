@@ -32,6 +32,7 @@ class ExportOpportunities(Document):
             conditions.append(
                 "`tabVolume Of Member Exports`.`country_in_arabic` = %(country)s"
             )
+
         if fields["cluster"]:
             conditions.append("`tabCountries`.`geographical_clusters_name` = %(cluster)s")
         if fields["season"]:
@@ -45,10 +46,12 @@ class ExportOpportunities(Document):
         conditions_str = " AND ".join(conditions)
         if conditions_str:
             conditions_str = "WHERE " + conditions_str
+
             
         limit_clause = ""
         if fields["number_of_records"]:
             limit_clause = f"LIMIT {fields['number_of_records']}"
+
         sql = f"""
         SELECT
             `tabCustomer`.`name` AS `member`,
