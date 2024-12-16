@@ -8,7 +8,7 @@ frappe.ui.form.on('Export Opportunities', {
         doc: frm.doc,
 				method: "get_volume_exports",
 				freeze: true,
-				freeze_message: __("Fetching Data"),
+				freeze_message: __("Fetching Volume Exports Data"),
       }).then((response) => {
         cur_frm.clear_table('targeted_members');
         console.log("Message",response.message )
@@ -22,8 +22,8 @@ frappe.ui.form.on('Export Opportunities', {
             ch.member_code = cri.member; 
             ch.tax_id = cri.tax_id; 
             ch.email = cri.email; 
-            ch.committees = cri.committee_name; 
-            ch.governorate = cri.country; 
+            ch.committees = cri.committees_name; 
+            ch.governorate = cri.countries; 
             ch.shipping_port = cri.shipping_port; 
             ch.customer_status = cri.custom_customer_status; 
             ch.cluster = cri.cluster; 
@@ -31,6 +31,7 @@ frappe.ui.form.on('Export Opportunities', {
             ch.export_value_in_egp = cri.total_amount_in_egp; 
             ch.export_value_in_usd = cri.total_amount_in_usd; 
             ch.quantity_in_tons  = cri.quantity_in_tons; 
+            ch.products = cri.products;
       
           }
           frm.refresh_field("targeted_members");

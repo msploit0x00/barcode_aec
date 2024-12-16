@@ -10,7 +10,8 @@
  "field_order": [
   "committee",
   "membership_status",
-  "country",
+  "countries",
+  "countries_name",
   "cluster_name",
   "cluster",
   "column_break_ly7cl",
@@ -29,17 +30,10 @@
    "options": "Committee"
   },
   {
-   "fieldname": "country",
-   "fieldtype": "Link",
-   "label": "Country",
-   "options": "Country"
-  },
-  {
    "fieldname": "season",
    "fieldtype": "Link",
    "label": "Season",
-   "options": "Export Season",
-   "unique": 1
+   "options": "Export Season"
   },
   {
    "fieldname": "shipping_port",
@@ -87,11 +81,24 @@
    "fieldname": "cluster",
    "fieldtype": "Data",
    "label": "Cluster"
+  },
+  {
+   "fieldname": "countries",
+   "fieldtype": "Link",
+   "label": "Countries",
+   "options": "Countries"
+  },
+  {
+   "fetch_from": "countries.arabic_name",
+   "fieldname": "countries_name",
+   "fieldtype": "Data",
+   "label": "Coutries name",
+   "options": "Countries"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-12-12 13:14:17.789053",
+ "modified": "2024-12-15 16:51:32.717376",
  "modified_by": "Administrator",
  "module": "Barcode Aec",
  "name": "Export Opportunities",
