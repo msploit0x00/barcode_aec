@@ -58,10 +58,11 @@ class ExportOpportunities(Document):
         else:
             conditions_str = ""  # No condition, so no WHERE clause
 
-        # Construct the LIMIT clause
+        # Construct the LIMIT clause     
         limit_clause = ""
         if fields["number_of_records"]:
             limit_clause = f"LIMIT {fields['number_of_records']}"
+
 
         # The final query
         sql = f"""
@@ -190,7 +191,7 @@ class ExportOpportunities(Document):
 # ORDER BY 
 #     SUM(`tabVolume Of Member Exports`.`quantity_in_tons`) DESC
 # LIMIT 3; 
-#         """  
+#         """ 
         mydata = frappe.db.sql(
         sql,
         {
@@ -206,9 +207,9 @@ class ExportOpportunities(Document):
         
         },as_dict=True,)
 
+
         
         mydata_sorted = sorted(mydata, key=lambda x: x['quantity_in_tons'], reverse=True)
         return mydata
 
   
-        

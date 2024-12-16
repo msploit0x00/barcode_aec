@@ -36,6 +36,19 @@
    "options": "Export Season"
   },
   {
+   "fieldname": "country",
+   "fieldtype": "Link",
+   "label": "Country",
+   "options": "Country"
+  },
+  {
+   "fetch_from": "country.custom_geographical_clusters",
+   "fieldname": "cluster",
+   "fieldtype": "Link",
+   "label": "Cluster",
+   "options": "Geographical Clusters List"
+  },
+  {
    "fieldname": "shipping_port",
    "fieldtype": "Data",
    "label": "Shipping Port"
