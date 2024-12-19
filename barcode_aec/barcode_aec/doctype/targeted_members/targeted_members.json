@@ -19,7 +19,9 @@
   "export_value_in_usd",
   "quantity_in_tons",
   "shipping_port",
-  "products"
+  "products",
+  "member_name",
+  "company_name"
  ],
  "fields": [
   {
@@ -50,8 +52,9 @@
   },
   {
    "fieldname": "shipping_port",
-   "fieldtype": "Data",
-   "label": "shipping port"
+   "fieldtype": "Link",
+   "label": "shipping port",
+   "options": "Port of Shipment"
   },
   {
    "fieldname": "customer_status",
@@ -85,14 +88,25 @@
   },
   {
    "fieldname": "products",
+   "fieldtype": "Link",
+   "label": "products",
+   "options": "Product"
+  },
+  {
+   "fieldname": "member_name",
    "fieldtype": "Data",
-   "label": "products"
+   "label": "Member name"
+  },
+  {
+   "fieldname": "company_name",
+   "fieldtype": "Data",
+   "label": "Company Name"
   }
  ],
  "index_web_pages_for_search": 1,
  "istable": 1,
  "links": [],
- "modified": "2024-12-16 11:23:15.234894",
+ "modified": "2024-12-19 09:51:18.054670",
  "modified_by": "Administrator",
  "module": "Barcode Aec",
  "name": "Targeted Members",
