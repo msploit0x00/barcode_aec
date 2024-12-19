@@ -77,9 +77,9 @@ class ExportOpportunities(Document):
             `tabCustomer`.`custom_email` AS email, 
             `tabCustomer`.`custom_name_of_the_cioowner_of_the_company`,
             `tabVolume Of Member Exports`.`season__name`,
-            SUM(CAST(`tabVolume Of Member Exports`.`quantity_in_tons` AS FLOAT)) AS `quantity_in_tons`,
-            SUM(`tabVolume Of Member Exports`.`total_amount_in_egp`) AS `total_amount_in_egp`,
-            SUM(`tabVolume Of Member Exports`.`total_amount_in_usd`) AS `total_amount_in_usd`,
+            SUM(ROUND(`tabVolume Of Member Exports`.`quantity_in_tons`, 2)) AS `quantity_in_tons`,
+            SUM(ROUND(`tabVolume Of Member Exports`.`total_amount_in_egp`,  2)) AS `total_amount_in_egp`,
+            SUM(ROUND(`tabVolume Of Member Exports`.`total_amount_in_usd`, 2)) AS `total_amount_in_usd`,
             committes.committees_name AS committees_name
         FROM
             `tabVolume Of Member Exports`
@@ -103,7 +103,7 @@ class ExportOpportunities(Document):
         GROUP BY 
             `tabCustomer`.`name`
         ORDER BY 
-            SUM(`tabVolume Of Member Exports`.`quantity_in_tons`) DESC
+            SUM(ROUND(`tabVolume Of Member Exports`.`quantity_in_tons`, 2)) DESC
         {limit_clause};
         """
 
