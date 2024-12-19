@@ -34,6 +34,7 @@ frappe.ui.form.on('Export Opportunities', {
             ch.products = cri.products;
             ch.member_name = cri.custom_name_of_the_cioowner_of_the_company;
             ch.company_name = cri.customer_name;
+            ch.category_name = cri.category_name;
       
           }
           frm.refresh_field("targeted_members");
@@ -41,7 +42,7 @@ frappe.ui.form.on('Export Opportunities', {
       });
     })
 	},
-  before_save:function(frm){
+  on_submit :function(frm){
     frm.add_custom_button(__('Send to newsletter'),function(){
       let allEmails = cur_frm.doc.targeted_members
       .filter(member => member.email !== undefined) 
