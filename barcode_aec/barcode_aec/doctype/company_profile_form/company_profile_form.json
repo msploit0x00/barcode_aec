@@ -1,7 +1,7 @@
 {
  "actions": [],
  "allow_rename": 1,
- "creation": "2024-03-20 18:43:58.239010",
+ "creation": "2024-12-19 16:27:26.593255",
  "default_view": "List",
  "doctype": "DocType",
  "editable_grid": 1,
@@ -13,6 +13,7 @@
   "mob",
   "email",
   "status",
+  "approval_status",
   "request_date",
   "column_break_4qnvv",
   "company_name",
@@ -21,6 +22,7 @@
   "fax",
   "company_email",
   "website",
+  "from_opportunity",
   "about_company_section",
   "company_brief",
   "country_of_destination",
@@ -59,6 +61,26 @@
    "fieldname": "email",
    "fieldtype": "Data",
    "label": "email"
+  },
+  {
+   "default": "Requested",
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "label": "Status",
+   "options": "\nRequested\nUnder Review\nReviewed"
+  },
+  {
+   "fieldname": "approval_status",
+   "fieldtype": "Select",
+   "label": "Approval status",
+   "options": "\nApproved\nRejected"
+  },
+  {
+   "default": "Now",
+   "fieldname": "request_date",
+   "fieldtype": "Datetime",
+   "label": "Request Date",
+   "read_only": 1
   },
   {
    "fieldname": "column_break_4qnvv",
@@ -102,6 +124,12 @@
    "label": "Website"
   },
   {
+   "fieldname": "from_opportunity",
+   "fieldtype": "Link",
+   "label": "From Opportunity",
+   "options": "Export Opportunities"
+  },
+  {
    "fieldname": "about_company_section",
    "fieldtype": "Section Break",
    "label": "ABOUT COMPANY"
@@ -139,25 +167,11 @@
    "options": "Company Profile Form",
    "print_hide": 1,
    "read_only": 1
-  },
-  {
-   "default": "Requested",
-   "fieldname": "status",
-   "fieldtype": "Select",
-   "label": "Status",
-   "options": "\nRequested\nUnder Review\nReviewed"
-  },
-  {
-   "default": "Now",
-   "fieldname": "request_date",
-   "fieldtype": "Datetime",
-   "label": "Request Date",
-   "read_only": 1
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-11-27 13:41:14.219880",
+ "modified": "2024-12-19 16:28:52.766133",
  "modified_by": "Administrator",
  "module": "Barcode Aec",
  "name": "Company Profile Form",

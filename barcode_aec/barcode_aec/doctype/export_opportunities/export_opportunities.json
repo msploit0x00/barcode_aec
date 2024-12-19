@@ -22,7 +22,9 @@
   "export_volume_categories",
   "section_break_0lp4t",
   "targeted_members",
-  "amended_from"
+  "amended_from",
+  "section_break_cy330",
+  "buyers_info"
  ],
  "fields": [
   {
@@ -120,12 +122,22 @@
    "print_hide": 1,
    "read_only": 1,
    "search_index": 1
+  },
+  {
+   "fieldname": "section_break_cy330",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "buyers_info",
+   "fieldtype": "Table",
+   "label": "Buyers Info",
+   "options": "Buyers Info"
   }
  ],
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2024-12-19 14:48:19.054968",
+ "modified": "2024-12-19 16:25:16.582870",
  "modified_by": "Administrator",
  "module": "Barcode Aec",
  "name": "Export Opportunities",
