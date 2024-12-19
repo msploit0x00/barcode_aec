@@ -32,6 +32,8 @@ frappe.ui.form.on('Export Opportunities', {
             ch.export_value_in_usd = cri.total_amount_in_usd; 
             ch.quantity_in_tons  = cri.quantity_in_tons; 
             ch.products = cri.products;
+            ch.member_name = cri.custom_name_of_the_cioowner_of_the_company;
+            ch.company_name = cri.customer_name;
       
           }
           frm.refresh_field("targeted_members");
