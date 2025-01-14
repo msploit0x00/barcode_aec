@@ -16,6 +16,7 @@
   "column_break_7bvu5",
   "scientific_arabic_name",
   "section_break_wlr0l",
+  "common_name",
   "product_common_name",
   "section_break_atndg",
   "arabic_describition",
@@ -61,8 +62,7 @@
    "fieldtype": "Data",
    "in_list_view": 1,
    "in_standard_filter": 1,
-   "label": "Scientific English Name",
-   "unique": 1
+   "label": "Scientific English Name"
   },
   {
    "fieldname": "column_break_7bvu5",
@@ -180,11 +180,16 @@
    "fieldname": "products_images",
    "fieldtype": "HTML",
    "label": "Products Images"
+  },
+  {
+   "fieldname": "common_name",
+   "fieldtype": "Small Text",
+   "label": "Common Name"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-04-07 19:09:48.229223",
+ "modified": "2024-12-22 15:40:43.991518",
  "modified_by": "Administrator",
  "module": "Barcode Aec",
  "name": "Product",

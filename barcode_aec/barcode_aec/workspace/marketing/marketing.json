@@ -270,7 +270,7 @@
   {
    "hidden": 0,
    "is_query_report": 0,
-   "label": "Protocol",
+   "label": "Protocols and Conditions",
    "link_count": 0,
    "link_to": "Protocols and Conditions",
    "link_type": "DocType",
@@ -288,7 +288,7 @@
    "type": "Link"
   }
  ],
- "modified": "2024-12-07 21:35:15.865510",
+ "modified": "2024-12-16 16:51:55.492978",
  "modified_by": "ahmed.radwan@datasofteg.com",
  "module": "Barcode Aec",
  "name": "Marketing",

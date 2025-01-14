@@ -1,25 +1,36 @@
 {
  "actions": [],
  "allow_rename": 1,
- "autoname": "hash",
+ "autoname": "field:opportunity_name",
  "creation": "2024-12-11 11:33:50.929640",
  "default_view": "List",
  "doctype": "DocType",
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
+  "basic_information_section",
+  "opportunity_name",
+  "form_letter",
+  "column_break_pgf8u",
+  "date",
+  "section_break_i6lov",
+  "description",
+  "section_break_nethi",
   "committee",
   "membership_status",
+  "product_number_local_hs",
+  "product_common_name",
+  "shipping_port",
+  "line_name",
+  "column_break_ly7cl",
   "countries",
   "countries_name",
   "cluster_name",
   "cluster",
-  "column_break_ly7cl",
-  "number_of_records",
+  "column_break_okwwd",
   "season",
-  "shipping_port",
-  "product_number_local_hs",
   "export_volume_categories",
+  "number_of_records",
   "section_break_0lp4t",
   "targeted_members",
   "amended_from",
@@ -43,7 +54,8 @@
    "fetch_from": "cluster_name.arabic_name",
    "fieldname": "cluster",
    "fieldtype": "Data",
-   "label": "Cluster"
+   "label": "Cluster Name",
+   "read_only": 1
   },
   {
    "fieldname": "shipping_port",
@@ -85,14 +97,15 @@
   {
    "fieldname": "cluster_name",
    "fieldtype": "Link",
-   "label": "Cluster name",
+   "label": "Cluster",
    "options": "Geographical Clusters List"
   },
   {
    "fetch_from": "cluster_name.arabic_name",
    "fieldname": "cluster",
    "fieldtype": "Data",
-   "label": "Cluster"
+   "label": "Cluster Name",
+   "read_only": 1
   },
   {
    "fieldname": "countries",
@@ -105,7 +118,8 @@
    "fieldname": "countries_name",
    "fieldtype": "Data",
    "label": "Coutries name",
-   "options": "Countries"
+   "options": "Countries",
+   "read_only": 1
   },
   {
    "fieldname": "export_volume_categories",
@@ -125,26 +139,87 @@
   },
   {
    "fieldname": "section_break_cy330",
-   "fieldtype": "Section Break"
+   "fieldtype": "Section Break",
+   "label": "Select Buyers"
   },
   {
    "fieldname": "buyers_info",
    "fieldtype": "Table",
    "label": "Buyers Info",
    "options": "Buyers Info"
+  },
+  {
+   "fetch_from": "form_letter.subject",
+   "fieldname": "opportunity_name",
+   "fieldtype": "Data",
+   "label": "Opportunity Name",
+   "unique": 1
+  },
+  {
+   "fieldname": "column_break_pgf8u",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "section_break_i6lov",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "Text",
+   "label": "Description"
+  },
+  {
+   "fieldname": "section_break_nethi",
+   "fieldtype": "Section Break",
+   "label": "Select Member Segmentation"
+  },
+  {
+   "fieldname": "basic_information_section",
+   "fieldtype": "Section Break",
+   "label": "Basic Information"
+  },
+  {
+   "fieldname": "column_break_okwwd",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fetch_from": "shipping_port.code",
+   "fieldname": "line_name",
+   "fieldtype": "Data",
+   "label": "Port Name",
+   "read_only": 1
+  },
+  {
+   "fetch_from": "product_number_local_hs.common_name",
+   "fieldname": "product_common_name",
+   "fieldtype": "Small Text",
+   "label": "Product Common Name",
+   "read_only": 1
+  },
+  {
+   "fieldname": "form_letter",
+   "fieldtype": "Link",
+   "label": "Form letter",
+   "options": "Issue"
   }
  ],
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2024-12-19 16:25:16.582870",
+ "modified": "2024-12-25 15:59:40.507451",
  "modified_by": "Administrator",
  "module": "Barcode Aec",
  "name": "Export Opportunities",
- "naming_rule": "Random",
+ "naming_rule": "By fieldname",
  "owner": "Administrator",
  "permissions": [
   {
+   "cancel": 1,
    "create": 1,
    "delete": 1,
    "email": 1,
@@ -154,6 +229,7 @@
    "report": 1,
    "role": "System Manager",
    "share": 1,
+   "submit": 1,
    "write": 1
   }
  ],

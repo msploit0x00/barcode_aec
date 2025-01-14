@@ -15,7 +15,8 @@
   "countries_export_volume_section",
   "countries_export_volume",
   "custom_geographical_clusters",
-  "geographical_clusters_name"
+  "geographical_clusters_name",
+  "sub_cluster"
  ],
  "fields": [
   {
@@ -58,11 +59,17 @@
    "fieldname": "geographical_clusters_name",
    "fieldtype": "Data",
    "label": "Geographical Clusters Name"
+  },
+  {
+   "fieldname": "sub_cluster",
+   "fieldtype": "Link",
+   "label": "Sub Cluster",
+   "options": "Sub Cluster"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-10-31 13:22:24.510722",
+ "modified": "2024-12-30 22:48:07.838494",
  "modified_by": "Administrator",
  "module": "Barcode Aec",
  "name": "Countries",
