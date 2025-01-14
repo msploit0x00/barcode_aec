@@ -23,6 +23,15 @@
   "company_email",
   "website",
   "from_opportunity",
+  "section_break_hhm8m",
+  "sender_mail",
+  "email_sender",
+  "email_templates",
+  "column_break_aofds",
+  "send_mail",
+  "section_break_zlbhg",
+  "subject",
+  "body_mail",
   "about_company_section",
   "company_brief",
   "country_of_destination",
@@ -167,11 +176,58 @@
    "options": "Company Profile Form",
    "print_hide": 1,
    "read_only": 1
+  },
+  {
+   "fieldname": "section_break_hhm8m",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "sender_mail",
+   "fieldtype": "Link",
+   "label": "Sender mail",
+   "options": "Email Account"
+  },
+  {
+   "fetch_from": "sender_mail.email_id",
+   "fieldname": "email_sender",
+   "fieldtype": "Data",
+   "label": "Email_Sender"
+  },
+  {
+   "fieldname": "email_templates",
+   "fieldtype": "Link",
+   "label": "Email Templates",
+   "options": "Email Templates"
+  },
+  {
+   "fieldname": "column_break_aofds",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "send_mail",
+   "fieldtype": "Button",
+   "label": "Send mail"
+  },
+  {
+   "fieldname": "section_break_zlbhg",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fetch_from": "email_templates.subject",
+   "fieldname": "subject",
+   "fieldtype": "Data",
+   "label": "Subject"
+  },
+  {
+   "fetch_from": "email_templates.body_email",
+   "fieldname": "body_mail",
+   "fieldtype": "Text Editor",
+   "label": "Body Mail"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-12-19 16:28:52.766133",
+ "modified": "2025-01-14 13:57:26.220651",
  "modified_by": "Administrator",
  "module": "Barcode Aec",
  "name": "Company Profile Form",
