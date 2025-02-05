@@ -104,7 +104,7 @@
    "hidden": 0,
    "is_query_report": 0,
    "label": "Foreigner  Affairs",
-   "link_count": 8,
+   "link_count": 10,
    "onboard": 0,
    "type": "Card Break"
   },
@@ -191,8 +191,28 @@
   {
    "hidden": 0,
    "is_query_report": 0,
+   "label": "Scheduler Buyers Mails",
+   "link_count": 0,
+   "link_to": "Scheduler Buyers Mails",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Scheduler Members Mails",
+   "link_count": 0,
+   "link_to": "Scheduler Members Mails",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
    "label": "Exhibitions",
-   "link_count": 8,
+   "link_count": 9,
    "onboard": 0,
    "type": "Card Break"
   },
@@ -275,9 +295,19 @@
    "link_type": "DocType",
    "onboard": 0,
    "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Exhibitors Registration",
+   "link_count": 0,
+   "link_to": "Exhibitors Registration",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
   }
  ],
- "modified": "2025-01-11 01:20:41.730300",
+ "modified": "2025-02-02 16:35:33.985732",
  "modified_by": "ahmed.radwan@datasofteg.com",
  "module": "Barcode Aec",
  "name": "Markets And Exhibitions",

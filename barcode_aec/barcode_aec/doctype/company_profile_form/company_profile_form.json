@@ -17,6 +17,7 @@
   "request_date",
   "column_break_4qnvv",
   "company_name",
+  "custom_name_of_the_cioowner_of_the_company",
   "adress",
   "phone",
   "fax",
@@ -223,11 +224,17 @@
    "fieldname": "body_mail",
    "fieldtype": "Text Editor",
    "label": "Body Mail"
+  },
+  {
+   "fetch_from": "name1.custom_name_of_the_cioowner_of_the_company",
+   "fieldname": "custom_name_of_the_cioowner_of_the_company",
+   "fieldtype": "Data",
+   "label": "CEO Name"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-01-14 13:57:26.220651",
+ "modified": "2025-01-23 09:56:49.173186",
  "modified_by": "Administrator",
  "module": "Barcode Aec",
  "name": "Company Profile Form",
