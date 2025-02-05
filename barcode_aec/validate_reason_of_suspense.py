@@ -78,6 +78,7 @@ def validate_customer(retries=3, delay=0.5):
 
                 if validation:
                     frappe.db.set_value("Customer", customer_doc.name, "custom_customer_status", "Suspended")
+                    customer_doc.reload()
                     customer_doc.save()  # Save the customer document
                     frappe.db.commit()    # Commit changes to the database
                 show_progress(customer_docs, _("Validating Customers"), i + 1, _("Processed {0}").format(doc['name']))
