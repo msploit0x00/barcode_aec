@@ -75,7 +75,10 @@ def validate_customer(retries=3, delay=0.5):
                         'field': item['field'],
                         'reason': item['reason']
                     })
-
+                customer_doc.save(ignore_permissions=True)
+                frappe.db.commit()
+                    
+                    
                 if validation:
                     frappe.db.set_value("Customer", customer_doc.name, "custom_customer_status", "Suspended")
                     customer_doc.reload()
