@@ -34,6 +34,7 @@ def send_email():
                 "subject": generalization_queuing.subject,
                 "sender": generalization_queuing.sender_email,
                 "recipients": recipients,
+                "message": generalization_queuing.body,
                 "attachments": get_attachments(generalization_queuing),
                 "template": "newsletter",
                 "reference_doctype": generalization_queuing.doctype,
